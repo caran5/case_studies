@@ -1,0 +1,9 @@
+{
+  "experiment_id": "protein-expression-systems",
+  "title": "Optimization of heterologous protein expression",
+  "key_findings": [
+    "Expression levels vary 10-100 fold across systems",
+    "Codon optimization improves yields",
+    "Fusion tags enhance solubility and recovery"
+  ]
+}

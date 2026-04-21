@@ -1,0 +1,8 @@
+{
+  "experiment_id": "protein-variant-analysis",
+  "title": "Systematic characterization of protein variants",
+  "research_objectives": [
+    "Assess functional effects of protein variants",
+    "Build predictive models of variant effects"
+  ]
+}

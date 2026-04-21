@@ -1,0 +1,151 @@
+{
+  "experiment_id": "iterative-gnat-lasso",
+  "description": "Discovery and characterization of GCN5-related N-acetyltransferases (GNATs) performing iterative acylation on mature lasso peptides",
+
+  "genome_mining_scope": {
+    "database": "Publicly available bacterial genomes",
+    "focus": "Lasso peptide biosynthetic gene clusters (BGCs)"
+  },
+
+  "gnat_identification": {
+    "initial_bgc": "From Actinosynnema mirum DSM 43827",
+    "bgc_name": "iat (iterative acetyltransferases)",
+    "sequence_database": "NCBI"
+  },
+
+  "sequence_similarity_analysis": {
+    "tool": "EFI-EST (Enzyme Function Initiative)",
+    "method": "Sequence similarity network (SSN) construction",
+    "identity_threshold": 0.40,
+    "genome_neighborhood_analysis": "EFI-GNT"
+  },
+
+  "bgc_components_characterization": {
+    "precursor_peptide": {
+      "gene": "iatA",
+      "leader_motif": "H(x)2PxL(x)4G",
+      "conserved_thr": -2,
+      "macrolactamization_sites": [1, 8],
+      "acetylation_positions": [4, 10]
+    },
+    "rrE_protease_fusion": {
+      "gene": "iatB",
+      "function": "Recognition and cleavage"
+    },
+    "cyclase": {
+      "gene": "iatC",
+      "function": "Macrolactam formation"
+    },
+    "acetyltransferase": {
+      "gene": "iatT",
+      "enzyme_class": "GNAT",
+      "function": "Iterative acylation"
+    }
+  },
+
+  "gnat_classification_system": {
+    "class_i": {
+      "lys_count": 1,
+      "position": 10,
+      "members": 103,
+      "bgcs": "Restricted to Actinomycetes"
+    },
+    "class_ii": {
+      "lys_count": 2,
+      "positions": [4, 10],
+      "members": 13,
+      "exceptions": ["JiaA", "AlkA"],
+      "bgcs": "Restricted to Actinomycetes"
+    }
+  },
+
+  "structural_analysis_methodology": {
+    "technique": "Cryo-electron microscopy (cryo-EM)",
+    "resolution_target_angstrom": 2.0,
+    "enzyme_target": "IatT",
+    "structural_questions": [
+      "Lasso peptide-binding pocket definition",
+      "Key residues for acetylation steps",
+      "Conformational changes during catalysis"
+    ]
+  },
+
+  "enzymatic_characterization": {
+    "substrate": "Mature lasso peptide",
+    "substrate_complexity": "3D structurally constrained",
+    "modification": "N-acetylation",
+    "steps": 2,
+    "step_1_target": "First Lys residue",
+    "step_2_target": "Second Lys residue",
+    "cofactor": "Acetyl-CoA"
+  },
+
+  "binding_pocket_analysis": {
+    "parameter": "Substrate-binding geometry",
+    "measurement": "Cryo-EM structural analysis",
+    "variation": "Changes between acetylation steps"
+  },
+
+  "computational_analysis": {
+    "methods": [
+      "Sequence alignment",
+      "Phylogenetic analysis",
+      "Structure prediction",
+      "Docking studies"
+    ]
+  },
+
+  "rational_engineering_design": {
+    "target": "IatT acetyl-binding pocket",
+    "modification": "Cavity expansion",
+    "goal": "Accommodate longer-chain acyl groups",
+    "method": "Structure-guided mutagenesis"
+  },
+
+  "engineered_variant_generation": {
+    "variants": [
+      "Monoacetylated with extended chain",
+      "Diacylated with extended chain",
+      "Multiple acyl chain variations"
+    ]
+  },
+
+  "product_characterization": {
+    "analysis_methods": [
+      "Mass spectrometry",
+      "High-performance liquid chromatography (HPLC)",
+      "NMR spectroscopy"
+    ],
+    "measurements": [
+      "Molecular weight",
+      "Purity",
+      "Acylation efficiency"
+    ]
+  },
+
+  "sequence_comparison": {
+    "comparison_proteins": [
+      "IatT (GNAT)",
+      "AlbT (related GNAT)"
+    ],
+    "identity": 0.54,
+    "coverage": 0.93
+  },
+
+  "validation_experiments": {
+    "in_vitro_reconstitution": "Enzymatic activity assay with substrate and cofactor",
+    "substrate_specificity": "Testing with different Lys positions",
+    "kinetic_analysis": "Michaelis-Menten parameters"
+  },
+
+  "phylogenetic_distribution": {
+    "organisms": "Actinomycetes",
+    "bgc_count": 112,
+    "biogeography": "Global distribution"
+  },
+
+  "applicability_assessment": {
+    "target_bgcs": "Any GNAT-encoding RiPP biosynthetic gene cluster",
+    "strategy_scope": "Broadly applicable to RiPP engineering"
+  }
+}

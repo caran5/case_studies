@@ -1,0 +1,74 @@
+{
+  "experiment_id": "artificial-allosteric-protein-switches",
+  "description": "Input parameters for engineering artificial allosteric protein switches using machine learning-designed ligand-binding domains",
+  
+  "protein_design_methodology": {
+    "approach": "Machine learning-engineered minimal ligand-binding domains",
+    "design_principle": "Conformational entropy modulation without global conformation change",
+    "machine_learning_type": "Generative machine learning models"
+  },
+
+  "ligand_binding_domain_design": {
+    "receptor_selection": "Natural single-domain proteins with small-molecule ligands",
+    "conformational_requirement": "Domains lacking global conformation changes upon ligand binding",
+    "design_strategy": "Convert to efficient biosensor receptors through ML optimization",
+    "example_natural_domain": {
+      "name": "Anticalin",
+      "ligand": "Colchicine",
+      "binding_mechanism": "Loop rearrangement with minimal global change"
+    }
+  },
+
+  "allosteric_switch_components": [
+    {
+      "component": "Artificial ligand-binding domain",
+      "function": "Receptor for small molecule input",
+      "design_method": "Machine learning optimization"
+    },
+    {
+      "component": "Reporter domain",
+      "function": "Output domain",
+      "examples": ["β-lactamase", "Fluorescent proteins", "Enzymatic reporters"]
+    },
+    {
+      "component": "Linker regions",
+      "function": "Connection between receptor and reporter",
+      "design_consideration": "Positioning relative to conformational flexibility"
+    }
+  ],
+
+  "biosensor_output_types": [
+    "Colorimetric detection",
+    "Luminescent detection",
+    "Electrochemical detection"
+  ],
+
+  "logic_gate_implementation": {
+    "capabilities": [
+      "Intramolecular YES gates (single input logic)",
+      "Intramolecular AND gates (multi-input logic)"
+    ],
+    "applications": "Cell-free and cellular applications"
+  },
+
+  "switch_configuration_options": [
+    {
+      "type": "Single-component allosteric switches",
+      "description": "Receptor and reporter in single protein"
+    },
+    {
+      "type": "Fully synthetic switches",
+      "description": "Artificial receptor + artificial reporter domains"
+    }
+  ],
+
+  "analytical_methods": [
+    "Hydrogen/Deuterium exchange mass spectrometry",
+    "19F nuclear magnetic resonance spectroscopy"
+  ],
+
+  "biotechnology_applications": {
+    "cellular_engineering": "Steroid-dependent antibiotic resistance in E. coli",
+    "bioelectronic_devices": "Steroid hormone quantification"
+  }
+}

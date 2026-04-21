@@ -1,0 +1,75 @@
+{
+  "experiment_id": "crispr-cas12a-biosensor-array",
+  "title": "CRISPR-Cas12a Biosensor Array for Ultrasensitive Detection of Unamplified DNA with Single-Nucleotide Polymorphic Discrimination",
+  "date_published": "2023-04-07",
+
+  "research_objectives": [
+    "Develop amplification-free DNA detection platform using CRISPR-Cas12a",
+    "Achieve attomolar sensitivity for both ssDNA and dsDNA targets",
+    "Implement multiplexed 48-sensor array for reliable detection",
+    "Demonstrate single-nucleotide polymorphism discrimination capability",
+    "Eliminate requirement for target preamplification"
+  ],
+
+  "research_scope": {
+    "focus_area": "CRISPR-based biosensing and nucleic acid detection",
+    "methodology": "Integration of CRISPR-Cas12a with graphene field-effect transistors",
+    "key_concepts": [
+      "CRISPR-Cas12a",
+      "Trans-cleavage activity",
+      "Graphene field-effect transistors",
+      "Amplification-free detection",
+      "DNA biosensing"
+    ]
+  },
+
+  "problem_addressed": {
+    "conventional_challenges": [
+      "Nucleic acid amplification (NAA) requirement adds complexity",
+      "Long turnaround times from sample to result",
+      "Expensive equipment and expertise needed",
+      "Limited to laboratory settings",
+      "Insufficient sensitivity in many platforms"
+    ],
+    "amplification_free_advantage": "Circumvents NAA issues with direct detection"
+  },
+
+  "technical_approach": {
+    "biological_component": "CRISPR-Cas12a",
+    "mechanism": "Multiturn trans-cleavage activity for continuous signal generation",
+    "transduction": "Graphene field-effect transistor converts enzymatic activity to electrical signal",
+    "platform": "Integrated array of 48 independent sensors"
+  },
+
+  "sensitivity_achievement": {
+    "ssdna_target": {
+      "target": "Human papillomavirus 16",
+      "limit_of_detection": "1 aM",
+      "amplification": "No preamplification required"
+    },
+    "dsdna_target": {
+      "target": "Escherichia coli plasmid",
+      "limit_of_detection": "10 aM",
+      "amplification": "No preamplification required"
+    }
+  },
+
+  "specificity_capabilities": {
+    "snp_discrimination": "Single-nucleotide polymorphism recognition demonstrated",
+    "sequence_selectivity": "Base pair complementarity for specific recognition"
+  },
+
+  "reliability_features": {
+    "array_configuration": "48 sensors on single chip",
+    "redundancy": "Multiple measurements reduce variance",
+    "chip_size": "1.5 cm × 1.5 cm (compact integration)"
+  },
+
+  "application_domains": {
+    "clinical": "Disease diagnosis and screening",
+    "food_industry": "Safety assessment and contamination detection",
+    "environmental": "Monitoring and contaminant detection",
+    "forensics": "DNA evidence analysis",
+    "genomics": "Rapid genotyping"
+  }
+}

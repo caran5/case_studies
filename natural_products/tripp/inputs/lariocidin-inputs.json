@@ -1,0 +1,139 @@
+{
+  "experiment_id": "lariocidin-discovery",
+  "description": "Discovery and characterization of lariocidin, a ribosome-targeting lasso peptide antibiotic",
+
+  "source_organism": "Paenibacillus sp. M2",
+  "isolation_method": "Environmental strain collection from soil-agar plates",
+
+  "environmental_sampling": {
+    "culture_medium": "Soil-agar plates",
+    "incubation_temperature_c": 22,
+    "incubation_duration": "~1 year",
+    "rationale": "Extended incubation to reveal slow-growing bacteria"
+  },
+
+  "screening_methodology": {
+    "step_1": "Individual colony isolation and regrowth in rich medium",
+    "step_2": "Methanolic extraction",
+    "step_3": "Partial fractionation by reversed-phase chromatography",
+    "step_4": "Bioactivity screening"
+  },
+
+  "screening_targets": [
+    {
+      "organism": "Acinetobacter baumannii C0286",
+      "phenotype": "Clinical multi-drug resistant (MDR)",
+      "classification": "Gram-negative pathogen"
+    }
+  ],
+
+  "compound_identification": {
+    "primary_compound": "Lariocidin (LAR)",
+    "derivative": "Lariocidin B (LAR-B)",
+    "derivative_characteristic": "Internally cyclized form"
+  },
+
+  "antimicrobial_susceptibility_testing": {
+    "assay": "Minimum Inhibitory Concentration (MIC)",
+    "controls": [
+      "Positive controls (known antibiotics)",
+      "Negative controls (untreated cells)"
+    ]
+  },
+
+  "resistance_mutation_screening": {
+    "methodology": "Plating on medium supplemented with LAR",
+    "frequency_expected": "~10^-8",
+    "sequencing": "Whole-genome sequencing of resistant mutants"
+  },
+
+  "uptake_studies": {
+    "fluorescent_labeling": "Fluorescent marker attachment",
+    "bioactivity_validation": "Labeled compound retains antimicrobial activity",
+    "cellular_imaging": "Confocal fluorescence microscopy",
+    "cellular_localization": "Intracellular accumulation measurement"
+  },
+
+  "ribosomal_target_analysis": {
+    "organism_strain": "E. coli SQ110DTC",
+    "rationale": "Single rRNA operon to enable target site mutation recovery",
+    "methodology": "Genetic analysis of resistant mutants"
+  },
+
+  "mechanism_of_action_studies": {
+    "primary_assays": [
+      "Ribosomal binding assays",
+      "Translation elongation inhibition",
+      "Miscoding induction",
+      "Protein synthesis inhibition"
+    ]
+  },
+
+  "aerobic_vs_anaerobic_testing": {
+    "aerobic_conditions": "Standard oxygen-replete medium",
+    "anaerobic_conditions": "Anaerobic chamber or oxygen-depleted medium",
+    "measurement": "MIC determination in both conditions"
+  },
+
+  "mammalian_toxicity_assessment": {
+    "cell_lines": "Human cell lines (unspecified)",
+    "assay": "Cell viability measurement",
+    "measurement": "Cytotoxicity at therapeutic concentrations"
+  },
+
+  "in_vivo_efficacy_testing": {
+    "model_organism": "Mouse",
+    "infection_model": "Acinetobacter baumannii",
+    "measurement": "Bacterial load reduction",
+    "time_course": "Multiple time points post-treatment"
+  },
+
+  "comparative_analysis": {
+    "known_lasso_peptide_antibiotics": [
+      {
+        "name": "Lassomycin",
+        "target": "ClpP protease",
+        "activity": "Antimycobacterial"
+      },
+      {
+        "name": "Microcin J25",
+        "target": "RNA polymerase",
+        "activity": "Gram-negative bacteria"
+      },
+      {
+        "name": "Capistruin",
+        "target": "RNA polymerase",
+        "activity": "Gram-negative bacteria"
+      }
+    ]
+  },
+
+  "spectrum_of_activity_testing": {
+    "gram_positive_bacteria": [
+      "Bacillus subtilis",
+      "Other Gram-positive pathogens"
+    ],
+    "gram_negative_bacteria": [
+      "Acinetobacter baumannii",
+      "Other Gram-negative pathogens"
+    ]
+  },
+
+  "resistance_development_monitoring": {
+    "spontaneous_resistance": "Frequency measurement",
+    "resistance_mechanism": "Genetic analysis of mutations",
+    "cross_resistance": "Testing against other antibiotics"
+  },
+
+  "biophysical_characterization": [
+    "Mass spectrometry",
+    "Peptide sequencing",
+    "Structural analysis"
+  ],
+
+  "genetic_sequencing": {
+    "method": "Whole-genome sequencing",
+    "organism": "Paenibacillus sp. M2",
+    "analysis": "Biosynthetic gene cluster identification"
+  }
+}

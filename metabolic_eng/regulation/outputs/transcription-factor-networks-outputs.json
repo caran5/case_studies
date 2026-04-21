@@ -1,0 +1,10 @@
+{
+  "experiment_id": "transcription-factor-networks",
+  "title": "Global transcription factor networks and regulatory landscape",
+  "key_findings": [
+    "TF networks exhibit hierarchical organization",
+    "Feedforward and feedback loops enable complex regulation",
+    "Chromatin state critically influences TF binding",
+    "Network rewiring underlies developmental and disease processes"
+  ]
+}

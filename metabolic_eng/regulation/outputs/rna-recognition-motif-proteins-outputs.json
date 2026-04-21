@@ -1,0 +1,15 @@
+{
+  "experiment_id": "rna-recognition-motif-proteins",
+  "title": "RNA recognition motif proteins and RNA binding specificity",
+  "key_findings": [
+    "RRM proteins show high specificity through combinatorial recognition",
+    "RNA structure influences binding beyond sequence",
+    "Multiple weak interactions achieve high specificity",
+    "Context-dependent binding affects regulation"
+  ],
+  "binding_specificity": {
+    "sequence_recognition": "Typically 4-6 nucleotide specificity",
+    "structural_recognition": "Secondary structure elements provide additional specificity",
+    "multisite_binding": "Multiple weak sites = high cooperativity"
+  }
+}

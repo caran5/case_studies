@@ -1,0 +1,24 @@
+{
+  "experiment_id": "biotechnology-allosteric-proteins",
+  "title": "Biotechnology applications of engineered allosteric protein switches",
+  "date_published": "2026-01-01",
+
+  "research_objectives": [
+    "Develop practical biotechnology applications of engineered allosteric proteins",
+    "Demonstrate cellular implementation of allosteric biosensors",
+    "Create bioelectronic devices based on allosteric proteins",
+    "Establish platform for diverse biotechnology applications"
+  ],
+
+  "research_scope": {
+    "focus_area": "Biotechnology applications of synthetic allosteric proteins",
+    "methodology": "Protein engineering and system integration",
+    "key_concepts": [
+      "Allosteric proteins",
+      "Biosensors",
+      "Bioelectronics",
+      "Synthetic biology",
+      "Protein engineering"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "experiment_id": "daptides-discovery",
+  "description": "Genome mining and experimental characterization of daptides, novel RiPP class with dual positive-charged termini",
+
+  "genome_mining_parameters": {
+    "database_scope": "NCBI non-redundant database",
+    "tools_used": ["RRE-Finder", "RODEO", "PSI-BLAST", "HHpred"],
+    "rre_domain_analysis": "All RiPP Recognition Element domains"
+  },
+
+  "bgc_discovery_workflow": {
+    "step_1_rre_identification": "All RRE-containing proteins identified",
+    "step_2_co_occurrence_analysis": "Nearby ORF analysis using RODEO",
+    "step_3_sequence_similarity": "BLASTP sorting by sequence similarity",
+    "step_4_phylogenetic_distribution": "Analysis across phyla"
+  },
+
+  "precursor_peptide_analysis": {
+    "recognition_motif": "ELExMEAP",
+    "motif_location": "N-terminal of core region",
+    "conserved_elements": [
+      "Branched-chain aliphatic amino acids",
+      "Invariant C-terminal threonine"
+    ],
+    "average_orfs_per_bgc": 2.3
+  },
+
+  "modification_pathway_steps": [
+    {
+      "step": 1,
+      "enzyme": "Oxidative decarboxylase",
+      "substrate": "C-terminal threonine",
+      "intermediate": "Oxidative decarboxylation product"
+    },
+    {
+      "step": 2,
+      "enzyme": "PLP-dependent aminotransferase",
+      "substrate": "Decarboxylated intermediate",
+      "cofactor": "Pyridoxal phosphate (PLP)"
+    },
+    {
+      "step": 3,
+      "enzyme": "SAM-dependent methyltransferase",
+      "substrate": "Transaminated intermediate",
+      "cofactor": "S-adenosylmethionine (SAM)"
+    }
+  ],
+
+  "biosynthetic_gene_cluster_components": [
+    {
+      "component": "RRE-peptidase fusion protein",
+      "function": "Precursor recognition and delivery",
+      "annotation_status": "Domain of unknown function (DUF)"
+    },
+    {
+      "component": "Oxidative decarboxylase",
+      "function": "PTM step 1",
+      "cofactor": "NAD(P)"
+    },
+    {
+      "component": "Aminotransferase",
+      "function": "PTM step 2",
+      "cofactor": "Pyridoxal phosphate"
+    },
+    {
+      "component": "Methyltransferase",
+      "function": "PTM step 3",
+      "cofactor": "SAM"
+    },
+    {
+      "component": "ABC transporters",
+      "function": "RiPP export"
+    }
+  ],
+
+  "representative_bgc_source": {
+    "organism": "Microbacterium paraoxydans DSM 15019",
+    "phylogenetic_group": "Actinomycetota",
+    "selection_criteria": "Well-characterized BGC for experimental validation"
+  },
+
+  "experimental_characterization_methods": [
+    "Direct cloning of BGC",
+    "Heterologous expression",
+    "Peptide purification and mass spectrometry",
+    "Hemolysis assays",
+    "Sequence analysis"
+  ],
+
+  "hemolysis_assay_parameters": {
+    "substrate": "Red blood cells",
+    "measurement": "Membrane disruption",
+    "assessment": "Dose-dependent response"
+  },
+
+  "enzyme_characterization_parameters": {
+    "oxidative_decarboxylase": {
+      "leader_peptide_dependency": true,
+      "core_region_tolerance": true,
+      "engineering_potential": "High"
+    }
+  },
+
+  "phylogenetic_distribution": {
+    "actinomycetota_bgcs": 184,
+    "bacillota_bgcs": "Identified by PSI-BLAST",
+    "expansion_method": "Profile Hidden Markov Model (pHMM)"
+  },
+
+  "genetic_engineering_approach": {
+    "strain_modification": "Deletion of silent biosynthetic genes",
+    "goal": "Enhance native RiPP expression",
+    "validation": "Confirmed improved peptide production"
+  },
+
+  "sequence_motif_analysis": {
+    "conserved_motifs": {
+      "n_terminal": "ELExMEAP sequence",
+      "c_terminal": "Invariant threonine"
+    },
+    "logo_generation": "From 184 predicted precursor peptides"
+  },
+
+  "validation_criteria": {
+    "bgc_count": 484,
+    "sequence_homology_confirmation": true,
+    "co_localization_with_ptm_enzymes": true,
+    "synteny_analysis": "Gene cluster organization"
+  }
+}

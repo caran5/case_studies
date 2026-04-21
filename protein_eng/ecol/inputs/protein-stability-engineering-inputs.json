@@ -1,0 +1,26 @@
+{
+  "experiment_id": "protein-stability-engineering",
+  "description": "Input parameters for improving protein thermodynamic stability",
+  "stability_metrics": {
+    "measurements": [
+      "Tm",
+      "\u0394Gunfold",
+      "Aggregation",
+      "Half-life"
+    ],
+    "techniques": [
+      "DSF",
+      "CD",
+      "SEC-MALS",
+      "HDX-MS"
+    ]
+  },
+  "engineering_strategies": {
+    "approaches": [
+      "Surface entropy reduction",
+      "Disulfide bonds",
+      "Salt bridges",
+      "Hydrophobic core optimization"
+    ]
+  }
+}

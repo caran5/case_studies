@@ -1,0 +1,123 @@
+{
+  "paper_id": "lariocidin",
+  "title": "A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome",
+  "authors": ["Manoj Jangra", "Dmitrii Y. Travin", "Elena V. Aleksandrova", "Manpreet Kaur", "Lena Darwish", "Kalinka Koteva", "Dorota Klepacki", "Wenliang Wang", "Maya Tiffany", "Akosiererem Sokaribo", "Xuefei Chen", "Zixin Deng", "Meifeng Tao", "Brian K. Coombes", "Nora Vázquez-Laslop", "Yury S. Polikanov", "Alexander S. Mankin", "Gerard D. Wright"],
+  "publication": "Nature, 2025, 640:1022-1029",
+  "objective": "Identify and characterize lariocidin, a novel ribosome-targeting lasso peptide antibiotic, and elucidate its mechanism of action and antimicrobial properties against Gram-negative and Gram-positive bacterial pathogens",
+
+  "problem_statement": "Antibiotic resistance is a global crisis responsible for millions of deaths, particularly against Gram-negative bacteria. New antibiotics with novel mechanisms of action targeting previously unexploited ribosomal sites are urgently needed. Lasso peptides, despite having reported antibacterial properties, have never been shown to inhibit the ribosome, one of the main antibiotic targets",
+
+  "discovery_approach": {
+    "method": "Environmental strain collection",
+    "procedure": [
+      "Grew bacteria on soil-agar plates at room temperature for approximately one year",
+      "Extended incubation period to reveal slow-growing, frequently overlooked bacteria",
+      "Regrew individual colonies in rich medium",
+      "Prepared methanolic extracts and partially fractionated by reversed-phase chromatography",
+      "Tested against clinical multi-drug resistant (MDR) Gram-negative pathogen Acinetobacter baumannii C0286"
+    ],
+    "producer_organism": "Paenibacillus sp. M2"
+  },
+
+  "lariocidin_discovery": {
+    "compound_name": "Lariocidin (LAR)",
+    "derivative": "Lariocidin B (LAR-B) - internally cyclized derivative",
+    "type": "Lasso peptide (RiPP with structurally constrained knotted fold)",
+    "source_organism": "Paenibacillus sp. M2"
+  },
+
+  "spectrum_of_activity": {
+    "activity_type": "Broad-spectrum antibiotic activity",
+    "gram_positive": "Active against Gram-positive bacteria",
+    "gram_negative": "Active against Gram-negative bacteria",
+    "target_pathogens": [
+      "Acinetobacter baumannii (multi-drug resistant)",
+      "Other clinically relevant Gram-negative and Gram-positive pathogens"
+    ]
+  },
+
+  "mechanism_of_action": {
+    "target": "Bacterial ribosome",
+    "binding_site": "Unique site in small ribosomal subunit",
+    "target_interactions": [
+      "Binds to 16S ribosomal RNA",
+      "Interacts with aminoacyl-tRNA"
+    ],
+    "functional_outcomes": [
+      "Inhibits translocation",
+      "Induces miscoding",
+      "Inhibits protein synthesis"
+    ],
+    "mechanism_novelty": "First lasso peptide shown to inhibit ribosomal function"
+  },
+
+  "ribosomal_binding_characteristics": {
+    "binding_site_novelty": "New ribosomal site distinct from well-characterized functional sites",
+    "comparison_to_known_antibiotics": "Different from decoding centre, peptidyl transferase centre, and nascent peptide exit tunnel",
+    "target_importance": "Overcomes common resistance mechanisms",
+    "resistance_development": "Novel site and mechanism result in low propensity for spontaneous resistance"
+  },
+
+  "resistance_studies": {
+    "spontaneous_resistant_mutants": {
+      "frequency": "~10^-8",
+      "identification_method": "Plating on solid medium supplemented with LAR",
+      "organism_strains": ["E. coli", "Bacillus subtilis"]
+    },
+    "initial_mutations": {
+      "genes_affected": "Genes related to electron transport chain and respiration",
+      "findings": "Whole-genome sequencing identified mutations in aerobic respiration genes"
+    },
+    "mechanism_clarification": {
+      "findings": "Deletion of individual identified genes showed no significant MIC changes",
+      "interpretation": "Aerobic respiration/electron transport chain alterations influence LAR uptake but are not direct targets",
+      "evidence": "LAR exhibits 4-8 fold increase in MIC under anaerobic conditions"
+    },
+    "ribosomal_mutations": {
+      "challenge": "Redundancy of rRNA genes in bacterial genomes (10 rrn alleles in B. subtilis, 7 in E. coli) prevents direct isolation of target site mutations",
+      "solution": "Used E. coli strain SQ110DTC with single rRNA operon"
+    }
+  },
+
+  "pharmacological_properties": {
+    "mammalian_toxicity": "No toxicity to human cells",
+    "mode_of_action": "Unaffected by common resistance mechanisms",
+    "resistance_propensity": "Low propensity for generating spontaneous resistance",
+    "in_vivo_efficacy": "Potent in vivo activity in mouse model of Acinetobacter baumannii infection"
+  },
+
+  "clinical_significance": {
+    "gap_addressed": "Novel mechanism targeting new ribosomal site avoids common resistance mechanisms",
+    "therapeutic_potential": "Alternative protein-synthesis inhibitor with novel chemical scaffold",
+    "drug_development": "Foundation for development of much-needed antibacterial drugs",
+    "resistance_crisis": "Addresses urgent need for new antibiotics in era of antibiotic resistance"
+  },
+
+  "lasso_peptide_antibiotic_landscape": {
+    "known_lasso_peptides": [
+      {
+        "name": "Lassomycin",
+        "target": "ClpP protease",
+        "activity": "Antimycobacterial"
+      },
+      {
+        "name": "Microcin J25",
+        "target": "RNA polymerase",
+        "activity": "Active against Gram-negative bacteria"
+      },
+      {
+        "name": "Capistruin",
+        "target": "RNA polymerase",
+        "activity": "Active against Gram-negative bacteria"
+      }
+    ],
+    "lariocidin_novelty": "First lasso peptide shown to inhibit ribosome"
+  },
+
+  "research_impact": {
+    "discovery_significance": "Demonstrates lasso peptides can target previously unexploited ribosomal sites",
+    "chemical_scaffold": "Novel lasso peptide scaffold for antibiotic development",
+    "future_applications": "Prototype for developing ribosome-targeting lasso peptide antibiotics",
+    "antimicrobial_development": "Opens new routes for discovery of alternative protein-synthesis inhibitors"
+  }
+}

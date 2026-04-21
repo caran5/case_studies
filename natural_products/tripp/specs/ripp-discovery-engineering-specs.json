@@ -1,0 +1,237 @@
+{
+  "paper_id": "ripp-discovery-engineering",
+  "title": "Discovery and engineering of ribosomally synthesized and post-translationally modified peptide (RiPP) natural products",
+  "authors": ["He Li", "Wei Ding", "Qi Zhang"],
+  "publication": "RSC Chemical Biology, 2024",
+  "objective": "Provide a comprehensive overview of recent advances in RiPP discovery using bioactivity-guided screening, genome mining, and biosynthetic engineering approaches, with focus on strategies for activating silent biosynthetic gene clusters and developing elaborate catalytic systems",
+
+  "problem_statement": "Global antimicrobial resistance is a critical public health concern. RiPPs represent a diverse superfamily of natural products with immense pharmaceutical potential, but current discovery approaches are limited. Most RiPP biosynthetic gene clusters (BGCs) are inactive under laboratory culture conditions, and knowledge about microbial communities remains limited. The challenge is to develop systematic and rationalized strategies for discovering, engineering, and activating RiPP natural products",
+
+  "ripp_definition": {
+    "name": "Ribosomally Synthesized and Post-Translationally Modified Peptides",
+    "origin": "All three kingdoms of life",
+    "structure": "Derived from ribosomally synthesized precursor peptides containing leader peptide, core peptide, and sometimes follower peptide",
+    "modification": "Post-translational modifications catalyzed by specific PTM enzymes",
+    "final_form": "Mature RiPP after proteolytic removal of leader/follower peptides"
+  },
+
+  "precursor_peptide_components": {
+    "leader_peptide": {
+      "description": "N-terminal region",
+      "function": "Recognition by PTM enzymes, ensuring correct modification sequence",
+      "fate": "Proteolytically removed for RiPP maturation"
+    },
+    "core_peptide": {
+      "description": "C-terminal region",
+      "function": "Site of post-translational modifications",
+      "fate": "Becomes the biologically active mature RiPP"
+    },
+    "follower_peptide": {
+      "description": "Optional C-terminal extension",
+      "function": "Sometimes present in certain RiPPs",
+      "fate": "Proteolytically removed during maturation"
+    }
+  },
+
+  "discovery_approaches": {
+    "1_bioactivity_guided_screening": {
+      "name": "Top-Down Approaches",
+      "description": "Direct screening of biological samples for bioactive molecules",
+      "advantages": [
+        "Discovers molecules already expressed",
+        "Provides valuable insights for genome mining",
+        "Most direct approach for novel drugs"
+      ],
+      "limitations": [
+        "Many BGCs are silent under lab conditions",
+        "Time-consuming and complex",
+        "Limited by knowledge of microbial communities"
+      ],
+      "sources": [
+        "Soil microbes (significant biodiversity producers)",
+        "Marine microbes (rich biosynthetic gene source)",
+        "Human-associated microbes (gut, skin)"
+      ],
+      "techniques": [
+        "HiTES strategy (high-throughput elicitor screening)",
+        "LAESI-IMS (laser ablation electrospray ionization mass spectrometry)",
+        "96-well plate screening with various elicitors",
+        "MS-based dereplication"
+      ]
+    },
+    "2_activation_of_silent_bgcs": {
+      "name": "Silent or Cryptic BGC Activation",
+      "description": "Methods to access products of BGCs not expressed under conventional lab conditions",
+      "significance": "Silent BGCs outnumber active ones, indicating untapped therapeutic potential",
+      "methods": [
+        "Heterologous expression",
+        "Promoter manipulation",
+        "Reporter-guided mutant selection",
+        "HiTES-guided activation"
+      ],
+      "example_compounds": [
+        "Clavorubin A (activated by actinomycin)",
+        "Cebulantin (cryptic lanthipeptide)",
+        "Multiple sactipeptides"
+      ]
+    },
+    "3_genome_mining": {
+      "name": "Bottom-Up Genomics-Based Approaches",
+      "description": "Gene-based big data methods to discover specialized metabolites and biosynthetic pathways",
+      "advantages": [
+        "Access to metabolites remaining silent under lab conditions",
+        "More systematic and rationalized approach",
+        "Enables discovery of unconventional BGCs"
+      ],
+      "limitations": [
+        "Confined to known RiPP classes when mining by enzyme similarity",
+        "PTM enzymes share homology with other metabolic pathways",
+        "Cannot easily discover entirely new RiPP families"
+      ],
+      "tools": [
+        "BLAST (basic local alignment search)",
+        "Machine learning algorithms",
+        "Neural networks",
+        "antiSMASH",
+        "RODEO (Rapid ORF Description & Evaluation Online)",
+        "RiPPER (RiPP Precursor Peptide Enhanced Recognition)",
+        "RRE-Finder"
+      ]
+    }
+  },
+
+  "ptm_enzyme_mining_strategies": {
+    "1_radical_sam_enzymes": {
+      "name": "rSAM Enzymes",
+      "function": "Diverse RiPP maturases with various modification functions",
+      "mechanism": "Reductively cleave SAM to form 5'-deoxyadenosyl radical",
+      "examples": {
+        "sactipeptides": "Form S-to-alpha carbon crosslinks",
+        "darobactins": "Create ether crosslinks between aromatic residues",
+        "other_ripps": "Various modifications"
+      },
+      "mining_success": [
+        "Discovered 15,500+ 'RaS-RiPP' BGCs",
+        "Identified 32,220 rSAM-based RiPP BGCs using SPECO method",
+        "Darobactin analogs, dynobactin, bromodarobactin A"
+      ]
+    },
+    "2_atp_grasp_ligase": {
+      "name": "Graspetides",
+      "description": "RiPPs with multiple rings connected by intramolecular o-ester or o-amide bonds",
+      "key_component": "ATP-grasp ligase",
+      "mining_results": [
+        "5,275 homologous proteins identified",
+        "9 new groups of graspetides",
+        "3,923 high-confidence graspeptide BGCs",
+        "12 additional graspeptide groups"
+      ],
+      "discovery": "Thatisin with isomeric Asp-Pro amide"
+    },
+    "3_cysteine_decarboxylase": {
+      "name": "AviCys-containing RiPPs",
+      "motif": "S-[(Z)-2-aminovinyl]-D-cysteine",
+      "discovery": "Daspyromycins A and B (antimicrobial lanthipeptides)",
+      "activity": "Potent against Gram-positive bacteria including MRSA"
+    },
+    "4_lanthipeptide_synthases": {
+      "name": "Lanthipeptides",
+      "description": "Largest and most characterized RiPP class",
+      "features": "Lanthionine and methyllanthionine crosslinks",
+      "classes": [
+        "Class I: traditional",
+        "Class II: novel structures",
+        "Class III: unique biosynthesis"
+      ],
+      "examples": [
+        "PedA15 peptides (unique ring pattern)",
+        "Marinsedin (2-oxobutyryl group, dual thioether rings)",
+        "Amylopeptins (S8 family serine protease)"
+      ]
+    },
+    "5_ycao_proteins": {
+      "name": "YcaO Protein Superfamily",
+      "function": "Multifunctional RiPP PTM enzymes",
+      "mechanism": "Catalyze nucleophilic attack via ATP-dependent phosphorylation",
+      "discoveries": [
+        "Streptamidine (amidine-containing RiPP)",
+        "Thiovarsolins (thioamidated RiPPs)",
+        "613 YcaO-TfuA BGC families identified"
+      ]
+    }
+  },
+
+  "precursor_peptide_mining": {
+    "1_nhlp_nif11_ripps": {
+      "description": "Nitrile hydratase-related leader peptides and Nif11 proteins",
+      "features": "Long precursor sequences (70-83 amino acids), associated with rSAM",
+      "discoveries": [
+        "Landornamide A (anti-arenaviral)",
+        "Selidamides (first non-NRPS fatty-acylated lipopeptides)"
+      ]
+    },
+    "2_ripe_recognition_element": {
+      "name": "RRE (RiPP Recognition Element)",
+      "description": "80-100 amino acid domains, critical for precursor recognition",
+      "tools": ["RRE-Finder", "RODEO analysis"],
+      "discovery": "Daptides with helical structure and positive terminals"
+    },
+    "3_conserved_motifs": {
+      "description": "Signature sequences in precursor peptides",
+      "example": "Gly-Ser-Dhb-Ile-AviCys for linaridins",
+      "discovery": "Salinipeptins with multiple D-amino acids"
+    }
+  },
+
+  "combined_mining_strategies": {
+    "description": "Employing multiple hallmarks (PTM enzyme + precursor peptide) to refine results",
+    "approach": "Use evaluation systems like RODEO to score candidates",
+    "examples": [
+      "RRE + rSAM co-occurrence mining (15,000 proteins identified)",
+      "Splicease + SPASM domain mining (27 confirmed spliceotides)",
+      "Polytheonamide mining (epimerase + methyltransferase + precursor)",
+      "Daropeptide mining (DarE + O1-X2-O3 motifs)"
+    ]
+  },
+
+  "ripp_engineering": {
+    "1_hybrid_ripps": {
+      "description": "Unnatural molecules from PTM enzymes of different pathways",
+      "strategy": "Leader peptide exchange using sortase A",
+      "benefit": "Cost-effective synthetic approach for new-to-nature hybrids"
+    },
+    "2_promiscuous_ptm_enzymes": {
+      "description": "Enzymes tolerating different substrates or mechanisms",
+      "substrate_promiscuity": "Act on various similar substrates",
+      "catalytic_promiscuity": "Catalyze different reaction mechanisms",
+      "applications": [
+        "Darobactin engineering (13 unnatural variants)",
+        "PapB for octreotide analog synthesis",
+        "Lasso peptide engineering (millions of variants)",
+        "Sactipeptide modifications"
+      ]
+    },
+    "3_chemical_editing": {
+      "description": "Post-PTM chemical modifications",
+      "method": "β-borylation of dehydroalanine residues",
+      "benefit": "Enhanced water solubility while retaining activity"
+    }
+  },
+
+  "key_challenges": [
+    "Silent BGCs not expressed under lab conditions",
+    "Predicting RiPP structure-function from gene sequence",
+    "Understanding substrate specificity of PTM enzymes",
+    "Complexity of enzyme-peptide binding interactions",
+    "Structural plasticity and dynamics of RiPPs"
+  ],
+
+  "future_perspectives": [
+    "Increased adoption of rationalized discovery strategies",
+    "Targeting microorganisms from harsh/competitive environments",
+    "Multi-hallmark genome mining approaches",
+    "Deeper understanding of biosynthetic mechanisms",
+    "Engineering with promiscuous enzymes",
+    "Clinical applications of RiPP-based drugs"
+  ]
+}

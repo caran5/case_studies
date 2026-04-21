@@ -1,0 +1,9 @@
+{
+  "experiment_id": "protein-design-computational-methods",
+  "title": "Computational protein design and structure-guided engineering",
+  "key_findings": [
+    "Computational design successfully predicts functional variants",
+    "Consensus design improves stability",
+    "Binding specificity achievable through active site engineering"
+  ]
+}

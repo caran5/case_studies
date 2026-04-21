@@ -1,0 +1,20 @@
+{
+  "experiment_id": "protein-expression-systems",
+  "description": "Input parameters for optimizing protein expression",
+  "expression_hosts": [
+    "E. coli",
+    "Yeast",
+    "Insect cells",
+    "Mammalian cells",
+    "Cell-free"
+  ],
+  "optimization_parameters": {
+    "variables": [
+      "Codon usage",
+      "Expression level",
+      "Localization tag",
+      "Fusion partners"
+    ],
+    "comparison": "Multiple systems tested"
+  }
+}

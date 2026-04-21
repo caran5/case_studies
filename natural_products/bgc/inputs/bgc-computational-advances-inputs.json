@@ -1,0 +1,148 @@
+{
+  "experiment_id": "bgc-computational-advances",
+  "description": "Experimental parameters and methodology for computational BGC analysis",
+
+  "genome_sequencing_data": {
+    "technology": "Next-generation sequencing (NGS)",
+    "data_generation": "Large-scale genomic datasets from bacteria, fungi, plants, animals",
+    "cost_status": "Significantly reduced sequencing costs",
+    "acceleration": "Rapid generation of genomic data"
+  },
+
+  "bgc_database_infrastructure": {
+    "total_bgc_sequences_identified": 147000,
+    "identification_source": "antiSMASH alone",
+    "database_scope": "Multiple categories - comprehensive, organism-specific, metabolite-specific",
+    "data_integration": "Complex information storage and efficient resource sharing"
+  },
+
+  "bgc_identification_tools": [
+    {
+      "tool": "antiSMASH",
+      "function": "BGC identification in genomes",
+      "capability": "Identified over 147,000 BGC sequences",
+      "comparison": "Gold standard in BGC mining"
+    },
+    {
+      "tool": "BLAST",
+      "function": "Basic Local Alignment Search Tool",
+      "application": "BGC comparison to known natural products"
+    },
+    {
+      "tool": "Profile Hidden Markov Models (pHMM)",
+      "function": "Pattern recognition in BGC sequences"
+    },
+    {
+      "tool": "Machine Learning algorithms",
+      "function": "BGC prediction and classification"
+    },
+    {
+      "tool": "Deep Learning neural networks",
+      "function": "Advanced pattern recognition"
+    }
+  ],
+
+  "computational_analysis_workflows": {
+    "bgc_mining_workflow": [
+      "Genome sequencing (NGS)",
+      "Sequence assembly and quality control",
+      "BGC identification (antiSMASH, BLAST, pHMM)",
+      "Annotation and functional prediction",
+      "Machine learning classification",
+      "Database integration",
+      "Results validation"
+    ],
+    "prediction_pipeline": [
+      "Feature extraction from BGC sequences",
+      "Model training on historical data",
+      "Parameter optimization",
+      "Validation on test sets",
+      "Prediction on novel genomes"
+    ]
+  },
+
+  "machine_learning_model_specifications": {
+    "model_types": [
+      "Supervised learning models",
+      "Unsupervised clustering algorithms",
+      "Deep learning neural networks",
+      "Ensemble methods"
+    ],
+    "training_data": {
+      "source": "BGC databases (comprehensive and specialized)",
+      "size": "Large annotated dataset of characterized BGCs",
+      "labeling": "Functional annotations and metabolite associations"
+    },
+    "feature_engineering": [
+      "BGC gene composition",
+      "Gene organization patterns",
+      "Homology to known enzymes",
+      "Metabolite product signatures"
+    ]
+  },
+
+  "bgc_characterization_parameters": {
+    "sequence_analysis": [
+      "Gene length and composition",
+      "Promoter regions",
+      "Regulatory elements",
+      "Homology to known genes"
+    ],
+    "functional_prediction": [
+      "Enzyme classification",
+      "Metabolite product prediction",
+      "Biosynthetic pathway analysis",
+      "Secondary metabolite type prediction"
+    ]
+  },
+
+  "database_development_parameters": {
+    "data_categories_tracked": [
+      "BGC sequence information",
+      "Organism origin",
+      "Metabolite products",
+      "Gene annotations",
+      "Biochemical details",
+      "Functional predictions"
+    ],
+    "database_types": {
+      "comprehensive_databases": "Integrate multi-organism BGC data",
+      "organism_specific": "Targeted to bacteria, fungi, plants",
+      "metabolite_specific": "Focused on polyketides, NRPS, RiPPs, terpenes"
+    }
+  },
+
+  "validation_methodologies": {
+    "prediction_accuracy_assessment": [
+      "Sensitivity and specificity metrics",
+      "Precision and recall calculations",
+      "ROC curve analysis",
+      "Cross-validation on test sets"
+    ],
+    "experimental_validation": [
+      "Heterologous expression of predicted BGCs",
+      "Metabolite production confirmation",
+      "Structural characterization of products"
+    ]
+  },
+
+  "computational_infrastructure": {
+    "processing_requirements": {
+      "throughput": "High-throughput analysis capability",
+      "scalability": "Handling large genomic datasets",
+      "speed": "Rapid BGC identification and annotation"
+    },
+    "algorithm_efficiency": {
+      "traditional_methods_limitation": "Labor-intensive and low-throughput",
+      "computational_advantage": "Automated, fast, high-throughput"
+    }
+  },
+
+  "evaluation_metrics": {
+    "bgc_identification_accuracy": "Percentage of correctly identified BGCs",
+    "novel_bgc_discovery_rate": "Number of new BGC families identified",
+    "prediction_precision": "Accuracy of metabolite product predictions",
+    "false_positive_rate": "Rate of incorrectly identified BGCs",
+    "processing_speed": "Time to analyze complete genomes"
+  }
+}

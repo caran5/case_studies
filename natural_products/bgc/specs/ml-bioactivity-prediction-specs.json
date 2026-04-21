@@ -1,0 +1,79 @@
+{
+  "experiment_id": "ml-bioactivity-prediction-bgc",
+  "title": "A machine learning bioinformatics method to predict biological activity from biosynthetic gene clusters",
+  "date_published": "2024",
+
+  "research_objectives": [
+    "Develop machine learning method to predict natural product bioactivity from BGC sequences",
+    "Address bioactivity prioritization bottleneck in drug discovery",
+    "Enable prediction of desired biological functions (e.g., antibiotic activity) without requiring production and assaying",
+    "Increase efficiency of natural product discovery pipeline"
+  ],
+
+  "problem_statement": {
+    "challenge": "Over 147,000 BGC sequences identified by antiSMASH but prioritization remains difficult",
+    "current_limitation": "Cannot predict activity of natural products from BGC sequences using traditional methods",
+    "discovery_bottleneck": "Production, purification, and assaying of compounds is major bottleneck in drug discovery",
+    "existing_gap": "Many structurally fascinating molecules lack identified functions"
+  },
+
+  "research_scope": {
+    "focus": "Bioactivity prediction from BGC genomic information",
+    "approach": "Machine learning model development",
+    "goal": "Enable prioritization of BGCs based on predicted function before production"
+  },
+
+  "bioactivity_types_addressed": [
+    "Antibiotic activity",
+    "Antitumor activity",
+    "Antifungal activity",
+    "Immunosuppressive activity",
+    "Antimicrobial activity"
+  ],
+
+  "existing_tools_analysis": {
+    "resistance_gene_tools": [
+      {
+        "tool": "Resistance Gene Identifier (RGI)",
+        "limitation": "Limited to antibacterial activity prediction",
+        "mechanism": "Identifies resistance markers in BGCs"
+      },
+      {
+        "tool": "Antibiotic Resistant Target Seeker (ARTS)",
+        "limitation": "Limited to antibacterial activity prediction",
+        "mechanism": "Detects gene duplication patterns"
+      }
+    ],
+    "general_limitation": "Existing tools cannot broadly predict natural product functions",
+    "knowledge_gap": "Majority of structurally complex molecules have unknown bioactivity"
+  },
+
+  "drug_discovery_context": {
+    "fda_approved_drugs": {
+      "small_molecule_natural_products": "23.5%",
+      "synthetic_drugs_mimicking_natural_products": "22.5%",
+      "total_natural_product_influence": "46%"
+    },
+    "historical_productivity": "Natural products historically rich source of drugs",
+    "current_challenge": "Traditional bioactivity-guided screening rediscovers known compounds"
+  },
+
+  "bgc_identification_landscape": {
+    "tools_available": [
+      "antiSMASH",
+      "ClusterMine",
+      "MINER",
+      "BAGEL",
+      "RODEO",
+      "NeuRiPP"
+    ],
+    "total_identified_bgcs": 147000,
+    "status": "Identification tools mature but bioactivity prediction lacking"
+  },
+
+  "research_innovation": {
+    "hypothesis": "BGC genomic features encode bioactivity information",
+    "approach": "Machine learning to extract predictive features from BGC sequences",
+    "validation": "Compare predictions to experimental bioactivity data"
+  }
+}

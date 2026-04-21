@@ -1,0 +1,27 @@
+{
+  "experiment_id": "epistatic-fitness-landscape-enzyme",
+  "description": "Input parameters for epistatic fitness landscape mapping in enzymes",
+  "mutation_space": {
+    "genes": "Single enzyme",
+    "positions": "Active site or key regions",
+    "variants_tested": "Systematic combinatorics"
+  },
+  "fitness_measurement": {
+    "readout": [
+      "Activity",
+      "Expression",
+      "Stability",
+      "Specificity"
+    ],
+    "scale": "Single to thousands of mutants",
+    "reproducibility": "High-throughput platform"
+  },
+  "analysis_framework": {
+    "statistics": [
+      "Epistasis quantification",
+      "Interaction terms",
+      "Higher-order effects"
+    ],
+    "visualization": "Fitness landscape mapping"
+  }
+}

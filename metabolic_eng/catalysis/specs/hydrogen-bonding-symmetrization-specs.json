@@ -1,0 +1,24 @@
+{
+  "experiment_id": "hydrogen-bonding-symmetrization",
+  "title": "Hydrogen bond symmetrisation in D2O ice observed by neutron diffraction",
+  "date_published": "2024-05-17",
+
+  "research_objectives": [
+    "Observe hydrogen bond symmetrization under high pressure",
+    "Determine transition pressure for hydrogen redistribution",
+    "Characterize nuclear quantum effects in hydrogen bonding",
+    "Understand structural relaxation mechanisms"
+  ],
+
+  "research_scope": {
+    "focus_area": "Hydrogen bonding and phase transitions under extreme conditions",
+    "methodology": "Neutron diffraction at high pressure",
+    "key_concepts": [
+      "Hydrogen bonding",
+      "Symmetrization",
+      "Nuclear quantum effects",
+      "High pressure physics",
+      "Ice structures"
+    ]
+  }
+}

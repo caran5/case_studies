@@ -1,0 +1,63 @@
+{
+  "experiment_id": "allosteric-landscapes-computational-methodologies",
+  "description": "Input parameters for computational study of allosteric regulation mechanisms using various computational methodologies",
+  
+  "allosteric_regulation_focus": {
+    "mechanism": "Ligand binding at sites distal to active site modulates enzyme activity",
+    "advantage_over_orthosteric": [
+      "Enhanced specificity",
+      "Reduced off-target effects",
+      "Potential for synergistic interaction"
+    ]
+  },
+
+  "computational_methodologies": [
+    {
+      "method": "Molecular Dynamics (MD) simulations",
+      "application": "Allosteric mechanism exploration",
+      "scale": "Atomic resolution dynamics"
+    },
+    {
+      "method": "Enhanced sampling methods",
+      "types": "Accelerated MD, replica exchange, umbrella sampling",
+      "purpose": "Overcome energy barriers in conformational sampling"
+    },
+    {
+      "method": "Normal Mode Analysis (NMA)",
+      "application": "Large-scale protein motion prediction",
+      "advantage": "Computationally efficient"
+    },
+    {
+      "method": "Evolutionary conservation analysis",
+      "purpose": "Identify functionally important allosteric sites"
+    },
+    {
+      "method": "Machine Learning approaches",
+      "applications": [
+        "Allosteric site prediction",
+        "Mechanism classification",
+        "Property prediction"
+      ]
+    }
+  ],
+
+  "tool_infrastructure": {
+    "computational_tools": ["PASSer", "AlloReverse", "AlphaFold"],
+    "purpose": "Allosteric mechanism identification and characterization"
+  },
+
+  "drug_discovery_parameters": {
+    "therapeutic_potential": "Allosteric modulators as drug targets",
+    "advantages": [
+      "Increased selectivity",
+      "Reduced side effects",
+      "Combination therapy potential"
+    ],
+    "challenge": "Complexity of allosteric mechanisms hampers systematic discovery"
+  },
+
+  "analysis_scope": {
+    "focus": "Decoding allosteric landscapes",
+    "goal": "Systematic methodology for allosteric modulator discovery and design"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "experiment_id": "lanthanide-controlled-protein-switches",
+  "description": "Input parameters for lanthanide-controlled protein switches and regulatory systems",
+  
+  "lanthanide_characteristics": {
+    "element_class": "Rare earth metals",
+    "properties": [
+      "Unique photophysical properties",
+      "Tunable binding",
+      "NMR markers"
+    ]
+  },
+
+  "protein_switch_design": {
+    "control": "Lanthanide-mediated",
+    "applications": [
+      "In vitro applications",
+      "In vivo applications"
+    ]
+  },
+
+  "regulatory_mechanisms": [
+    "Conformational changes",
+    "Allosteric regulation",
+    "Proximity-dependent effects"
+  ]
+}

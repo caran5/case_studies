@@ -1,0 +1,30 @@
+{
+  "experiment_id": "ripp-ptm-diversity",
+  "title": "RiPP post-translational modification diversity and discovery",
+
+  "research_scope": [
+    "Characterization of RiPP post-translational modifications",
+    "BGC-based RiPP discovery and prediction",
+    "RiPP structural diversity",
+    "PTM enzyme specificity and promiscuity",
+    "Unknown PTM pathways"
+  ],
+
+  "ripp_challenge": {
+    "issue": "Difficulty in direct application of genome mining to RiPP discovery",
+    "cause": "Lack of ubiquitous features across RiPP biosynthetic pathways",
+    "limitation": "Low accuracy in precursor peptide prediction"
+  },
+
+  "ripp_classes": {
+    "total_identified": 48,
+    "characteristics": "Founding members discovered for each class through various methods",
+    "diversity": "Remarkable structural and chemical diversity"
+  },
+
+  "genome_mining_application": {
+    "challenge": "RiPPs remain difficult to discover via genome mining alone",
+    "opportunity": "Many uncharacterized RiPPs with unknown PTMs",
+    "potential": "Promiscuous enzyme activity presents discovery opportunities"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "experiment_id": "allosteric-effectors-drug-properties",
+  "title": "Toward the design of allosteric effectors: gaining comprehensive control of drug properties and actions",
+  "date_published": "2024-01-01",
+
+  "research_objectives": [
+    "Design allosteric effectors with comprehensive control of drug properties",
+    "Demonstrate advantages of allosteric modulation over orthosteric inhibition",
+    "Establish design principles for allosteric drug discovery",
+    "Address challenges in allosteric site identification and mechanism understanding",
+    "Show how allosteric modulation improves drug selectivity and safety"
+  ],
+
+  "research_scope": {
+    "focus_area": "Allosteric drug design and therapeutic development",
+    "methodology": "Structure-based and mechanism-driven drug design",
+    "key_concepts": [
+      "Allosteric modulation",
+      "Drug design",
+      "Selectivity",
+      "Safety",
+      "Therapeutic efficacy",
+      "Structure-based design"
+    ]
+  },
+
+  "allosteric_modulation_principles": {
+    "definition": "Ligand binding at distal site modulates protein function",
+    "advantage_over_orthosteric": "Potentially greater selectivity and reduced toxicity",
+    "modulation_types": [
+      "Positive allosteric modulation (PAM)",
+      "Negative allosteric modulation (NAM)",
+      "Biased allosteric modulation"
+    ]
+  },
+
+  "comprehensive_drug_design": {
+    "multi_property_optimization": {
+      "target_potency": "Achieve desired binding affinity",
+      "selectivity": "Discriminate between homologous proteins",
+      "efficacy": "Produce desired biological effect",
+      "safety": "Minimize adverse effects",
+      "distribution": "Achieve appropriate tissue localization",
+      "pharmacokinetics": "Optimize absorption and clearance"
+    },
+    "challenge": "Simultaneously optimize multiple interconnected properties"
+  },
+
+  "allosteric_design_advantages": {
+    "modulation_range": "Can titrate effect rather than complete inhibition",
+    "selectivity_mechanism": "Allosteric sites often more divergent than orthosteric",
+    "therapeutic_index": "Potentially improved safety window",
+    "combination_therapy": "Can combine with orthosteric agents synergistically"
+  },
+
+  "design_framework": {
+    "site_discovery": "Identify allosteric binding sites via computational and experimental methods",
+    "mechanism_elucidation": "Determine allosteric communication pathways",
+    "modulator_optimization": "Iterative design and testing",
+    "validation": "Biochemical and cellular assays"
+  }
+}

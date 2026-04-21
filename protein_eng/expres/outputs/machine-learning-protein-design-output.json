@@ -1,0 +1,10 @@
+{
+  "experiment_id": "machine-learning-protein-design",
+  "title": "Machine learning models for protein property prediction",
+  "key_findings": [
+    "ML models achieve 0.7-0.9 prediction accuracy",
+    "Transfer learning improves performance on limited data",
+    "Sequence context captured effectively",
+    "Epistasis partially learnable from data"
+  ]
+}

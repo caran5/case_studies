@@ -1,0 +1,42 @@
+{
+  "experiment_id": "chromatin-condensates-transcription",
+  "description": "Input parameters for chromatin organization and phase-separated condensates in transcriptional regulation",
+
+  "biological_system": {
+    "focus": "Biomolecular condensates in chromatin organization",
+    "mechanism": "Phase separation of regulatory proteins and chromatin",
+    "cellular_context": "Nucleus, transcriptionally active regions"
+  },
+
+  "experimental_parameters": {
+    "model_organisms": ["Drosophila melanogaster", "Caenorhabditis elegans", "Mammalian cell lines"],
+    "imaging_techniques": ["Fluorescence microscopy", "FRAP", "Single-molecule tracking"],
+    "molecular_markers": ["Histone modifications", "Phase-separation drivers", "Transcription factors"]
+  },
+
+  "condensate_components": {
+    "proteins_involved": ["Transcription factors", "Mediator complex", "Coactivators", "Chromatin remodelers"],
+    "properties_measured": ["Concentration thresholds", "Phase behavior", "Dynamics", "Spatial organization"]
+  },
+
+  "feature_extraction": {
+    "structural_features": ["Intrinsically disordered regions", "Low-complexity domains", "Interaction domains"],
+    "functional_features": ["Transcriptional output", "Chromatin state", "Binding kinetics"]
+  },
+
+  "data_acquisition": {
+    "experimental_readouts": [
+      "Condensate formation conditions",
+      "Protein concentration dependencies",
+      "Temporal dynamics",
+      "Spatial positioning within nucleus",
+      "Gene expression correlates"
+    ],
+    "quantification_methods": [
+      "Fluorescence intensity measurements",
+      "Recovery kinetics from photobleaching",
+      "Cluster size and number analysis",
+      "Transcription rate quantification"
+    ]
+  }
+}

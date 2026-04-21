@@ -1,0 +1,108 @@
+{
+  "experiment_id": "silent-bgc-activation-streptomyces",
+  "description": "Experimental parameters for silent BGC activation strategies in Streptomyces",
+
+  "streptomyces_genome_characteristics": {
+    "bgc_per_genome": [25, 50],
+    "silent_bgc_percentage": 90,
+    "expression_conditions": "Standard laboratory growth conditions"
+  },
+
+  "heterologous_expression_parameters": {
+    "bgc_cloning_methods": [
+      "Cosmid cloning",
+      "BAC (Bacterial Artificial Chromosome) cloning",
+      "CRISPR-based assembly",
+      "Gibson assembly"
+    ],
+    "bgc_reconstruction": [
+      "Complete BGC cloning",
+      "Partial BGC assembly",
+      "Synthetic reconstruction",
+      "Modular assembly"
+    ],
+    "heterologous_hosts": [
+      "Streptomyces coelicolor A3(2)",
+      "Streptomyces lividans",
+      "Bacillus subtilis",
+      "Escherichia coli",
+      "Fungal hosts (Aspergillus, Trichoderma)"
+    ]
+  },
+
+  "chassis_engineering_modifications": {
+    "host_modifications": [
+      "Deletion of competing BGCs",
+      "Overexpression of biosynthetic enzymes",
+      "Enhancement of precursor availability",
+      "Modification of regulatory networks"
+    ],
+    "pathway_optimization": [
+      "Ribosome engineering",
+      "tRNA optimization",
+      "Codon usage optimization",
+      "Protein secretion pathway enhancement"
+    ]
+  },
+
+  "native_host_activation_strategies": {
+    "promoter_engineering": [
+      "Strong constitutive promoters",
+      "Inducible promoters",
+      "Multi-promoter systems",
+      "rRNA promoters"
+    ],
+    "regulatory_engineering": [
+      "Overexpression of positive regulators",
+      "Silencing of negative regulators",
+      "Alternative sigma factors",
+      "Regulatory cascade modification"
+    ],
+    "ribosome_engineering": [
+      "rRNA modification",
+      "ribosomal protein changes",
+      "Translation factor engineering",
+      "Rare codon adaptation"
+    ],
+    "environmental_triggers": [
+      "Nutrient limitation",
+      "pH stress",
+      "Temperature shifts",
+      "Chemical inducers",
+      "Quorum sensing molecules"
+    ]
+  },
+
+  "bgc_isolation_and_analysis": {
+    "genome_sequencing": "Third generation sequencing technology",
+    "bgc_identification": "antiSMASH or similar bioinformatics tools",
+    "bgc_characterization": [
+      "Gene annotation",
+      "Enzyme prediction",
+      "Metabolite product prediction",
+      "Phylogenetic analysis"
+    ]
+  },
+
+  "metabolite_production_measurement": {
+    "cultivation_conditions": [
+      "Media type and composition",
+      "Incubation temperature",
+      "Aeration conditions",
+      "Culture duration"
+    ],
+    "metabolite_detection": [
+      "HPLC-MS analysis",
+      "NMR spectroscopy",
+      "Mass spectrometry",
+      "TLC screening"
+    ],
+    "quantification": "Metabolite titer measurement"
+  },
+
+  "success_criteria": {
+    "bgc_activation": "Detection of metabolite production",
+    "production_level": "Minimum detectable yield",
+    "compound_identification": "Structure elucidation"
+  }
+}

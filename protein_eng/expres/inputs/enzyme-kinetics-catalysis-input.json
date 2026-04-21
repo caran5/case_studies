@@ -1,0 +1,42 @@
+{
+  "experiment_id": "enzyme-kinetics-catalysis",
+  "description": "Input parameters for enzyme kinetics and catalytic characterization",
+  "kinetic_parameters": {
+    "measurements": [
+      "Km",
+      "Vmax",
+      "kcat",
+      "kcat/Km",
+      "Ki"
+    ],
+    "substrate_range": "Physiological concentrations",
+    "inhibitor_types": [
+      "Competitive",
+      "Non-competitive",
+      "Uncompetitive"
+    ]
+  },
+  "reaction_conditions": {
+    "variables": [
+      "Temperature",
+      "pH",
+      "Ionic strength",
+      "Cofactors"
+    ],
+    "optimization": "Parameter space scanning",
+    "replicates": "Minimum 3 per condition"
+  },
+  "methodology": {
+    "techniques": [
+      "Steady-state kinetics",
+      "Pre-steady state",
+      "Single-turnover"
+    ],
+    "detection": [
+      "UV-Vis",
+      "Fluorescence",
+      "HPLC",
+      "GC-MS"
+    ]
+  }
+}

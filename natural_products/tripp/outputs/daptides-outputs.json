@@ -1,0 +1,122 @@
+{
+  "paper_id": "daptides",
+  "title": "Genome mining unveils a class of ribosomal peptides with two amino termini",
+  "summary": "Discovery and experimental characterization of daptides, a novel RiPP class with unprecedented dual positive-charged termini",
+
+  "discovery_statistics": {
+    "bgcs_identified": 484,
+    "bgcs_phylogenetic_distribution": {
+      "actinomycetota": 184,
+      "bacillota": "Small number"
+    },
+    "rre_domains_analyzed": "All RiPP Recognition Element domains in NCBI database",
+    "rre_family_organization": "Large RiPP families sorted by sequence similarity"
+  },
+
+  "daptide_structural_features": {
+    "c_terminal_modification": "(S)-N2,N2-dimethyl-1,2-propanediamine (Dmp)",
+    "precursor_source": "C-terminal threonine residue",
+    "terminal_characteristics": {
+      "n_terminus": "Native amino terminus",
+      "c_terminus": "Dmp-modified (positively charged)"
+    },
+    "unique_property": "First RiPP class with two positively charged termini"
+  },
+
+  "biosynthetic_pathway": {
+    "modification_steps": 3,
+    "step_1": "Oxidative decarboxylation by oxidative decarboxylase",
+    "step_2": "Transamination by PLP-dependent aminotransferase",
+    "step_3": "Dimethylation by SAM-dependent methyltransferase",
+    "intermediate": "Dmp-modified C-terminus installation",
+    "enzyme_characteristics": "Oxidative decarboxylase is leader peptide-dependent but core region-tolerant"
+  },
+
+  "representative_bgc_characterization": {
+    "source_organism": "Microbacterium paraoxydans DSM 15019",
+    "bgc_components": [
+      "RRE-peptidase fusion protein",
+      "Oxidative decarboxylase",
+      "PLP-dependent aminotransferase",
+      "SAM-dependent methyltransferase",
+      "ABC transporters",
+      "Regulatory proteins"
+    ]
+  },
+
+  "experimental_results": {
+    "peptide_production": "Successfully produced peptides with native N-terminus and Dmp-modified C-terminus",
+    "bioactivity_identified": "Synergistic hemolytic activity",
+    "bioactivity_mechanism": "Helical structure and net positive charge on both termini"
+  },
+
+  "precursor_peptide_analysis": {
+    "recognition_motif": "ELExMEAP (highly conserved)",
+    "motif_location": "N-terminal of core region",
+    "conservation": "Found in 184 short ORFs near 80 RRE-peptidase fusion proteins",
+    "average_orfs_per_bgc": 2.3,
+    "conserved_c_terminal": "Invariant threonine at C-terminus (source of Dmp modification)"
+  },
+
+  "substrate_specificity_findings": {
+    "enzyme": "Oxidative decarboxylase",
+    "leader_peptide_dependency": "Required for recognition and substrate delivery",
+    "core_peptide_tolerance": "Tolerates variability in core region sequence",
+    "implication": "Enables engineering of diverse daptide variants"
+  },
+
+  "genome_mining_methodology_success": {
+    "approach_used": "Class-independent RRE-based genome mining",
+    "rre_finder_tool": "Used for RRE domain identification",
+    "rodeo_tool": "Used for analyzing co-occurrence of nearby ORFs",
+    "psI_blast": "Used for expanding prediction scope across phylogenetic groups",
+    "success_outcome": "Identified 500 daptide BGCs across diverse phylogenetic groups"
+  },
+
+  "phylogenetic_distribution": {
+    "primary_phylum": "Actinomycetota (184 initial BGCs)",
+    "secondary_phylum": "Bacillota (identified by PSI-BLAST)",
+    "significance": "Suggests broader natural distribution beyond initial discoveries"
+  },
+
+  "novel_chemistry": {
+    "post_translational_modification": "(S)-N2,N2-dimethyl-1,2-propanediamine (Dmp)",
+    "modification_novelty": "First RiPP class-defining modification discovered via RRE-based mining",
+    "structural_precedent": "No known RiPP class previously identified with dual positive-charged termini",
+    "mechanism_hypothesis": "Dual charges aid membrane targeting and cellular uptake"
+  },
+
+  "hemolysis_assay_results": {
+    "activity": "Synergistic hemolytic activity",
+    "substrate": "Red blood cells",
+    "mechanism": "Presumed membrane targeting",
+    "contributor_1": "Helical core peptide structure",
+    "contributor_2": "Net positive charge on N-terminus",
+    "contributor_3": "Net positive charge on C-terminus (via Dmp)"
+  },
+
+  "rip_class_context": {
+    "total_known_ripp_classes_before_discovery": 48,
+    "rre_containing_classes": 19,
+    "daptides_classification": "New class #49 (or higher, depending on subsequent discoveries)"
+  },
+
+  "methodology_innovation": {
+    "previous_approach": "Class-dependent mining using known enzymes",
+    "limitation_addressed": "Limited to known enzyme families, misses novel chemistry",
+    "new_approach": "RRE-based class-independent mining",
+    "advantage": "Can discover novel PTMs without prior knowledge of enzymes"
+  },
+
+  "research_significance": {
+    "prototype_value": "Demonstrates RRE-based approach as prototype for discovering additional RiPP classes",
+    "future_applications": "Can be applied to identify other novel RiPPs with unconventional modifications",
+    "biotechnology_impact": "Opens new avenue for systematic exploration of RiPP chemical space"
+  },
+
+  "engineering_potential": {
+    "substrate_tolerance": "Oxidative decarboxylase tolerates core region variation",
+    "combinatorial_possibilities": "High potential for variant library generation",
+    "bioactivity_optimization": "Systematic modification of core peptide sequence"
+  }
+}

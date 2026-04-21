@@ -1,0 +1,10 @@
+{
+  "experiment_id": "synthetic-regulatory-circuits",
+  "title": "Synthetic regulatory circuits for programmable gene control",
+  "key_findings": [
+    "Biological logic gates function with predictable input-output relationships",
+    "Feedback enables complex dynamics including oscillations",
+    "Context effects significantly impact circuit function",
+    "Cell-free systems provide rapid circuit prototyping"
+  ]
+}

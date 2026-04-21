@@ -1,0 +1,33 @@
+{
+  "experiment_id": "allosteric-effectors-drug-properties",
+  "description": "Input parameters for design of allosteric effectors and comprehensive control of drug properties and actions",
+  
+  "allosteric_drug_design": {
+    "objective": "Comprehensive control of drug properties and actions through allosteric mechanisms",
+    "advantage": "Beyond traditional orthosteric inhibition"
+  },
+
+  "drug_design_parameters": {
+    "properties_to_control": [
+      "Drug potency",
+      "Selectivity",
+      "Efficacy",
+      "Safety profile",
+      "Off-target effects",
+      "Tissue distribution"
+    ]
+  },
+
+  "allosteric_mechanism_advantages": [
+    "Modulate without complete inhibition",
+    "Improved selectivity",
+    "Reduced toxicity",
+    "Combination therapy potential",
+    "Reversible modulation"
+  ],
+
+  "drug_design_challenges": {
+    "complexity": "Allosteric site identification and characterization",
+    "specificity": "Distinguishing allosteric effects from orthosteric"
+  }
+}

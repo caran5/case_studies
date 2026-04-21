@@ -1,0 +1,97 @@
+{
+  "experiment_id": "ml-bioactivity-prediction-bgc",
+  "description": "Experimental parameters for machine learning-based bioactivity prediction from BGC sequences",
+
+  "bgc_dataset": {
+    "source_tools": ["antiSMASH", "ClusterMine", "MINER", "BAGEL", "RODEO", "NeuRiPP"],
+    "total_bgcs_available": 147000,
+    "training_set": "Characterized BGCs with known bioactivities"
+  },
+
+  "bioactivity_classification": {
+    "categories": [
+      "Antibiotic/Antibacterial",
+      "Antitumor",
+      "Antifungal",
+      "Immunosuppressive",
+      "Antimicrobial"
+    ],
+    "classification_type": "Multi-class prediction"
+  },
+
+  "feature_extraction": {
+    "genomic_features": [
+      "BGC gene composition",
+      "Gene organization patterns",
+      "Enzyme homology profiles",
+      "Domain architecture",
+      "Regulatory elements",
+      "GC content",
+      "Codon usage"
+    ],
+    "domain_features": [
+      "Polyketide synthase (PKS) domains",
+      "Nonribosomal peptide synthetase (NRPS) domains",
+      "Modifying enzyme domains",
+      "Transport domains"
+    ]
+  },
+
+  "machine_learning_workflow": {
+    "data_preprocessing": [
+      "BGC sequence extraction",
+      "Feature normalization",
+      "Train-test split",
+      "Class balancing"
+    ],
+    "model_development": [
+      "Feature selection",
+      "Model training",
+      "Hyperparameter optimization",
+      "Cross-validation"
+    ],
+    "validation": [
+      "Performance metrics calculation",
+      "Comparison to resistance marker methods",
+      "Experimental validation on known compounds"
+    ]
+  },
+
+  "model_types_evaluated": [
+    "Decision trees",
+    "Random forests",
+    "Support vector machines (SVM)",
+    "Neural networks",
+    "Gradient boosting",
+    "Ensemble methods"
+  ],
+
+  "experimental_validation": {
+    "methodology": [
+      "Heterologous expression of predicted BGCs",
+      "Metabolite production confirmation",
+      "Bioactivity testing against target pathogens",
+      "Comparison of predicted vs actual bioactivity"
+    ],
+    "testing_panels": [
+      "Gram-positive bacteria",
+      "Gram-negative bacteria",
+      "Fungal species",
+      "Cancer cell lines"
+    ]
+  },
+
+  "performance_metrics": {
+    "classification_accuracy": "Overall prediction accuracy",
+    "precision": "True positive rate for each bioactivity class",
+    "recall": "Sensitivity of prediction model",
+    "f1_score": "Harmonic mean of precision and recall",
+    "roc_auc": "Area under receiver operating characteristic curve"
+  },
+
+  "comparison_methodology": {
+    "baseline_comparison": "Resistance marker-based methods (RGI, ARTS)",
+    "advantage_assessment": "Improved bioactivity prediction beyond antibacterial activity",
+    "speed_assessment": "Reduction in required experimental throughput"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment_id": "epistatic-fitness-landscape-enzyme",
+  "title": "Mapping epistatic effects in enzyme fitness landscape",
+  "research_objectives": [
+    "Map comprehensive fitness landscapes of enzyme variants",
+    "Quantify epistatic interactions between mutations"
+  ]
+}

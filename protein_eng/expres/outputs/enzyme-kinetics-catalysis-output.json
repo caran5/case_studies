@@ -1,0 +1,15 @@
+{
+  "experiment_id": "enzyme-kinetics-catalysis",
+  "title": "Comprehensive enzyme kinetics and catalytic mechanism analysis",
+  "key_findings": [
+    "Enzyme catalytic efficiency (kcat/Km) quantified",
+    "Rate-limiting steps identified",
+    "Substrate specificity determined",
+    "Inhibitor mechanisms elucidated"
+  ],
+  "catalytic_data": {
+    "kcat_range": "Variable across substrates",
+    "efficiency": "Context-dependent on substrate",
+    "regulation": "Inhibition patterns characterized"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "experiment_id": "dna-detection-amplification-free",
+  "description": "Input parameters for amplification-free DNA detection",
+  "detection_platform": {
+    "technology": [
+      "Electrochemical",
+      "Optical",
+      "Mechanical"
+    ],
+    "transduction": [
+      "Signal amplification via enzyme activity",
+      "Fluorescence changes",
+      "Electrical conductivity"
+    ]
+  },
+  "target_specification": {
+    "target_dna": [
+      "Single-stranded DNA",
+      "Double-stranded DNA",
+      "RNA"
+    ],
+    "length": "20-200 bp typical",
+    "background": "Complex genomic DNA"
+  },
+  "assay_performance": {
+    "sensitivity_target": "femtomolar to attomolar",
+    "specificity": "Single-nucleotide discrimination capability",
+    "throughput": "Single or multiplexed targets"
+  }
+}

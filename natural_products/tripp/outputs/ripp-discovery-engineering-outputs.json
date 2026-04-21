@@ -1,0 +1,245 @@
+{
+  "experiment_id": "ripp-discovery-engineering-comprehensive",
+  "title": "Discovery and engineering of ribosomally synthesized and post-translationally modified peptide (RiPP) natural products",
+  "date_published": "2023-11-21",
+
+  "discovery_approaches_summary": {
+    "traditional_methods": {
+      "bioactivity_guided_screening": "Historical primary approach, now showing limitations",
+      "limitations": [
+        "Most RiPP biosynthetic gene clusters (BGCs) are inactive under laboratory culture conditions",
+        "Limited knowledge of most microbial communities",
+        "Reaching practical limits due to expressed molecule limitations"
+      ]
+    },
+    "modern_genomics_based_approaches": {
+      "genome_mining": "Bottom-up approach using gene-based big data methods",
+      "advantages": [
+        "More rationalized and systematic than bioactivity screening",
+        "Access to silent or minimally expressed molecules",
+        "Enables heterologous expression and production without reliance on cultivation"
+      ],
+      "tools_evolution": [
+        "Early: BLAST (Basic Local Alignment Search)",
+        "Recent: Machine learning and neural network algorithms for unconventional BGCs"
+      ]
+    }
+  },
+
+  "bioactive_ripp_discoveries_table": [
+    {
+      "compound": "Kintamdin",
+      "ripp_class": "Novel class",
+      "origin": "Soil",
+      "biological_activity": "Cytotoxic",
+      "discovery_method": "Bioactivity-guided screening",
+      "reference": 43
+    },
+    {
+      "compound": "Phospeptin",
+      "ripp_class": "Novel class",
+      "origin": "Marine",
+      "biological_activity": "Anti-neutrophil elastase",
+      "discovery_method": "Bioactivity-guided screening",
+      "reference": 50
+    },
+    {
+      "compound": "Mechercharmycin A",
+      "ripp_class": "Polyazole cyclopeptides",
+      "origin": "Marine",
+      "biological_activity": "Antitumor",
+      "discovery_method": "Bioactivity-guided screening",
+      "reference": 55
+    },
+    {
+      "compound": "Streptosactin",
+      "ripp_class": "Sactipeptide",
+      "origin": "Human-related",
+      "biological_activity": "Antimicrobial",
+      "discovery_method": "Bioactivity-guided screening",
+      "reference": 64
+    }
+  ],
+
+  "genome_mining_discoveries_table": [
+    {
+      "compound": "Thuricin Z (Huazacin)",
+      "ripp_class": "Sactipeptide",
+      "mining_hallmark": "rSAM",
+      "biological_activity": "Antibacterial",
+      "novel_finding": "Narrow-spectrum sactibiotic effective against B. cereus and L. monocytogenes"
+    },
+    {
+      "compound": "Dynobactin A",
+      "ripp_class": "Dynobactin (novel)",
+      "mining_hallmark": "rSAM",
+      "biological_activity": "Anti-Gram-negative",
+      "novel_finding": "Improved water solubility vs darobactin; effective in mouse infection models"
+    },
+    {
+      "compound": "Bromodarobactin A",
+      "ripp_class": "Darobactin",
+      "mining_hallmark": "rSAM",
+      "biological_activity": "Anti-Gram-negative",
+      "novel_finding": "Distinct solubility and protein binding profiles"
+    },
+    {
+      "compound": "Daspyromycins A & B",
+      "ripp_class": "Lanthipeptide",
+      "mining_hallmark": "Cysteine decarboxylase",
+      "biological_activity": "Antimicrobial",
+      "novel_finding": "AviCys-containing; potent against MRSA and VRE"
+    },
+    {
+      "compound": "Daptides",
+      "ripp_class": "Daptide (novel)",
+      "mining_hallmark": "RRE-short ORFs",
+      "biological_activity": "Membrane targeting",
+      "novel_finding": "New RiPP class with unique structure"
+    },
+    {
+      "compound": "Marinsedin",
+      "ripp_class": "Lanthipeptide",
+      "mining_hallmark": "BGC identification",
+      "biological_activity": "Cytotoxic",
+      "novel_finding": "S-to-Cb thioether bond structure"
+    },
+    {
+      "compound": "Aeronamides",
+      "ripp_class": "Polytheonamide",
+      "mining_hallmark": "Precursor-epimerase-methyltransferase",
+      "biological_activity": "Cytotoxic",
+      "novel_finding": "Complex modification pattern"
+    }
+  ],
+
+  "ptm_enzyme_mining_strategies": {
+    "radical_sam_enzymes": {
+      "description": "Diverse rSAM enzymes associated with various RiPP maturases",
+      "function": "Reductively cleave SAM to form 5'-deoxyadenosyl radical",
+      "applications": [
+        "Sactipeptide biosynthesis - S-to-alpha carbon crosslink formation",
+        "Darobactin biosynthesis discovery",
+        "Darobactin analog mining using DarE enzyme"
+      ],
+      "scale": "B15,500 'RaS-RiPP' BGCs identified",
+      "advanced_methods": [
+        "SPECO workflow - identified 32,220 rSAM-based RiPP BGCs"
+      ]
+    },
+    "atp_grasp_ligase": {
+      "description": "Key component in graspetide BGCs",
+      "function": "Catalyzes cyclization with multiple rings interconnected by o-ester/o-amide bonds",
+      "discovery_scale": "5275 homologous proteins identified from 4 known ATP-grasp ligases",
+      "results": "9 new graspetide groups with novel core sequences",
+      "validation": "RODEO filtering yielded 3923 high-confidence graspetide BGCs",
+      "novel_graspetide": "Thatisin from Lysobacter antibioticus - features rare Asp14-Pro15 amide isomerism",
+      "total_graspetide_families": 174
+    },
+    "cysteine_decarboxylase": {
+      "substrate": "S-[(Z)-2-aminovinyl]-D-cysteine (AviCys)",
+      "mining_approach": "BLAST search of MibD from microbisporicin biosynthesis",
+      "bgcs_identified": 19,
+      "successful_heterologous_expression": "Daspyromycin A and B",
+      "bioactivity": "Potent against Gram-positive bacteria including MRSA and VRE"
+    }
+  },
+
+  "darobactin_discovery_cascade": {
+    "initial_discovery": {
+      "compound": "Darobactin A",
+      "significance": "First antibiotic effective against Gram-negative bacteria since 1960",
+      "mining_approach": "rSAM enzyme DarE-based search"
+    },
+    "analog_discovery": {
+      "darobactin_b_f": "Darobactins with 1-2 amino acid differences from core sequence",
+      "darobactin_b": {
+        "improvement": "Different pharmacokinetic properties",
+        "activity": "Slightly more effective on A. baumannii isolates"
+      }
+    },
+    "subsequent_discovery": {
+      "compound": "Dynobactin A",
+      "source": "Photorhabdus australis",
+      "improvements": [
+        "Improved water solubility compared to darobactin",
+        "Efficacy in systemic E. coli infection in mouse models"
+      ]
+    },
+    "advanced_mining": {
+      "gene_target": "DarE with additional genes (darG, darF, darH)",
+      "darh_enzyme": "FAD-dependent oxidoreductase and new flavin-dependent halogenase",
+      "discovered_derivatives": [
+        "Bromodarobactin A",
+        "Dehydrobromodarobactin A",
+        "Dehydrodarobactin A"
+      ],
+      "properties": "Distinct solubility and plasma protein binding profiles with greater effectiveness than darobactin A"
+    }
+  },
+
+  "ripp_classes_and_characteristics": [
+    {
+      "class": "Sactipeptide",
+      "key_feature": "Sulfur-to-alpha carbon crosslink (S-to-Ca thioether bond)",
+      "examples": ["Thuricin Z", "Streptosactin"],
+      "ptm_enzyme": "rSAM enzymes"
+    },
+    {
+      "class": "Lanthipeptide",
+      "key_feature": "Lantipeptide structures",
+      "examples": ["Marinsedin", "Daspyromycins"],
+      "ptm_enzyme": "Various including cysteine decarboxylase"
+    },
+    {
+      "class": "Graspetide",
+      "key_feature": "Multiple rings interconnected by o-ester or o-amide bonds",
+      "examples": ["Thatisin"],
+      "ptm_enzyme": "ATP-grasp ligase"
+    },
+    {
+      "class": "Lasso peptide",
+      "key_feature": "Lasso-like structure",
+      "mining_hallmark": "Asparagine synthetase B-like proteins"
+    },
+    {
+      "class": "Darobactin",
+      "key_feature": "Gram-negative activity",
+      "examples": ["Darobactin A-F", "Bromodarobactin A"],
+      "ptm_enzyme": "rSAM enzyme DarE"
+    },
+    {
+      "class": "Thiopeptide",
+      "key_feature": "Sulfur-containing aromatic ring",
+      "mining_hallmark": "[4+2]-cycloaddition enzymes"
+    },
+    {
+      "class": "Linaridin",
+      "key_feature": "Linear structure with modifications",
+      "mining_hallmark": "a/b hydrolase fold proteins and horizontally transferred transmembrane helix (HTTH) proteins"
+    }
+  ],
+
+  "limitations_of_genome_mining": [
+    "Generally confined to known RiPP classes due to similarity-based searches",
+    "PTM enzymes often share significant homology with enzymes in other metabolic pathways",
+    "Can yield products unrelated to RiPPs",
+    "Requires continuous refinement of mining hallmarks"
+  ],
+
+  "advancing_mining_strategies": {
+    "ptm_enzyme_hallmarks": "Identification of specific PTM enzyme families to locate RiPP families",
+    "precursor_peptide_hallmarks": "Novel gene mining approaches for precursor peptides",
+    "combined_approaches": "Integration of multiple genetic element co-occurrence patterns",
+    "machine_learning": "Neural network algorithms for unconventional BGCs prediction"
+  },
+
+  "key_insights": [
+    "Bioactivity-guided screening now showing diminishing returns",
+    "Genome mining combined with heterologous expression is driving novel RiPP discovery",
+    "Silent BGCs in microbial genomes represent vast untapped potential",
+    "Structural diversity of RiPPs determined by PTM enzymes and precursor peptide sequences",
+    "Machine learning improving discovery of non-conventional RiPP structures",
+    "Integration of multiple mining strategies increases discovery success"
+  ]
+}

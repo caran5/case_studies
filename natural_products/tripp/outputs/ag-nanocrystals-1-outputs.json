@@ -1,0 +1,141 @@
+{
+  "experiment_id": "ag-nanocrystals-1",
+  "title": "Ag Nanocrystals: 1. Effect of Ligands on Plasmonic Properties",
+  "date_published": "2014-09-08",
+
+  "nanocrystal_synthesis_results": {
+    "oleylamine_coated_nanocrystals": {
+      "size_range_nm": [2.2, 7.0, 12.9],
+      "method": "hot-injection with AgNO3 and oleylamine into hot dodecanediol solution",
+      "reaction_temperature": 180,
+      "reaction_temperature_unit": "celsius",
+      "reaction_time": 3,
+      "reaction_time_unit": "minutes",
+      "size_distribution_percent": "<10",
+      "morphology": "multiply twined particles (MTPs), icosahedral"
+    },
+    "dodecylamine_coated_nanocrystals": {
+      "size_range_nm": [3.0, 6.3],
+      "description": "Similar to oleylamine but with shorter alkyl chain (C12 vs C18)",
+      "size_distribution_percent": "<10",
+      "morphology": "monodisperse, 2D hexagonal closed-packed arrays"
+    },
+    "dodecanethiol_coated_nanocrystals": {
+      "size_range_nm": [2.2, 6.0],
+      "method": "ligand exchange from preformed oleylamine-coated NCs",
+      "ligand_exchange_procedure": "20 microliters dodecanethiol per 10 mg Ag NCs, 1 hour stirring",
+      "ligand_exchange_efficiency": ">80%",
+      "size_distribution_percent": "<10 (except 2.2 nm)",
+      "morphology": "2D hexagonal structures"
+    },
+    "hexadecanethiol_coated_nanocrystals": {
+      "size_range_nm": [2.2, 6.0],
+      "method": "ligand exchange procedure similar to dodecanethiol",
+      "size_distribution_percent": "<10",
+      "morphology": "2D hexagonal structures"
+    }
+  },
+
+  "ligand_exchange_analysis": {
+    "method": "ICP-AES (Inductively Coupled Plasma-Atomic Emission Spectroscopy)",
+    "test_sample": "6 nm oleylamine-coated Ag NCs exchanged to dodecanethiol",
+    "before_exchange": {
+      "nitrogen_ww_percent": 0.44,
+      "sulfur_ww_percent": "NA",
+      "silver_ww_percent": 70.96
+    },
+    "after_exchange": {
+      "nitrogen_ww_percent": "<0.10",
+      "sulfur_ww_percent": 2.7,
+      "silver_ww_percent": 90.09
+    },
+    "conclusion": "At least 80% of amine-terminated ligands successfully exchanged for thiol compounds"
+  },
+
+  "surface_plasmon_resonance_results": {
+    "oleylamine_coated_nanocrystals": {
+      "observation": "Size-dependent SPR band shift",
+      "spr_trend": "Blue-shift (shift to smaller wavelengths and higher energies) with increasing NC size",
+      "size_range_nm": [2.2, 5.9],
+      "mechanism": "Plasmonic core/shell theory - electron conductivity lower in outer Ag layer bound to coating agents"
+    },
+    "dodecylamine_coated_nanocrystals": {
+      "spr_trend": "Same size-dependent blue-shift pattern as oleylamine",
+      "comparison": "SPR band position shows no significant shift with alkyl chain length change (C12 vs C18)"
+    },
+    "dodecanethiol_vs_hexadecanethiol": {
+      "spr_energy_comparison": {
+        "dodecanethiol_6nm_eV": 2.89,
+        "hexadecanethiol_6nm_eV": 2.85
+      },
+      "observation": "Significant shift based on alkyl chain length",
+      "mechanism": "Stronger chemical bond between thiol and metallic surface makes SPR sensitive to ligand chain length variations"
+    },
+    "amine_vs_thiol_coated": {
+      "observation": "Alkanethiol (Cx-SH) coated NCs show SPR bands at much lower energies than alkylamine (Cx-NH2) coated NCs",
+      "mechanism": "Thiol head groups bond more strongly than amine-terminated ligands to metallic surfaces"
+    }
+  },
+
+  "optical_characterization": {
+    "instrumentation": {
+      "TEM": "JEOL JEM 1011 (acceleration voltage: 100 kV)",
+      "UV_visible_spectroscopy": "Varian Cary 5000 spectrophotometer",
+      "cuvette_path_length_mm": 1
+    },
+    "key_findings": [
+      "All NC types regardless of size arranged in 2D hexagonal closed-packed arrays",
+      "Well-defined SPR bands characteristic of low size distribution",
+      "Absorption spectra show normalized optical responses",
+      "No aggregation observed before or after ligand exchange"
+    ]
+  },
+
+  "structural_analysis": {
+    "electron_microscopy_observations": {
+      "nanocrystal_arrangement": "2D hexagonal closed-packed arrays characteristic of low size distribution (<10%)",
+      "crystal_morphology": "Multiply twined particles (MTPs), likely icosahedral",
+      "high_resolution_tem": "All NCs confirmed as icosahedral structures",
+      "literature_context": "Same icosahedral crystals reported by Peng et al. for Ag NCs"
+    }
+  },
+
+  "comparative_analysis": {
+    "synthesis_efficiency": "New platform for size-controllable synthesis of Ag NCs without size-focusing process",
+    "ligand_type_effects": {
+      "amine_ligands": "SPR position largely independent of alkyl chain length",
+      "thiol_ligands": "SPR position significantly dependent on alkyl chain length",
+      "explanation": "Bond strength differences affect sensitivity to ligand structural variations"
+    }
+  },
+
+  "materials_and_methods_summary": {
+    "reagents": {
+      "silver_nitrate": "99.9% purity",
+      "solvent": "toluene (98%), o-dichlorobenzene (DCB, 99%)",
+      "coating_agents": [
+        "oleylamine (>70%)",
+        "dodecylamine (>98%)",
+        "dodecanethiol (>98%)",
+        "hexadecanethiol (>95%)"
+      ],
+      "reducing_agent": "1,2-dodecanediol (>99%)"
+    },
+    "typical_6nm_synthesis": {
+      "silver_precursor": "0.1 g AgNO3 in 5 mL DCB mixed with 1 mL oleylamine",
+      "injection_temperature": 180,
+      "injection_temperature_unit": "celsius",
+      "reducing_medium": "10 mL DCB containing 100 mg dodecanediol",
+      "color_change_timepoint": "Short period after injection",
+      "cooling_method": "Natural cooling to room temperature after 180 seconds"
+    }
+  },
+
+  "key_conclusions": [
+    "Size-controllable Ag NC synthesis (2.2-12.9 nm) achievable without post-synthesis size segregation",
+    "Ligand type significantly affects SPR properties for given NC size",
+    "Thiol-stabilized NCs show chain-length dependent SPR shifts; amine-stabilized do not",
+    "Strong thiol-metal bonds create enhanced sensitivity to ligand structural variations",
+    "Successful ligand exchange from amines to thiols (>80% efficiency) enables post-synthesis modification of NC properties"
+  ]
+}

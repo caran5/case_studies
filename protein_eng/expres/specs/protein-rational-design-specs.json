@@ -1,0 +1,8 @@
+{
+  "experiment_id": "protein-rational-design",
+  "title": "Application of computational design to protein engineering",
+  "research_objectives": [
+    "Design proteins with novel functions computationally",
+    "Validate designs through experimental characterization"
+  ]
+}

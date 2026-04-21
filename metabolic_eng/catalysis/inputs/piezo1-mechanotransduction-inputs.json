@@ -1,0 +1,20 @@
+{
+  "experiment_id": "piezo1-mechanotransduction",
+  "description": "Input parameters for studying PIEZO1 ion channel function and mechanotransduction",
+  
+  "piezo1_characteristics": {
+    "function": "Ion channel mediator of mechanotransduction",
+    "expression": [
+      "Vascular endothelium",
+      "Renal tubular cells",
+      "Erythrocytes"
+    ]
+  },
+
+  "genetic_variations": {
+    "gain_of_function": "Causes autosomal dominant hemolytic anemia",
+    "loss_of_function": "Previously undocumented in humans"
+  },
+
+  "analysis_methods": ["Whole-exome sequencing", "Functional assays", "Heterologous systems"]
+}

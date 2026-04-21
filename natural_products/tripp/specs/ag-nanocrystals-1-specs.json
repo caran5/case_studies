@@ -1,0 +1,183 @@
+{
+  "paper_id": "ag-nanocrystals-1",
+  "title": "Ag Nanocrystals: 1. Effect of Ligands on Plasmonic Properties",
+  "authors": ["Jingjing Wei", "Nicolas Schaeffer", "Marie-Paule Pileni"],
+  "publication": "The Journal of Physical Chemistry B, 2014",
+  "objective": "Synthesize and characterize silver nanocrystals (Ag NCs) of varying sizes (2-12 nm) with different surface ligand coatings and investigate how ligand type and alkyl chain length affect plasmonic properties (surface plasmon resonance - SPR)",
+
+  "problem_statement": "Understand the effect of coating agent (ligand) on the optical properties of silver nanocrystals, specifically the surface plasmon resonance (SPR) peak position as a function of nanocrystal size and ligand type",
+
+  "core_parameters": {
+    "nanocrystal_material": "Silver (Ag)",
+    "size_range_nm": [2, 12],
+    "solvent": "Toluene",
+    "measurement_temperature": "Room temperature"
+  },
+
+  "ligand_types": [
+    {
+      "name": "Oleylamine",
+      "formula": "C18-NH2",
+      "type": "amine-terminated",
+      "alkyl_chain_length": 18
+    },
+    {
+      "name": "Dodecylamine",
+      "formula": "C12-NH2",
+      "type": "amine-terminated",
+      "alkyl_chain_length": 12
+    },
+    {
+      "name": "Dodecanethiol",
+      "formula": "C12-SH",
+      "type": "thiol-terminated",
+      "alkyl_chain_length": 12
+    },
+    {
+      "name": "Hexadecanethiol",
+      "formula": "C16-SH",
+      "type": "thiol-terminated",
+      "alkyl_chain_length": 16
+    }
+  ],
+
+  "synthesis_methods": {
+    "amine_coated": {
+      "name": "Hot Injection Method",
+      "steps": [
+        "Dissolve AgNO3 in DCB with amine coating agent",
+        "Rapidly inject into hot dodecanediol solution",
+        "Reaction temperature: 140-180°C",
+        "Reaction time: 3 minutes",
+        "Cool to room temperature naturally",
+        "Purify via ethanol-toluene washing cycles",
+        "Redisperse in toluene"
+      ],
+      "parameters": {
+        "agno3_mass_g_range": [0.03, 0.5],
+        "temperature_range_C": [140, 180],
+        "reaction_time_s": 180,
+        "dcb_volume_ml": 10,
+        "dodecanediol_mass_mg": 100
+      }
+    },
+    "thiol_coated": {
+      "name": "Ligand Exchange",
+      "description": "Direct hot injection cannot be used for thiol-coated NCs; use ligand exchange from preformed amine-coated NCs",
+      "steps": [
+        "Start with preformed oleylamine-coated NCs",
+        "Add thiol coating agent (dodecanethiol or hexadecanethiol)",
+        "Stir vigorously for 1 hour at room temperature",
+        "Add ethanol to induce flocculation",
+        "Remove excess thiol from supernatant",
+        "Redisperse NCs in toluene"
+      ],
+      "parameters": {
+        "thiol_amount_ul_per_10mg_nc": 20,
+        "stirring_time_h": 1,
+        "stirring_intensity": "vigorous"
+      }
+    }
+  },
+
+  "characterization_methods": [
+    {
+      "name": "Transmission Electron Microscopy (TEM)",
+      "instrument": "JEOL JEM 1011",
+      "parameters": {
+        "acceleration_voltage_kV": 100
+      },
+      "measures": ["nanocrystal_size", "morphology", "size_distribution", "crystal_structure"]
+    },
+    {
+      "name": "UV-Visible Absorption Spectroscopy",
+      "instrument": "Varian Cary 5000 Spectrophotometer",
+      "parameters": {
+        "cuvette_path_length_mm": 1
+      },
+      "measures": ["SPR_peak_position", "SPR_bandwidth", "absorption_spectra"]
+    },
+    {
+      "name": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+      "measures": ["elemental_composition", "ligand_exchange_efficiency"]
+    }
+  ],
+
+  "key_questions": [
+    "How does nanocrystal size affect SPR peak position for a given coating agent?",
+    "How does coating agent type (amine vs thiol) affect SPR peak position for a given size?",
+    "How does alkyl chain length of coating agent affect SPR properties?",
+    "What is the efficiency of ligand exchange from amine to thiol?",
+    "How do electronic properties (dephasing time) vary with ligand type?"
+  ],
+
+  "expected_outputs": {
+    "size_distribution": "< 10% without post-synthesis segregation",
+    "morphology": "Multiply-twinned particles (MTPs) with icosahedral structures",
+    "assembly_structure": "2D hexagonal close-packed arrays",
+    "size_control_ranges": {
+      "oleylamine_coated": [2.2, 7.0],
+      "dodecylamine_coated": [3.0, 6.3],
+      "dodecanethiol_coated": [2.2, 6.0],
+      "hexadecanethiol_coated": [2.9, 7.8]
+    }
+  },
+
+  "acceptance_criteria": {
+    "success_metrics": [
+      "Achieve size distribution coefficient of variation < 10% for each ligand type",
+      "SPR peak position predictable from nanocrystal size (R² > 0.95)",
+      "Ligand exchange efficiency > 80% as measured by ICP-AES",
+      "Nanocrystal morphology confirmed as icosahedral MTPs via TEM",
+      "Demonstrate size tuning capability across specified ranges (2.2-12.9 nm)"
+    ],
+    "failure_criteria": [
+      "Size distribution > 15% (uncontrolled synthesis)",
+      "SPR peak position inconsistent with literature values (>20 nm deviation)",
+      "Ligand exchange efficiency < 60% (incomplete coating)",
+      "Evidence of aggregation or phase separation"
+    ]
+  },
+
+  "assumptions": [
+    "Nanocrystal size is primary determinant of SPR peak position",
+    "Ligand coating type and chain length affect optical properties predictably",
+    "Room temperature storage maintains nanocrystal stability in toluene",
+    "Toluene solvent does not interfere with optical measurements",
+    "ICP-AES measurements accurately reflect elemental composition and ligand coverage",
+    "Multiplication-twinned particle formation is dominant morphology under stated conditions"
+  ],
+
+  "known_limitations": [
+    "Method limited to sizes 2-12 nm; ultra-small (<2 nm) and large (>13 nm) NCs require alternative synthesis",
+    "Size control becomes more challenging at extremes of size range",
+    "Ligand exchange efficiency may vary with storage time and ligand degradation",
+    "SPR measurements sensitive to nanoparticle aggregation; require careful handling",
+    "Hot injection method requires specialized equipment and safety precautions (high temperature organic chemistry)",
+    "Results specific to noble metal Ag; cannot be directly transferred to Au or other metals without method adaptation",
+    "Post-synthesis segregation by size requires additional processing steps and equipment (gel electrophoresis)"
+  ],
+
+  "alternative_methods_considered": [
+    {
+      "method": "Chemical reduction in solution at room temperature",
+      "rationale_rejected": "Lower control over nanocrystal size distribution and morphology compared to hot injection",
+      "disadvantage": "Produces broader size distributions (>20%)"
+    },
+    {
+      "method": "Sonochemical synthesis",
+      "rationale_rejected": "Generates nanocrystals with higher polydispersity and different surface properties",
+      "disadvantage": "Less reproducible results; fewer studies on ligand effects"
+    },
+    {
+      "method": "Microwave-assisted synthesis",
+      "rationale_rejected": "While promising, less well-established for Ag NCs with fine ligand control",
+      "disadvantage": "Would require significant method development"
+    },
+    {
+      "method": "Direct surface ligand exchange during synthesis (in-situ)",
+      "rationale_selected_alternative": "Tested initially but led to incomplete exchange; post-synthesis approach more reproducible",
+      "outcome": "Post-synthesis ligand exchange selected as standard protocol"
+    }
+  ]
+}}

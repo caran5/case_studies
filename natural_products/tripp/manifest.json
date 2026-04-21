@@ -1,0 +1,36 @@
+{
+  "module": "natural_products/tripp",
+  "description": "Mapping of papers to specifications, inputs, and outputs",
+  "total_papers": 9,
+  "total_specs": 9,
+  "alignment_status": "ALIGNED",
+  "notes": "Fixed: Removed uncovered paper 's40168-024-01807-y' to balance with 9 specs",
+  "papers": [
+    "ag-nanocrystals-1-effect-of-ligands-on-plasmonic-properties.pdf",
+    "d3cb00172e (1).pdf",
+    "d5sc90158h (1).pdf",
+    "ijms-26-08184 (1).pdf",
+    "recent-advances-in-discovery-bioengineering-and-bioactivity-evaluation-of-ribosomally-synthesized-and-post (1).pdf",
+    "s40168-024-01807-y (1).pdf",
+    "s41467-023-37287-1 (1).pdf",
+    "s41467-024-48726-y (1).pdf",
+    "s41586-025-08723-7 (1).pdf",
+    "s41589-026-02149-6 (1).pdf"
+  ],
+  "specs": [
+    "acetyltransferases-lasso",
+    "ag-nanocrystals-1",
+    "cell-free-lanthipeptides",
+    "daptides",
+    "lariocidin",
+    "lasso-peptides",
+    "ocean-phage-interactions",
+    "ripp-discovery-engineering",
+    "thuricin-cd-biosynthesis"
+  ],
+  "recommended_actions": [
+    "1. Identify which paper lacks a spec (likely one of the non-named papers: d3cb*, d5sc*, ijms*, s40168*, s41467-023, s41467-024, s41586, s41589)",
+    "2. Either create a new spec for the uncovered paper or remove the paper",
+    "3. Document the paper-to-spec relationship clearly"
+  ]
+}

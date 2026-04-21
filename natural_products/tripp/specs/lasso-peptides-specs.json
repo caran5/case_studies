@@ -1,0 +1,140 @@
+{
+  "paper_id": "lasso-peptides",
+  "title": "Lasso Peptides—A New Weapon Against Superbugs",
+  "authors": ["Piotr Mucha", "Jarosław Ruczyński", "Katarzyna Prochera", "Piotr Rekowski"],
+  "publication": "International Journal of Molecular Sciences, 2025, 26(17):8184",
+  "objective": "Review the structural, synthetic, and antibacterial properties of lasso peptides as potential antimicrobial agents against multi-drug-resistant bacteria (superbugs)",
+
+  "problem_statement": "The emergence of multi-drug-resistant (MDR) bacteria represents one of the greatest challenges for modern medicine. Current antibiotics have become ineffective due to rapid resistance development. Lasso peptides represent a promising new class of RiPPs with unique structural properties that could bind to new molecular targets and overcome existing resistance mechanisms",
+
+  "lasso_peptide_definition": {
+    "name": "Lasso Peptides (Lariat Peptides)",
+    "type": "Ribosomally synthesized and post-translationally modified peptides (RiPPs)",
+    "key_structural_feature": "C-terminal tail trapped in a macrolactam ring forming a slip knot-like shape",
+    "structure": "Structurally constrained knotted fold resembling a lasso",
+    "ring_formation": "Isopeptide bond between N-terminal amino group and β- or γ-carboxyl group of Asp/Glu",
+    "typical_size": "16-21 amino acid residues",
+    "known_examples": 50,
+    "predicted_sequences": "Thousands by bioinformatics"
+  },
+
+  "core_structural_parameters": {
+    "macrolactam_ring_size": "8-9 amino acid residues (optimal)",
+    "minimum_ring_size": 7,
+    "maximum_ring_size": "greater than 9 (too flexible)",
+    "atoms_locked_in_optimal_ring": "22 atoms (Asp) or 23 atoms (Glu)",
+    "additional_modifications": "Disulfide bridges (variable)"
+  },
+
+  "lasso_peptide_classes": {
+    "class_I": {
+      "description": "Typically contain disulfide bridges",
+      "examples": ["MS-271", "RP 71955/Aborycin", "Siamycin I", "Siamycin II", "Stlassin", "Streptomonomycin"]
+    },
+    "class_II": {
+      "description": "Most common class without multiple disulfide bridges",
+      "examples": ["Microcin J25", "Lariatin A", "Lariatin B", "Lassomycin", "Capistruin"]
+    },
+    "class_III": {
+      "description": "Contains specific structural variants",
+      "examples": ["BI-32169"]
+    },
+    "class_IV": {
+      "description": "Complex macrolactam structures",
+      "examples": ["Felipeptin A1", "Felipeptin A2", "Lp2006", "Pandonodin"]
+    },
+    "class_V": {
+      "description": "Double-lariat structures with additional isopeptide bond",
+      "examples": ["Lariocidin B (LAR-B)"]
+    }
+  },
+
+  "biological_properties": {
+    "known_bioactivities": [
+      "Antimicrobial activity",
+      "Anticancer activity",
+      "Antiviral properties",
+      "Enzyme inhibition"
+    ],
+    "mechanisms": [
+      "Binding to unique molecular targets of multi-drug-resistant bacteria",
+      "Blocking main metabolic pathways",
+      "Inhibiting infection"
+    ],
+    "target_pathogens": [
+      "Gram-positive bacteria",
+      "Gram-negative bacteria",
+      "Multi-drug-resistant (MDR) bacteria"
+    ]
+  },
+
+  "physical_properties": {
+    "thermal_stability": "Remarkable thermal stability in physiological environment",
+    "proteolytic_stability": "Remarkable proteolytic stability in physiological environment",
+    "conformational_freedom": "Constrained due to lasso structure (unlike typical peptides)"
+  },
+
+  "biosynthesis_characteristics": {
+    "expression": "Expression of a cluster of genes encoding",
+    "components": [
+      "Lasso peptide sequence itself",
+      "Auxiliary sequences",
+      "Enzymes involved in post-translational processing",
+      "Proteolysis enzymes"
+    ],
+    "formation_mechanism": "Post-translational processing leading to ring closure and lasso structure formation"
+  },
+
+  "synthetic_challenges": {
+    "major_challenge": "Recreating lasso peptide synthesis using modern organic chemistry is a virtually unsolved challenge",
+    "reason": "Atypical rigid structural element (macrolactam ring with threaded tail) makes chemical synthesis extremely difficult",
+    "advantage_of_biological_synthesis": "Biosynthetic systems solve this problem naturally"
+  },
+
+  "pharmaceutical_potential": {
+    "advantages": [
+      "Thermal stability enables long-term storage",
+      "Proteolytic stability enables oral administration",
+      "Can be conjugated with other bioactive molecules",
+      "Bind to new molecular targets unlike conventional antibiotics",
+      "Broad spectrum activity"
+    ],
+    "application": "\"Last chance\" weapon against emerging superbugs"
+  },
+
+  "known_lasso_peptides_with_data": [
+    {
+      "name": "Microcin J25",
+      "sequence": "GGAGHVPE YFVGIGTPISFYG",
+      "class": "II",
+      "first_discovered": 1992,
+      "archetypal_structure": true,
+      "activity": "Active against Gram-negative bacteria"
+    },
+    {
+      "name": "Lariocidin (LAR)",
+      "sequence": "SKKSKPGD GKFGRGVKRG",
+      "class": "II",
+      "activity": "Broad-spectrum lasso peptide antibiotic targeting bacterial ribosome"
+    },
+    {
+      "name": "Lariocidin B (LAR-B)",
+      "sequence": "SK (&) KSKPGD GKFGRGVKR(&)",
+      "class": "V",
+      "activity": "Double-lariat structure with improved activity",
+      "note": "Features additional isopeptide bond"
+    },
+    {
+      "name": "Lassomycin",
+      "sequence": "GLRRLFAD QLVGRRNI",
+      "class": "II",
+      "activity": "Targets microbial ClpP protease, antimycobacterial activity"
+    },
+    {
+      "name": "Capistruin",
+      "sequence": "GTPGFQTP DARVISRFGFN",
+      "class": "II",
+      "activity": "Active against Gram-negative bacteria, blocks RNA polymerase"
+    }
+  ]
+}

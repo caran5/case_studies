@@ -1,0 +1,21 @@
+{
+  "experiment_id": "ripp-ptm-diversity",
+  "description": "Experimental parameters for RiPP PTM diversity studies",
+
+  "genome_mining_methodology": {
+    "bgc_identification": ["antiSMASH", "NeuRiPP", "RODEO"],
+    "precursor_prediction": ["Machine learning models", "Sequence analysis", "Pattern recognition"],
+    "ptm_enzyme_detection": ["Domain-based search", "Homology detection", "Active site identification"]
+  },
+
+  "ripp_characterization": {
+    "prediction_tools": ["Structure prediction from PTM enzymes", "Biosynthetic logic application"],
+    "experimental_validation": ["Heterologous expression", "Metabolite isolation", "Structural elucidation"]
+  },
+
+  "enzyme_promiscuity_studies": {
+    "substrate_variation": "Testing enzyme activity with variant substrates",
+    "ptm_prediction": "Determining possible post-translational modifications",
+    "novel_product_prediction": "Identifying previously uncharacterized products"
+  }
+}

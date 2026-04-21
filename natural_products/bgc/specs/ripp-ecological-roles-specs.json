@@ -1,0 +1,35 @@
+{
+  "experiment_id": "ripp-ecological-roles",
+  "title": "Ecological roles of ribosomally synthesized and post-translationally modified peptides (RiPPs)",
+
+  "research_focus": [
+    "Understanding ecological functions of RiPPs",
+    "Discovery of antiphage defense mechanisms",
+    "Characterization of RiPP-mediated bacterial competition",
+    "RiPP roles in biofilm formation and maintenance",
+    "Ecological significance of RiPP diversity"
+  ],
+
+  "ripp_significance": {
+    "scope": "One of the largest and most promising sources of therapeutic agents",
+    "structural_diversity": "Remarkable structural variety",
+    "functional_versatility": "Diverse biological activities",
+    "therapeutic_potential": "High promise for drug development"
+  ],
+
+  "ecological_contexts": {
+    "bacterial_defense": "Competition and defense mechanisms",
+    "host_interactions": "Microbe-host signaling",
+    "biofilm_roles": "Structural and functional components",
+    "signaling_molecules": "Quorum sensing and communication",
+    "nutrient_competition": "Resource acquisition strategies"
+  ],
+
+  "research_themes": [
+    "Antiphage defense peptides",
+    "Bacteriocin-mediated competition",
+    "Biofilm matrix components",
+    "Horizontal gene transfer facilitators",
+    "Ecological niche maintenance"
+  ]
+}

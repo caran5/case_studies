@@ -1,0 +1,23 @@
+{
+  "experiment_id": "protein-epistasis-design",
+  "title": "Addressing epistasis in the design of protein function",
+  "date_published": "2024-01-01",
+
+  "research_objectives": [
+    "Understand epistatic interactions in protein fitness landscapes",
+    "Develop computational methods to predict epistasis",
+    "Design strategies to overcome epistasis in protein engineering",
+    "Integrate epistasis prediction into protein design workflows"
+  ],
+
+  "research_scope": {
+    "focus_area": "Epistasis in protein engineering and rational design",
+    "methodology": "Computational and experimental approaches",
+    "key_concepts": [
+      "Epistasis",
+      "Genetic interactions",
+      "Protein fitness",
+      "Design constraints"
+    ]
+  }
+}

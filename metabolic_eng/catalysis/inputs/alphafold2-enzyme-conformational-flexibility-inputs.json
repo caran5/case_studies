@@ -1,0 +1,66 @@
+{
+  "experiment_id": "alphafold2-enzyme-conformational-flexibility",
+  "description": "Input parameters for computational study of enzyme conformational flexibility using AlphaFold2 and deep learning approaches",
+  
+  "protein_structure_prediction_parameters": {
+    "tool": "AlphaFold2",
+    "input_data": "Protein primary sequences",
+    "neural_network_architecture": "Evolutionary-informed with geometric constraints",
+    "prediction_accuracy": "High-resolution 3D structures"
+  },
+
+  "conformational_dynamics_analysis": {
+    "focus": "Multiple thermally accessible conformations",
+    "methodology": "Free Energy Landscape (FEL) reconstruction",
+    "molecular_dynamics_comparison": "Lower computational cost vs MD simulations",
+    "conformational_modes": [
+      "Side-chain conformational changes (fast timescale)",
+      "Loop motions (substrate binding/product release)",
+      "Allosteric transitions (slowest processes)"
+    ]
+  },
+
+  "computational_approaches": [
+    {
+      "method": "AlphaFold2 tuning",
+      "application": "Generate multiple protein conformations",
+      "advantage": "Low computational cost for mutation analysis"
+    },
+    {
+      "method": "Multiple Sequence Alignment (MSA) manipulation",
+      "techniques": ["MSA depth alteration", "MSA position masking", "MSA clustering"]
+    },
+    {
+      "method": "Template-based predictions",
+      "purpose": "Improve conformational diversity generation"
+    },
+    {
+      "method": "Deep Learning for protein design",
+      "application": "Enzyme conformational landscape design"
+    }
+  ],
+
+  "enzyme_model_systems": {
+    "example_enzyme": "Adenylate kinase (AdK)",
+    "catalytic_features": "Lid structure covering active site",
+    "conformational_transitions": "Open to closed structure changes",
+    "catalytic_cycle_steps": [
+      "Substrate binding (ES complex formation)",
+      "Substrate activation",
+      "Transition state stabilization",
+      "Product release"
+    ]
+  },
+
+  "free_energy_landscape_components": {
+    "states_analyzed": ["Free enzyme (E)", "Enzyme-substrate (ES)", "Enzyme-product (EP)"],
+    "key_parameters": "Collective degrees of freedom (DOF)",
+    "information_provided": ["Thermodynamics", "Kinetics", "Conformational transition barriers"]
+  },
+
+  "directed_evolution_context": {
+    "experimental_validation": "X-ray crystallography with B-factors",
+    "complementary_techniques": ["Room-temperature X-ray experiments", "NMR experiments"],
+    "purpose": "Validate conformational landscape changes induced by mutations"
+  }
+}

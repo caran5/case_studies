@@ -1,0 +1,28 @@
+{
+  "experiment_id": "synthetic-biology-metabolic-engineering",
+  "description": "Input parameters for metabolic engineering and synthetic biology",
+  "pathway_engineering": {
+    "target_compounds": [
+      "Biofuels",
+      "Pharmaceuticals",
+      "Chemicals"
+    ],
+    "host_optimization": [
+      "Strain engineering",
+      "Gene knockouts",
+      "Pathway overexpression"
+    ]
+  },
+  "optimization_approach": {
+    "methods": [
+      "Metabolic flux analysis",
+      "Rational design",
+      "Adaptive laboratory evolution"
+    ],
+    "readouts": [
+      "Titers",
+      "Yields",
+      "Productivities"
+    ]
+  }
+}

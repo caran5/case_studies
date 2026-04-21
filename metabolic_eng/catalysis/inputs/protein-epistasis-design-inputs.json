@@ -1,0 +1,20 @@
+{
+  "experiment_id": "protein-epistasis-design",
+  "description": "Input parameters for addressing epistasis in the design of protein function",
+  
+  "epistasis_definition": {
+    "concept": "Non-additive interactions between mutations",
+    "impact": "Effects of one mutation depend on genetic background"
+  },
+
+  "protein_design_challenge": {
+    "problem": "Epistatic interactions complicate design predictions",
+    "scope": "Affects all protein engineering efforts"
+  },
+
+  "design_strategies": [
+    "Computational prediction of epistasis",
+    "Ensemble-based design approaches",
+    "Machine learning integration"
+  ]
+}

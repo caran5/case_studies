@@ -1,0 +1,24 @@
+{
+  "experiment_id": "piezo1-mechanotransduction",
+  "title": "Impaired PIEZO1 function in patients with a novel autosomal recessive congenital lymphatic dysplasia",
+  "date_published": "2015-09-21",
+  "journal": "Nature Communications",
+
+  "primary_findings": {
+    "novel_discovery": "PIEZO1 loss-of-function associated with congenital lymphatic dysplasia",
+    "genetic_basis": "Biallelic mutations identified in patient siblings",
+    "phenotype": "Persistent lymphoedema from compromised lymphatic development",
+    "significance": "Delineates novel clinical category of PIEZO1-associated hereditary lymphoedema"
+  },
+
+  "mutations_identified": {
+    "mutation1": "Splicing variant leading to early truncation",
+    "mutation2": "Non-synonymous missense variant",
+    "effect": "Greatly attenuated PIEZO1 function in affected alleles"
+  },
+
+  "mechanotransduction_role": {
+    "new_understanding": "PIEZO1 essential for lymphatic system development and function",
+    "prior_knowledge": "Known for vascular, renal, and erythrocyte mechanotransduction"
+  }
+}

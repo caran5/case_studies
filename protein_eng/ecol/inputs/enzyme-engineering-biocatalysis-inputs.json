@@ -1,0 +1,42 @@
+{
+  "experiment_id": "enzyme-engineering-biocatalysis",
+  "description": "Input parameters for enzyme engineering for industrial biocatalysis",
+  "enzyme_properties": {
+    "optimization_targets": [
+      "Catalytic efficiency (kcat/Km)",
+      "Substrate specificity",
+      "Thermostability",
+      "pH optimum",
+      "Solvent tolerance"
+    ],
+    "initial_enzyme": "Natural enzyme starting point",
+    "target_reaction": "Industrial-relevant transformation"
+  },
+  "engineering_methods": {
+    "rational_design": [
+      "Structure-guided mutagenesis",
+      "Active site engineering"
+    ],
+    "directed_evolution": [
+      "Random mutagenesis",
+      "Combinatorial libraries"
+    ],
+    "hybrid_approaches": [
+      "Iterative rounds of both"
+    ]
+  },
+  "process_requirements": {
+    "throughput": "Production scale considerations",
+    "conditions": [
+      "Temperature",
+      "pH",
+      "Substrate concentration",
+      "Cofactors"
+    ],
+    "cost_factors": [
+      "Enzyme production",
+      "Recovery",
+      "Reuse potential"
+    ]
+  }
+}

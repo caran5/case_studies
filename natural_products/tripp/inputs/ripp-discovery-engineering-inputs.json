@@ -1,0 +1,292 @@
+{
+  "experiment_id": "ripp-discovery-engineering-comprehensive",
+  "description": "Comprehensive RiPP discovery and engineering strategies integrating bioactivity screening, genome mining, and biosynthetic engineering",
+
+  "target_ripp_classes": [
+    "Sactipeptides",
+    "Lanthipeptides",
+    "Graspetides",
+    "Lasso peptides",
+    "Darobactins",
+    "Polytheonamides",
+    "Thiopeptides"
+  ],
+
+  "bioactivity_screening": {
+    "sample_sources": [
+      {
+        "type": "Soil microbes",
+        "rationale": "Significant portion of biodiversity, producers of novel RiPPs",
+        "example_organisms": ["Streptomyces sp. CT34", "Streptomyces sp. RK44"],
+        "examples_of_discoveries": ["Legonaridin (class B linaridin)", "Kintamdin (β-bithionin)"]
+      },
+      {
+        "type": "Marine microbes",
+        "rationale": "Rich source of novel PTMs and unprecedented enzymology",
+        "example_organisms": ["Candidatus eudoremicrobium", "Theonella swinhoei symbionts"],
+        "examples_of_discoveries": ["Phospeptin", "Mechercharmycin A", "Polytheonamide B"]
+      },
+      {
+        "type": "Human-associated microbes",
+        "rationale": "Essential for microbial environment, impacts human health",
+        "example_organisms": ["Ruminococcus gnavus E1", "Streptococcus spp."],
+        "examples_of_discoveries": ["Ruminococcin C1 (sactipeptide)", "Streptosactin"]
+      }
+    ],
+
+    "hites_strategy": {
+      "method": "High-throughput elicitor screening",
+      "workflow": [
+        "Culture bacteria in 96-well plates with hundreds of elicitors",
+        "Analyze using LAESI-IMS (laser ablation electrospray ionization mass spectrometry)",
+        "Extract signals from each well",
+        "Identify specific metabolite expression with particular elicitors",
+        "Compare to other conditions",
+        "Scale-up for isolation and characterization"
+      ],
+      "advantages": [
+        "Rapid: 96-well plate analysis in <1 hour",
+        "Applicable to rare actinomycetes",
+        "Identifies cryptic metabolites"
+      ],
+      "example_discoveries": ["Clavorubin A (stimulated by actinomycin)", "Multiple sactipeptides"]
+    }
+  },
+
+  "genome_mining_parameters": {
+    "1_rSAM_enzyme_mining": {
+      "enzyme_target": "Radical S-adenosyl methionine enzymes",
+      "search_signatures": [
+        "rSAM enzyme sequences",
+        "Co-occurrence with transporters",
+        "Small ORF precursor peptides"
+      ],
+      "tools": ["BLAST", "SPECO method"],
+      "expected_outcomes": {
+        "RaS_ripps_discovered": 15500,
+        "rsam_based_bgcs": 32220,
+        "discovery_examples": [
+          "Thuricin Z (narrow-spectrum sactipeptide)",
+          "Darobactin analogs (B-F variants)",
+          "Dynobactin A (improved water solubility)",
+          "Bromodarobactin A (32-fold improved activity)"
+        ]
+      }
+    },
+
+    "2_atp_grasp_ligase_mining": {
+      "enzyme_target": "ATP-grasp ligase (graspetide biosynthesis)",
+      "search_approach": [
+        "BLAST with known ATP-grasping ligases",
+        "RODEO refinement"
+      ],
+      "expected_outcomes": {
+        "homologous_proteins": 5275,
+        "new_graspeptide_groups": 9,
+        "high_confidence_bgcs": 3923,
+        "additional_groups": 12,
+        "discovery": "Thatisin with isomeric Asp-Pro amide"
+      }
+    },
+
+    "3_cysteine_decarboxylase_mining": {
+      "enzyme_target": "Cysteine decarboxylase (AviCys biosynthesis)",
+      "search_approach": "BLAST of MibD protein",
+      "expected_outcomes": {
+        "microbisporicin_like_bgcs": 19,
+        "discoveries": [
+          "Daspyromycin A and B (AviCys-containing lanthipeptides)",
+          "Potent antimicrobial activity against MRSA and VRE"
+        ]
+      }
+    },
+
+    "4_lanthipeptide_mining": {
+      "enzyme_target": "Lanthipeptide synthases",
+      "search_approach": "Signature sequences of lanthipeptide synthases",
+      "expected_outcomes": {
+        "discovery_classes": [
+          "Class I PedA15 peptides (unique ring patterns)",
+          "Class II Marinsedin (cytotoxic against HeLa)",
+          "Class III Amylopeptins (S8 protease biosynthesis)"
+        ]
+      }
+    },
+
+    "5_ycao_mining": {
+      "enzyme_target": "YcaO protein superfamily",
+      "search_approach": [
+        "YcaO sequences",
+        "YcaO + TfuA combinations",
+        "antiSMASH and RiPPER"
+      ],
+      "expected_outcomes": {
+        "total_ycao_bgcs": 613,
+        "unique_families": "Multiple new amidine and thioamidated groups",
+        "discoveries": [
+          "Streptamidine (amidine-containing RiPP)",
+          "Thiovarsolins (thioamidated RiPPs)"
+        ]
+      }
+    }
+  },
+
+  "precursor_peptide_mining": {
+    "1_nhlp_mining": {
+      "target": "Nitrile hydratase-related leader peptides",
+      "parameters": {
+        "precursor_length": "70-83 amino acids",
+        "associated_enzymes": "Radical SAM proteins"
+      },
+      "expected_outcomes": {
+        "nhlp_precursors_identified": 109,
+        "source_organisms": "Various cyanobacteria",
+        "discoveries": [
+          "Landornamide A (anti-arenaviral, non-toxic)",
+          "Selidamides (first non-NRPS fatty-acylated lipopeptides)"
+        ]
+      }
+    },
+
+    "2_rre_mining": {
+      "target": "RiPP Recognition Element domains",
+      "tools": ["RRE-Finder", "RODEO"],
+      "expected_outcomes": {
+        "total_rre_domains": 25000,
+        "lasso_peptide_bgcs": 1419,
+        "discovery": "Daptides with helical structure and positive terminals"
+      }
+    },
+
+    "3_conserved_motif_mining": {
+      "target": "Signature sequences in precursor peptides",
+      "example": "Gly-Ser-Dhb-Ile-AviCys motif",
+      "expected_outcomes": {
+        "novel_linaridin_series": "Salinipeptins with multiple D-amino acids"
+      }
+    }
+  },
+
+  "combined_mining_strategy_parameters": {
+    "approach": "Multi-hallmark mining using PTM enzyme + precursor peptide features",
+    "refinement": "RODEO and RiPPER evaluation systems",
+    "success_examples": [
+      {
+        "target": "RRE + rSAM proteins",
+        "result": "15,000 RRE-associated rSAM proteins",
+        "discovery": "6 new sactipeptide groups"
+      },
+      {
+        "target": "Splicease (rSAM-SPASM) + YG motifs",
+        "bgc_candidates": 3418,
+        "refined_to": 189,
+        "confirmed_pairs": 27,
+        "discovery": "Spliceotides with protease inhibitory activity"
+      },
+      {
+        "target": "Polytheonamide precursor + epimerase + methyltransferase",
+        "discovery": "Aeronamides from deep-rock subsurface bacterium"
+      },
+      {
+        "target": "Darobactin (DarE + O1-X2-O3 motifs)",
+        "precursors": 86,
+        "bacterial_genera": 11,
+        "discovery": "Three daropeptide subfamilies with distinct structures"
+      }
+    ]
+  },
+
+  "ripp_engineering_experiments": [
+    {
+      "type": "Hybrid RiPP generation",
+      "method": "Leader peptide exchange using sortase A",
+      "approach": "Sequential modification with different PTM enzymes",
+      "advantage": "Cost-effective synthetic approach for new-to-nature hybrids"
+    },
+    {
+      "type": "Promiscuous PTM enzyme utilization",
+      "examples": [
+        {
+          "enzyme": "Darobactin PTM enzymes (DarBCDE)",
+          "variants_created": 13,
+          "improved_compound": "Darobactin 9 (unnatural L-tryptophan C-terminus)",
+          "further_engineering": "Darobactin 22 (32-fold improved activity)",
+          "target": "Acinetobacter baumannii"
+        },
+        {
+          "enzyme": "PapB (rSAM maturase)",
+          "application": "Octreotide analog synthesis",
+          "modification": "Thioether-cyclized Cys-Glu crosslink"
+        },
+        {
+          "enzyme": "Lasso peptide cyclases (FusB, FusC, FusE)",
+          "variants_possible": "Millions of sequence-diverse lasso peptides",
+          "substrate_tolerance": "Chimeric substrates with unnatural cores"
+        },
+        {
+          "enzyme": "Sactipeptide synthase AlbA",
+          "substrate": "Subtilosin A",
+          "modification": "Unnatural cores in exposed loop region"
+        }
+      ]
+    },
+    {
+      "type": "Chemical editing of RiPPs",
+      "method": "β-borylation of dehydroalanine residues",
+      "example": "Thiostrepton modification",
+      "benefits": [
+        "Enhanced water solubility",
+        "Retained antimicrobial activity",
+        "Useful handle for further transformations"
+      ]
+    }
+  ],
+
+  "validation_metrics": {
+    "genome_mining_success": [
+      "Identification of RiPPs from diverse families",
+      "Discovery of new structural classes",
+      "Validation of computational predictions"
+    ],
+    "engineering_success": [
+      "Generation of improved bioactivity",
+      "Enhanced pharmacokinetic properties",
+      "Successful production of unnatural variants"
+    ],
+    "bioactivity_metrics": {
+      "antimicrobial_spectrum": "Gram-positive/negative coverage",
+      "activity_level": "Fold-improvement over wild-type",
+      "selectivity": "Lack of toxicity to eukaryotic cells"
+    }
+  },
+
+  "known_discoveries_target": {
+    "ripp_compounds": [
+      {
+        "name": "Darobactin family",
+        "type": "Sactipeptide",
+        "activity": "Anti-Gram-negative",
+        "variants": 22,
+        "best_variant": "Darobactin 22 (32-fold improvement)"
+      },
+      {
+        "name": "Thuricin Z",
+        "type": "Sactipeptide",
+        "activity": "Anti-Bacillus cereus, Listeria monocytogenes",
+        "mining_method": "rSAM enzyme mining"
+      },
+      {
+        "name": "Landornamide A",
+        "type": "NHLP-related RiPP",
+        "activity": "Anti-arenaviral, non-toxic",
+        "mining_method": "NHLP precursor mining"
+      },
+      {
+        "name": "Marinsedin",
+        "type": "Class II Lanthipeptide",
+        "activity": "Cytotoxic against HeLa cells",
+        "source": "Marine bacterium Marinicella sediminis"
+      }
+    ]
+  }
+}

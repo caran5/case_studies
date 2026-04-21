@@ -1,0 +1,9 @@
+{
+  "experiment_id": "microrna-regulation",
+  "title": "MicroRNA regulation of gene expression and post-transcriptional control",
+  "research_objectives": [
+    "Map miRNA targets genome-wide",
+    "Determine binding specificity mechanisms",
+    "Characterize regulatory networks"
+  ]
+}

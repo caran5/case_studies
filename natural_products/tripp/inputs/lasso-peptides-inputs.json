@@ -1,0 +1,124 @@
+{
+  "experiment_id": "lasso-peptides-review",
+  "description": "Comprehensive analysis of lasso peptide structural classes, biosynthesis, and antimicrobial properties",
+  
+  "data_collection_scope": {
+    "total_characterized_peptides": 50,
+    "predicted_by_bioinformatics": "Thousands",
+    "newly_discovered_by_genome_mining": 90
+  },
+
+  "structural_analysis_parameters": {
+    "peptide_size_range_aa": [13, 33],
+    "typical_size_aa": [16, 21],
+    "macrolactam_ring_optimal_size_aa": [8, 9],
+    "atoms_locked_in_ring": {
+      "asp_mediated": 22,
+      "glu_mediated": 23
+    }
+  },
+
+  "lasso_peptide_classes": [
+    {
+      "class": "I",
+      "characteristic": "Multiple disulfide bridges",
+      "known_examples": 7
+    },
+    {
+      "class": "II",
+      "characteristic": "Most common, no multiple disulfide bridges",
+      "known_examples": 30
+    },
+    {
+      "class": "III",
+      "characteristic": "Specific structural variants",
+      "known_examples": 1
+    },
+    {
+      "class": "IV",
+      "characteristic": "Complex macrolactam structures",
+      "known_examples": 5
+    },
+    {
+      "class": "V",
+      "characteristic": "Double-lariat structures",
+      "known_examples": 1
+    }
+  ],
+
+  "biosynthetic_pathway_components": {
+    "precursor_peptide_elements": [
+      "Leader peptide sequence",
+      "Core peptide sequence",
+      "Follower peptide (optional)"
+    ],
+    "enzymatic_requirements": [
+      "Post-translational modification enzymes",
+      "Proteolysis enzymes",
+      "Transporters"
+    ]
+  },
+
+  "known_bioactivities": [
+    "Antimicrobial activity",
+    "Anticancer activity",
+    "Antiviral properties",
+    "Enzyme inhibition"
+  ],
+
+  "target_pathogen_database": {
+    "multi_drug_resistant_bacteria": "Superbugs",
+    "who_priority_pathogens": [
+      "Gram-negative bacteria resistant to last-resort antibiotics",
+      "Drug-resistant Mycobacterium tuberculosis",
+      "Salmonella",
+      "Shigella",
+      "Neisseria gonorrhoeae",
+      "Pseudomonas aeruginosa",
+      "Staphylococcus aureus"
+    ]
+  },
+
+  "pharmacological_assessment_criteria": {
+    "thermal_stability": "Physiological environment",
+    "proteolytic_stability": "Physiological environment",
+    "structural_constraints": "Macrolactam ring encapsulation"
+  },
+
+  "synthetic_chemistry_parameters": {
+    "chemical_synthesis_status": "Virtually unsolved problem",
+    "biosynthetic_accessibility": "Naturally produced without synthetic constraints",
+    "advantage_factors": [
+      "Thermal stability",
+      "Proteolytic stability",
+      "Conjugation capability with bioactive molecules"
+    ]
+  },
+
+  "literature_data_sources": {
+    "first_discovered": 1992,
+    "archetypal_compound": "Microcin J25 (MccJ25)",
+    "genome_mining_discoveries": 90,
+    "prediction_methods": "Bioinformatics analysis"
+  },
+
+  "clinical_context": {
+    "mortality_projection_2050": 39000000,
+    "antibiotic_resistance_crisis": true,
+    "therapeutic_window": "Last chance weapon"
+  },
+
+  "research_framework": {
+    "characterization_methods": [
+      "Mass spectrometry",
+      "Nuclear magnetic resonance (NMR)",
+      "X-ray crystallography",
+      "Bioassay evaluation"
+    ],
+    "bioactivity_screening": [
+      "Antimicrobial susceptibility testing",
+      "Target specificity assays",
+      "Mechanism of action studies"
+    ]
+  }
+}

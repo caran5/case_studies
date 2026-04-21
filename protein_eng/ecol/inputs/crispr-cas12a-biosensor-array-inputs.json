@@ -1,0 +1,40 @@
+{
+  "experiment_id": "crispr-cas12a-biosensor-array",
+  "description": "Input parameters for CRISPR-Cas12a graphene field-effect transistor array for DNA detection",
+  
+  "detection_target": {
+    "dna_types": ["Single-stranded DNA (ssDNA)", "Double-stranded DNA (dsDNA)"],
+    "applications": [
+      "Disease diagnosis",
+      "Food safety",
+      "Environmental monitoring",
+      "Biodiversity conservation",
+      "Forensic analysis"
+    ]
+  },
+
+  "biosensor_design": {
+    "platform": "Graphene field-effect transistor (gFET)",
+    "biological_component": "CRISPR-Cas12a",
+    "array_configuration": "48 sensors on single 1.5 cm × 1.5 cm chip"
+  },
+
+  "detection_mechanism": {
+    "approach": "Amplification-free detection",
+    "signal_source": "Multiturn trans-cleavage activity of CRISPR-Cas12a",
+    "amplification_method": "Intrinsic signal amplification through gFET"
+  },
+
+  "performance_targets": {
+    "limit_of_detection_ssdna": "1 aM (human papillomavirus 16)",
+    "limit_of_detection_dsdna": "10 aM (Escherichia coli plasmid)",
+    "specificity": "Single-nucleotide polymorphism discrimination capability"
+  },
+
+  "advantages_vs_conventional": [
+    "Eliminates nucleic acid amplification requirement",
+    "Achieves femtomolar sensitivity",
+    "Rapid analysis without target preamplification",
+    "Reliable multi-sensor readout"
+  ]
+}

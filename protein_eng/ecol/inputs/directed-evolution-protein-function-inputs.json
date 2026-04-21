@@ -1,0 +1,32 @@
+{
+  "experiment_id": "directed-evolution-protein-function",
+  "description": "Input parameters for directed evolution of protein function",
+  "evolution_strategy": {
+    "library_construction": [
+      "Error-prone PCR",
+      "Saturation mutagenesis",
+      "Combinatorial methods"
+    ],
+    "library_size": "10^6 to 10^10 variants",
+    "mutation_rate": "0.1-2 mutations per gene"
+  },
+  "selection_method": {
+    "phenotypic_readout": [
+      "Enzymatic activity",
+      "Binding affinity",
+      "Fluorescence",
+      "Antibiotic resistance"
+    ],
+    "screening_platform": [
+      "Phage display",
+      "Cell display",
+      "In vitro compartmentalization",
+      "Microtiter plate"
+    ]
+  },
+  "selection_rounds": {
+    "typical_cycles": -2,
+    "enrichment_factors": "100-1000 fold per round",
+    "convergence": "Identification of consensus sequences"
+  }
+}

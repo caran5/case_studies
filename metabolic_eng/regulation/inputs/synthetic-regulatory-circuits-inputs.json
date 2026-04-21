@@ -1,0 +1,56 @@
+{
+  "experiment_id": "synthetic-regulatory-circuits",
+  "description": "Input parameters for synthetic regulatory circuits and gene control",
+  "circuit_design_principles": {
+    "biological_logic": [
+      "AND gates",
+      "OR gates",
+      "NOT gates",
+      "XOR gates"
+    ],
+    "components": [
+      "Promoters",
+      "Riboswitches",
+      "Transcription factors",
+      "Protein domains"
+    ],
+    "design_rules": [
+      "Modularity",
+      "Composability",
+      "Predictability"
+    ]
+  },
+  "regulatory_elements": {
+    "promoter_types": [
+      "Constitutive",
+      "Inducible",
+      "Repressible",
+      "Tunable"
+    ],
+    "transcription_factors": [
+      "Natural proteins",
+      "Synthetic variants",
+      "Engineered specificity"
+    ],
+    "input_signals": [
+      "Small molecules",
+      "Light",
+      "Temperature",
+      "Metabolites"
+    ]
+  },
+  "circuit_architectures": {
+    "motifs": [
+      "Toggle switches",
+      "Oscillators",
+      "Integrators",
+      "Multiplexers"
+    ],
+    "implementation_platforms": [
+      "E. coli",
+      "Yeast",
+      "Mammalian cells",
+      "Cell-free systems"
+    ]
+  }
+}

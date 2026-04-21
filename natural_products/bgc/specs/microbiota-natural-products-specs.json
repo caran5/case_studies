@@ -1,0 +1,45 @@
+{
+  "experiment_id": "microbiota-natural-products",
+  "title": "Natural products from the human microbiota",
+
+  "research_scope": [
+    "Identification of biosynthetic genes in bacterial genomes",
+    "Prediction of small molecule products from genome sequences",
+    "Discovery of microbe-host interaction mediators",
+    "Exploration of ecological and functional roles of microbiota-derived metabolites"
+  ],
+
+  "human_microbiota_context": {
+    "discovery_opportunity": "Genome mining has led to unexpected discovery of numerous BGCs in human microbiota genomes",
+    "symbiosis_focus": "Shift from 'who's there' to 'what are they doing'",
+    "molecular_mechanism": "Hunt for mediators of microbe-host interactions"
+  },
+
+  "research_focus_areas": [
+    "Metabolites from human-associated bacteria",
+    "Chemical classes of microbiota products",
+    "Biological functions of microbial metabolites",
+    "Host-microbe interaction mechanisms",
+    "Computational analysis of metabolic potential"
+  ],
+
+  "exclusions_from_scope": [
+    "Short-chain fatty acids (SCFAs)",
+    "Trimethylamine-N-oxide (TMAO)"
+  ],
+
+  "biosynthetic_potential": {
+    "methodology": "Genome mining combined with BGC identification algorithms",
+    "discovery": "Identification of BGCs in human microbiota genomes",
+    "prediction": "Prediction of chemical structures from BGC sequences"
+  },
+
+  "metabolite_classes_covered": [
+    "Bacteriocins and antimicrobial peptides",
+    "Polyketides",
+    "Nonribosomal peptides",
+    "Ribosomally synthesized and post-translationally modified peptides (RiPPs)",
+    "Terpenes",
+    "Other bioactive small molecules"
+  ]
+}

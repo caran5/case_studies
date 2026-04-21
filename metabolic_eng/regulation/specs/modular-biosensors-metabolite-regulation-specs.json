@@ -1,0 +1,73 @@
+{
+  "experiment_id": "modular-biosensors-metabolite-regulation",
+  "title": "Engineering Modular Biosensors to Confer Metabolite-Responsive Regulation of Transcription",
+  "date_published": "2016-10-17",
+
+  "research_objectives": [
+    "Develop generalizable approach for engineering novel metabolite-responsive biosensors",
+    "Evaluate strategies for converting ligand-binding proteins into transcriptional regulators",
+    "Identify design principles for biosensor-regulated promoters",
+    "Establish foundation for diverse metabolite biosensor applications"
+  ],
+
+  "research_scope": {
+    "focus_area": "Synthetic biosensor engineering and metabolic regulation",
+    "methodology": "Modular protein design with library screening and statistical analysis",
+    "key_concepts": [
+      "Biosensors",
+      "Transcriptional regulation",
+      "Metabolic engineering",
+      "Synthetic biology",
+      "Library design"
+    ]
+  },
+
+  "metabolic_engineering_challenges": {
+    "rate_limiting_steps": [
+      "Pathway library screening",
+      "Pathway optimization",
+      "Variant characterization"
+    ],
+    "solution_enabled_by_biosensors": [
+      "Screen large libraries in individual cells",
+      "Monitor metabolite levels in real-time",
+      "Enable feedback control of metabolic pathways"
+    ]
+  },
+
+  "current_limitation": {
+    "problem": "Only naturally evolved biosensors available",
+    "insufficiency": "Cannot monitor many metabolites of interest",
+    "need": "Method for engineering novel biosensors"
+  },
+
+  "design_strategy_components": {
+    "ligand_binding_protein": {
+      "example": "Maltose binding protein (MBP)",
+      "role": "Input recognition and signal transduction",
+      "advantage": "Well-characterized and modular"
+    },
+    "dna_binding_domain": {
+      "example": "Zinc finger proteins (ZFP)",
+      "role": "DNA sequence recognition",
+      "advantage": "Programmable specificity"
+    },
+    "synthetic_promoters": {
+      "role": "Output module",
+      "design": "Optimized for biosensor activity"
+    }
+  },
+
+  "experimental_approach": {
+    "step1": "Construct library of MBP-ZFP fusions",
+    "step2": "Pair with library of synthetic promoters",
+    "step3": "Screen for maltose-responsive activity",
+    "step4": "Characterize top variants with statistics"
+  },
+
+  "design_insights": {
+    "functional_fusion_requirement": "Compatible linker design",
+    "promoter_optimization": "Activity levels matched to biosensor dynamics",
+    "universal_principles": "Generalizable to other metabolite targets"
+  }
+}

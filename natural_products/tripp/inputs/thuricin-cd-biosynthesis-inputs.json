@@ -1,0 +1,265 @@
+{
+  "experiment_id": "thuricin-cd-characterization",
+  "description": "Characterization of thuricin CD biosynthesis - a two-component sactipeptide antibiotic with unexpected enzyme cooperation mechanisms",
+
+  "thuricin_cd_gene_cluster_composition": {
+    "organism": "Bacillus thuringiensis",
+    "genes": [
+      {
+        "name": "trnI",
+        "function": "Immunity gene"
+      },
+      {
+        "name": "trnF",
+        "function": "Transport gene"
+      },
+      {
+        "name": "trnG",
+        "function": "Transport gene"
+      },
+      {
+        "name": "trnA",
+        "function": "Precursor peptide gene",
+        "type": "First RiPP precursor"
+      },
+      {
+        "name": "trnB",
+        "function": "Precursor peptide gene",
+        "type": "Second RiPP precursor"
+      },
+      {
+        "name": "trnC",
+        "function": "rSAM PTM enzyme",
+        "cofactor": "[4Fe-4S]1+ cluster"
+      },
+      {
+        "name": "trnD",
+        "function": "rSAM PTM enzyme",
+        "cofactor": "[4Fe-4S]1+ cluster"
+      },
+      {
+        "name": "trnE",
+        "function": "Proteolysis gene"
+      }
+    ]
+  },
+
+  "precursor_peptide_sequences": {
+    "TrnA": {
+      "full_name": "TrnA precursor peptide",
+      "components": {
+        "leader_peptide": "N-terminal region for recognition",
+        "core_peptide": "C-terminal region for modification",
+        "modification_sites": "Cysteine residues for thioether crosslinks"
+      },
+      "molecular_weight": "Approximately 4-5 kDa (estimated)",
+      "sequence_characteristics": "Intrinsically disordered structure (typical RiPP precursor)"
+    },
+    "TrnB": {
+      "full_name": "TrnB precursor peptide",
+      "components": {
+        "leader_peptide": "N-terminal region for recognition",
+        "core_peptide": "C-terminal region for modification",
+        "modification_sites": "Cysteine residues for thioether crosslinks"
+      },
+      "molecular_weight": "Approximately 4-5 kDa (estimated)",
+      "sequence_characteristics": "Intrinsically disordered structure (typical RiPP precursor)"
+    }
+  },
+
+  "rSAM_enzyme_parameters": {
+    "TrnC": {
+      "name": "TrnC rSAM enzyme",
+      "cofactor": "[4Fe-4S]1+ iron-sulfur cluster",
+      "catalytic_role": "Catalytically active - contains [4Fe-4S] cluster essential for modification",
+      "substrate": "SAM (S-adenosylmethionine)",
+      "product_radical": "5'-deoxyadenosyl radical",
+      "binding_domains": [
+        "RRE (RiPP Recognition Element)",
+        "Catalytic core domain"
+      ],
+      "rre_structure": "Canonical winged helix-turn-helix motif",
+      "core_peptide_interaction": "rSAM active site has greater access to core peptide"
+    },
+    "TrnD": {
+      "name": "TrnD rSAM enzyme",
+      "cofactor": "[4Fe-4S]1+ iron-sulfur cluster",
+      "catalytic_role": "Catalytically inactive in complex - cluster mutation has no effect on activity",
+      "substrate": "SAM (S-adenosylmethionine)",
+      "binding_domains": [
+        "Modified RRE (distorted helical bundle)",
+        "Auxiliary protein interface"
+      ],
+      "rre_structure": "3-stranded beta-sheet intact, helical bundle distorted",
+      "leader_peptide_interaction": "RRE preferentially binds TrnA/B leader peptides"
+    }
+  },
+
+  "heterodimerization_experiments": {
+    "in_vitro_binding_assays": {
+      "method": "Microscale thermophoresis",
+      "substrate": "Both TrnA and TrnB precursor peptides",
+      "binding_affinity": "Low micromolar Kd (typical RiPP affinity)",
+      "complex_formation": "TrnC and TrnD form tight heterodimer"
+    },
+    "pull_down_experiments": {
+      "tag": "His-tagged TrnC and TrnD",
+      "result": "Confirms heterodimeric complex formation",
+      "validation": "Direct evidence of protein-protein interaction"
+    },
+    "rre_deletion_study": {
+      "mutation": "Deletion of RRE domains",
+      "result": ">40-fold decrease in heterodimerization binding constant",
+      "interpretation": "RRE-RRE interaction critical for complex formation",
+      "novelty": "First demonstration of RRE in enzyme-enzyme dimerization"
+    }
+  },
+
+  "in_vitro_activity_assays": [
+    {
+      "condition": "TrnC alone with precursor peptides",
+      "result": "No modification",
+      "note": "Can cleave SAM (in vitro side-reaction) but no peptide modification"
+    },
+    {
+      "condition": "TrnD alone with precursor peptides",
+      "result": "No modification",
+      "note": "Can cleave SAM (in vitro side-reaction) but no peptide modification"
+    },
+    {
+      "condition": "TrnC/TrnD heterodimer with TrnA",
+      "result": "Complete modification of both TrnA and TrnB",
+      "modifications": "Nested thioether rings installed"
+    },
+    {
+      "condition": "TrnC/TrnD heterodimer with TrnB",
+      "result": "Complete modification of both TrnA and TrnB",
+      "modifications": "Nested thioether rings installed"
+    },
+    {
+      "condition": "TrnC[4Fe-4S]active / TrnD[4Fe-4S]inactive heterodimer",
+      "result": "Normal modification activity",
+      "implication": "Only TrnC cluster required for catalysis"
+    },
+    {
+      "condition": "TrnC[4Fe-4S]inactive / TrnD[4Fe-4S]active heterodimer",
+      "result": "No activity",
+      "implication": "TrnD cluster mutation prevents activity",
+      "interpretation": "TrnD cluster not catalytically involved"
+    }
+  ],
+
+  "alphafold_3_structural_predictions": {
+    "complex": "TrnACD complex",
+    "predictions": {
+      "heterodimerization": {
+        "interface": "Extensive RRE-RRE interactions",
+        "position": "Both RRE domains meet at heterodimeric interface"
+      },
+      "leader_peptide_binding": {
+        "primary_binding": "TrnD RRE binds to TrnA-leader",
+        "secondary_position": "TrnA core peptide interacts with TrnC catalytic core"
+      },
+      "catalytic_site": {
+        "location": "TrnC rSAM active site",
+        "access": "Greater access to C-terminal core peptide modification sites",
+        "cluster_position": "[4Fe-4S]1+ clusters of both TrnC and TrnD indicated"
+      }
+    },
+    "validation_status": "AF3 predictions require experimental validation"
+  },
+
+  "unexpected_findings": [
+    {
+      "finding": "Obligatory heterodimer formation",
+      "significance": "Individual enzymes completely inactive",
+      "implication": "Cannot predict from gene sequence information alone",
+      "discovery_context": "Contrary to expectations based on two-component lanthipeptides"
+    },
+    {
+      "finding": "Asymmetric catalytic function",
+      "significance": "TrnD catalytically inactive but functionally essential",
+      "mechanism": "Likely serves as recognition/recruitment module",
+      "implication": "New paradigm for rSAM enzyme cooperation"
+    },
+    {
+      "finding": "RRE-mediated enzyme dimerization",
+      "significance": "RREs not limited to substrate recognition",
+      "mechanism": "RRE-RRE interactions form heterodimeric interface",
+      "implication": "RREs have broader functional roles than previously appreciated"
+    },
+    {
+      "finding": "Substrate recognition complexity",
+      "significance": "Both leader peptides bind to TrnD RRE, not TrnC",
+      "mechanism": "Despite exposed RREs on both enzymes",
+      "implication": "Preference mechanism not fully understood"
+    }
+  ],
+
+  "biochemical_parameters": {
+    "binding_affinity": {
+      "measurement": "Low micromolar Kd",
+      "interpretation": "Typical RiPP biosynthetic system affinity"
+    },
+    "catalytic_efficiency": {
+      "substrate": "SAM to 5'-deoxyadenosine",
+      "side_reaction": "Both enzymes capable in isolation",
+      "cooperative_effect": "Only active on peptide substrate in heterodimer"
+    },
+    "modification_yield": {
+      "with_both_enzymes": "Complete modification of both precursor peptides",
+      "with_single_enzyme": "No modification"
+    }
+  },
+
+  "cross_link_formation_details": {
+    "modification_type": "Thioether crosslinks (sactipeptide signature)",
+    "mechanism": "dAdoc radical triggers oxidative formation",
+    "geometry": "S-to-alpha-carbon crosslinks",
+    "specificity": "Linking C-terminal cysteine residues to N-terminal core region",
+    "product": "Nested thioether rings in mature TrnA and TrnB peptides"
+  },
+
+  "comparative_analysis": {
+    "known_two_component_systems": [
+      {
+        "system": "Haloduracin (lanthipeptide)",
+        "mechanism": "Single dedicated synthetase per precursor",
+        "difference_from_thuricin": "Each precursor modified by single enzyme"
+      },
+      {
+        "system": "Lichenicidin (lanthipeptide)",
+        "mechanism": "Single dedicated synthetase per precursor",
+        "difference_from_thuricin": "Each precursor modified by single enzyme"
+      },
+      {
+        "system": "Lacticin 3147 (lanthipeptide)",
+        "mechanism": "Single dedicated synthetase per precursor",
+        "difference_from_thuricin": "Each precursor modified by single enzyme"
+      }
+    ],
+    "thuricin_cd_novelty": "First sactipeptide with two-component system and cooperative rSAM enzymes"
+  },
+
+  "engineering_implications": {
+    "challenges": [
+      "Cannot predict functional specificity from gene sequence alone",
+      "Enzyme-enzyme interactions critical but difficult to predict",
+      "Biophysical parameters (Kd) must be determined experimentally",
+      "RRE functions beyond substrate recognition"
+    ],
+    "recommendations": [
+      "Detailed mechanistic characterization before engineering attempts",
+      "Validation of AF3 predictions with experimental structures",
+      "Investigation of substrate specificity determinants",
+      "Exploration of RRE roles in other RiPP systems"
+    ]
+  },
+
+  "key_discoveries_summary": {
+    "breakthrough_1": "First demonstration of obligatory rSAM enzyme heteromerization",
+    "breakthrough_2": "Asymmetric catalytic roles in two-component RiPP system",
+    "breakthrough_3": "RRE function in enzyme-enzyme interaction",
+    "breakthrough_4": "Complexity of precursor peptide recognition by enzyme complex"
+  }
+}

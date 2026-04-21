@@ -1,0 +1,10 @@
+{
+  "experiment_id": "high-throughput-screening-proteins",
+  "title": "High-throughput protein screening and discovery",
+  "key_findings": [
+    "Diverse hits identified from naive libraries",
+    "Hit enrichment factors 100-10000 fold",
+    "Biophysical properties diverse across hits",
+    "Functional validation rate 50-90%"
+  ]
+}

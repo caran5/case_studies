@@ -1,0 +1,70 @@
+{
+  "experiment_id": "artificial-allosteric-protein-switches",
+  "title": "Artificial allosteric protein switches with machine-learning-designed receptors",
+  "date_published": "2026-03-09",
+  "journal": "Nature Biotechnology",
+
+  "primary_findings": {
+    "key_breakthrough": "Machine-learning-engineered ligand-binding domains can function as efficient biosensor receptors without global conformational change",
+    "mechanism": "Ligand binding reduces conformational entropy of system, increasing reporter domain activity",
+    "significance": "Challenges paradigm that allosteric regulation requires global conformational change"
+  },
+
+  "allosteric_switch_performance": {
+    "conformational_entropy_coupling": {
+      "finding": "Fast internal protein dynamics (conformational entropy) can regulate allosteric function",
+      "implication": "Expands repertoire of domains suitable for allosteric switch construction",
+      "advantage": "Accessible pool of natural domains significantly increased"
+    },
+    "switch_characteristics": [
+      "Colorimetric, luminescent, and electrochemical biosensors successfully engineered",
+      "Multi-input logic gates (YES and AND gates) successfully constructed",
+      "Both single-component and fully synthetic configurations achieved"
+    ]
+  },
+
+  "biosensor_design_outcomes": {
+    "beta_lactamase_chimeras": {
+      "receptor_domain": "Circular permuted anticalin variants",
+      "ligand": "Colchicine",
+      "dissociation_constant": "33 μM (dose-dependent response)",
+      "achievement": "Demonstrated activity without global conformation change"
+    },
+    "design_principle": "Linker positioning opposite ligand-binding cavity and away from flexible loops"
+  },
+
+  "analytical_validation": {
+    "hydrogen_deuterium_exchange_mass_spectrometry": {
+      "finding": "Revealed conformational entropy effects of ligand binding",
+      "insight": "Supports ligand binding reduces system conformational entropy"
+    },
+    "nuclear_magnetic_resonance": {
+      "method": "19F NMR spectroscopy",
+      "finding": "Confirmed conformational entropy as allosteric mediator"
+    }
+  },
+
+  "biotechnology_applications": {
+    "cellular_engineering": {
+      "demonstration": "E. coli cells with steroid-dependent antibiotic resistance",
+      "input": "Steroid hormone presence/absence",
+      "output": "Conditional survival"
+    },
+    "bioelectronic_devices": {
+      "application": "Quantification of steroid hormones",
+      "platform": "Integrated bioelectronic sensing"
+    }
+  },
+
+  "synthetic_biology_impact": {
+    "practical_utility": "Demonstrated with functional engineered cells and bioelectronic devices",
+    "scope_expansion": "Multiple ligand classes successfully incorporated",
+    "diversity_achieved": "Varied ligand-binding domain origins and specificities"
+  },
+
+  "information_processing_capability": {
+    "fundamental_insight": "Protein allostery underlies most biological information and energy processing",
+    "achievement": "Successfully engineered artificial protein networks with programmable inputs and outputs",
+    "future_potential": "Foundation for synthetic biological systems with complex information processing"
+  }
+}

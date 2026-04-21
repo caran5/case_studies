@@ -1,0 +1,25 @@
+{
+  "experiment_id": "biofilm-tolerance-stress-response",
+  "description": "Input parameters for studying biofilm tolerance under pressure and stress conditions",
+  
+  "biofilm_characteristics": {
+    "formation": "Bacterial communities in extracellular matrix",
+    "stress_response": "Enhanced tolerance under environmental pressure"
+  },
+
+  "stress_parameters": {
+    "types": [
+      "Osmotic stress",
+      "Mechanical pressure",
+      "Nutrient starvation",
+      "Chemical stress"
+    ]
+  },
+
+  "tolerance_mechanisms": [
+    "Altered gene expression",
+    "Metabolic reprogramming",
+    "Matrix modification",
+    "Cell-cell communication"
+  ]
+}

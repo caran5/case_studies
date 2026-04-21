@@ -1,0 +1,137 @@
+{
+  "paper_id": "lasso-peptides",
+  "title": "Lasso Peptides—A New Weapon Against Superbugs",
+  "summary": "Comprehensive review of lasso peptide structure, biosynthesis, and antimicrobial properties",
+  "output_type": "Review Article - No Experimental Results",
+
+  "key_findings": {
+    "total_lasso_peptides_characterized": 50,
+    "predicted_sequences_by_bioinformatics": "Thousands",
+    "newly_discovered_by_genome_mining": 90,
+    "structural_classes": 5,
+    "class_distribution": {
+      "class_i": "Multiple disulfide bridges",
+      "class_ii": "Most common, no multiple disulfide bridges",
+      "class_iii": "Specific structural variants",
+      "class_iv": "Complex macrolactam structures",
+      "class_v": "Double-lariat structures (newly proposed)"
+    }
+  },
+
+  "structural_insights": {
+    "typical_size_range": "16-21 amino acid residues",
+    "exceptions": {
+      "shortest": "Huascopeptin (13 AA) and Chaxapeptin (15 AA)",
+      "longest": "Pandonodin (33 AA), Astexin-1 (23 AA), Astexin-3 (24 AA)"
+    },
+    "optimal_macrolactam_ring_size": "8-9 amino acid residues",
+    "atoms_locked_per_optimal_ring": "22 atoms (Asp) or 23 atoms (Glu)",
+    "key_structural_constraints": [
+      "Ring too small (<7 AA): Steric constraints prevent tail encapsulation",
+      "Ring too large (>9 AA): Insufficient tightness to permanently encapsulate tail"
+    ]
+  },
+
+  "lasso_peptide_examples": {
+    "archetypal": {
+      "name": "Microcin J25 (MccJ25)",
+      "discovered": 1992,
+      "sequence": "GGAGHVPE YFVGIGTPISFYG",
+      "class": "II",
+      "significance": "First discovered and described lasso peptide"
+    },
+    "historical": {
+      "name": "Anantin",
+      "discovered": 1991,
+      "note": "Identified earlier but initially described as cyclic peptide, later reclassified as lasso peptide"
+    },
+    "antimicrobial": [
+      {
+        "name": "Lassomycin",
+        "class": "II",
+        "target": "ClpP protease",
+        "activity": "Antimycobacterial"
+      },
+      {
+        "name": "Capistruin",
+        "class": "II",
+        "target": "RNA polymerase",
+        "activity": "Gram-negative bacteria inhibition"
+      },
+      {
+        "name": "Lariatin A and B",
+        "class": "II",
+        "activity": "Broad spectrum antimicrobial"
+      }
+    ]
+  },
+
+  "biosynthetic_characteristics": {
+    "encoding": "Cluster of genes encoding:",
+    "components": [
+      "Lasso peptide sequence",
+      "Auxiliary sequences",
+      "Post-translational processing enzymes",
+      "Proteolysis enzymes"
+    ],
+    "formation_outcome": "Complex biosynthetic pathway leading to ring closure and lasso structure"
+  },
+
+  "pharmaceutical_properties": {
+    "thermal_stability": "Remarkable in physiological environment",
+    "proteolytic_stability": "Remarkable in physiological environment",
+    "bioactivities_demonstrated": [
+      "Antimicrobial activity",
+      "Anticancer activity",
+      "Antiviral properties",
+      "Enzyme inhibition"
+    ],
+    "mechanisms_against_pathogens": [
+      "Bind to new molecular targets",
+      "Block main metabolic pathways",
+      "Inhibit infection"
+    ]
+  },
+
+  "comparative_analysis": {
+    "vs_typical_peptides": "Lasso peptides structurally different due to macrolactam ring",
+    "conformational_freedom": "Highly constrained (unlike typical peptides)",
+    "physicochemical_characteristics": "Unique compared to linear peptides",
+    "synthetic_accessibility": "Chemical synthesis virtually unsolved problem",
+    "advantage_of_biosynthesis": "Naturally produced lasso peptides overcome synthetic challenges"
+  },
+
+  "target_pathogens": {
+    "multi_drug_resistant_bacteria": "Superbugs",
+    "who_priority_pathogens": [
+      "Gram-negative bacteria resistant to last-resort antibiotics",
+      "Drug-resistant Mycobacterium tuberculosis",
+      "Salmonella",
+      "Shigella",
+      "Neisseria gonorrhoeae",
+      "Pseudomonas aeruginosa",
+      "Staphylococcus aureus"
+    ]
+  },
+
+  "clinical_context": {
+    "crisis_statistics": "Superbugs projected to cause 39 million deaths by 2050",
+    "existing_antibiotic_limitations": "Current antibiotics rendered ineffective by resistance",
+    "lasso_peptide_potential": "Last chance weapon against emerging superbugs",
+    "new_therapeutic_target": "Bind to atypical sides of ribosomes"
+  },
+
+  "research_trends": {
+    "genome_mining_discoveries": "Over 90 new lasso peptides identified",
+    "prediction_capability": "Thousands of sequences predicted by bioinformatics",
+    "novelty_iceberg": "Known lasso peptides represent tip of iceberg in bacterial genomes",
+    "classification_expansion": "Recent discoveries led to proposal of new class V"
+  },
+
+  "conclusion_and_future_directions": {
+    "current_status": "Lasso peptides emerge as promising antibacterial agents",
+    "mechanism_advantage": "Novel molecular targets avoid common resistance mechanisms",
+    "therapeutic_timeline": "Potential \"last chance\" weapon in immediate future",
+    "research_priority": "Characterization and development of lasso peptides critical for antimicrobial discovery"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "experiment_id": "microbial-genomics-natural-products",
+  "title": "Genomics-driven discovery of microbial natural products",
+
+  "research_overview": [
+    "Microbial genomics reveals far greater biosynthetic potential than traditional screening",
+    "Integration of genomics and bioinformatics with experimental validation",
+    "Discovery of novel antibiotics and bioactive compounds",
+    "Overcoming antibiotic resistance crisis through BGC mining"
+  ],
+
+  "drug_discovery_context": {
+    "fda_approval": "Microbial metabolites major source of clinical drugs",
+    "recent_approvals": [
+      "Daptomycin - MRSA treatment",
+      "Fidaxomicin - C. difficile treatment",
+      "Carfilzomib - multiple myeloma treatment"
+    ],
+    "antibiotic_crisis": "No novel antibiotic scaffolds 1962-2000; productivity crisis",
+    "resistance_threat": "Rise of multidrug-resistant pathogens"
+  },
+
+  "discovery_strategy_evolution": {
+    "traditional_approach": {
+      "method": "Bioactivity-based screening of organism extracts",
+      "limitation": "Tendency to rediscover known compounds",
+      "efficiency": "Disappointing returns in recent years"
+    },
+    "genomics_approach": {
+      "method": "Genome mining and BGC identification",
+      "advantage": "Access to vast untapped biosynthetic potential",
+      "efficiency": "Higher discovery rate of novel scaffolds"
+    }
+  },
+
+  "biosynthetic_gene_cluster_applications": [
+    "Identification of novel BGCs with unknown products",
+    "Prioritization based on structural novelty",
+    "Expression in heterologous hosts",
+    "Pathway engineering for improved production"
+  ],
+
+  "pleiotropic_approaches": [
+    "Global regulatory manipulation",
+    "Stress response induction",
+    "Nutrient limitation strategies",
+    "Co-culture techniques"
+  ],
+
+  "pathway_specific_approaches": [
+    "Type I and II polyketide synthase activation",
+    "Nonribosomal peptide synthetase induction",
+    "RiPP cluster expression",
+    "Hybrid pathway activation"
+  ]
+}

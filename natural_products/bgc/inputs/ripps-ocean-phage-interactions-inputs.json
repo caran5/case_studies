@@ -1,0 +1,44 @@
+{
+  "experiment_id": "ripps-ocean-phage-interactions",
+  "description": "Experimental parameters for ocean RiPP-phage interaction studies",
+
+  "deep_learning_model_development": {
+    "model": "TrRiPP",
+    "input": "Ocean metagenomic sequences",
+    "detection_approach": "Hallmark gene-independent RiPP precursor identification",
+    "training_data": "Characterized RiPP datasets"
+  },
+
+  "metagenome_analysis_workflow": [
+    "Metagenomic sequence collection (global ocean)",
+    "RiPP precursor detection using TrRiPP",
+    "RiPP family classification",
+    "Biosynthetic gene cluster annotation",
+    "Ecological function prediction"
+  ],
+
+  "coexpression_analysis": {
+    "data_source": "Metatranscriptomic data",
+    "analysis": "Correlation between RiPP families and protein families",
+    "focus": ["Antiphage defense proteins", "Phage-related proteins"],
+    "outcome": "Identification of co-expressed gene sets"
+  },
+
+  "host_phage_network_construction": {
+    "database": "Ocean Virus Database (OVD)",
+    "prediction_method": "Host prediction algorithms",
+    "network_components": [
+      "RiPP-encoding prokaryotes",
+      "RiPP families",
+      "Viral protein families",
+      "Phages"
+    ]
+  },
+
+  "measurement_parameters": {
+    "ripp_diversity": "Number and novelty of RiPP families",
+    "ocean_coverage": "Global ocean microbiome sampling",
+    "interaction_strength": "Co-expression correlation values",
+    "network_connectivity": "RiPP-phage interaction network metrics"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "experiment_id": "microbial-genomics-natural-products",
+  "description": "Experimental parameters for genomics-driven natural product discovery",
+
+  "genome_mining_parameters": {
+    "sequencing_technology": "Whole genome sequencing",
+    "bgc_identification_tools": ["antiSMASH", "BLAST", "pHMM"],
+    "computational_analysis": "Bioinformatics pipeline for BGC detection"
+  },
+
+  "bioactivity_screening": {
+    "compound_sources": ["Organism extracts", "Purified natural products", "Heterologously expressed metabolites"],
+    "screening_methods": ["High-throughput screening", "Bioactivity-guided fractionation"],
+    "targets": ["Antibacterial", "Antifungal", "Anticancer", "Immunosuppressive"]
+  },
+
+  "discovery_prioritization": {
+    "selection_criteria": ["Structural novelty", "Predicted bioactivity", "BGC uniqueness", "Organism rarity"],
+    "ranking_approach": "Multi-criterion evaluation"
+  }
+}

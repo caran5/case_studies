@@ -1,0 +1,8 @@
+{
+  "experiment_id": "dna-detection-amplification-free",
+  "title": "Development of amplification-free DNA biosensors",
+  "research_objectives": [
+    "Eliminate PCR amplification step",
+    "Achieve attomolar detection sensitivity"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "experiment_id": "artificial-allosteric-protein-switches",
+  "title": "Artificial allosteric protein switches with machine-learning-designed receptors",
+  "date_published": "2026-03-09",
+
+  "research_objectives": [
+    "Engineer artificial allosteric protein systems with programmable inputs and outputs",
+    "Develop machine-learning-designed minimal ligand-binding domains as biosensor receptors",
+    "Demonstrate that global conformational change is not required for allosteric regulation",
+    "Create single-component allosteric switches with diverse output types",
+    "Engineer logic gates (YES and AND) for multi-input biosensing",
+    "Validate functional utility in cellular and bioelectronic applications"
+  ],
+
+  "research_scope": {
+    "focus_area": "Protein allostery and synthetic allosteric protein engineering",
+    "methodology": "Machine learning design combined with protein engineering and synthetic biology",
+    "key_concepts": [
+      "Protein allostery mechanisms",
+      "Conformational entropy in allosteric regulation",
+      "Machine learning protein design",
+      "Biosensor engineering",
+      "Synthetic biology applications"
+    ]
+  },
+
+  "allosteric_regulation_principles": {
+    "biological_importance": "Underlies most information and energy processing in biology",
+    "synthetic_biology_objective": "Central goal to develop artificial systems for biotechnology",
+    "key_insight": "Allostery possible without global conformational change through conformational entropy"
+  },
+
+  "design_challenge_addressed": {
+    "traditional_limitation": "Paucity of natural domains undergoing global conformation change upon ligand binding",
+    "assumption_challenged": "Global conformational change presumed necessary for allosteric output control",
+    "new_paradigm": "Conformational entropy changes in internal dynamics can regulate allostery"
+  },
+
+  "machine_learning_design_approach": {
+    "method": "Generative machine learning models",
+    "goal": "Generate minimal ligand-binding domains for biosensor receptors",
+    "advantage": "Enables conversion of domains without global conformational change"
+  },
+
+  "biosensor_component_design": {
+    "receptor_domain": {
+      "characteristics": "Minimal ligand-binding domain engineered by ML",
+      "ligand_specificity": "Tunable for diverse small molecules, peptides, proteins",
+      "conformational_behavior": "No requirement for global conformation change"
+    },
+    "reporter_domain": {
+      "examples": ["β-lactamase", "Fluorescent proteins", "Enzymatic reporters"],
+      "function": "Transduces ligand binding into measurable output"
+    },
+    "linker_design": {
+      "consideration": "Positioning influences output efficiency",
+      "principle": "Locate linker away from conformational flexibility regions"
+    }
+  },
+
+  "biosensor_output_modalities": {
+    "colorimetric": "Color-change based detection",
+    "luminescent": "Light emission based sensing",
+    "electrochemical": "Electron transfer based readout"
+  },
+
+  "logic_gate_engineering": {
+    "yes_gates": "Single input conditional outputs",
+    "and_gates": "Multiple input AND logic",
+    "implementation": "Intramolecular and synthetic configurations"
+  },
+
+  "validation_methodology": {
+    "conformational_analysis": [
+      "Hydrogen/Deuterium exchange mass spectrometry",
+      "19F nuclear magnetic resonance"
+    ],
+    "functional_validation": [
+      "Dose-response characterization",
+      "Cellular engineering demonstrations",
+      "Bioelectronic device integration"
+    ]
+  },
+
+  "biotechnology_applications": {
+    "synthetic_biology": "Programmable biosensors for cellular engineering",
+    "metabolic_engineering": "Feedback control of biosynthetic pathways",
+    "bioelectronics": "Biosensors for diagnostics and monitoring"
+  }
+}

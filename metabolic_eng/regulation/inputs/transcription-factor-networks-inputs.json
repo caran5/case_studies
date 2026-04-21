@@ -1,0 +1,45 @@
+{
+  "experiment_id": "transcription-factor-networks",
+  "description": "Input parameters for transcription factor networks and gene regulation",
+  "transcription_factor_landscape": {
+    "tf_count": "~1500 in mammals",
+    "protein_families": [
+      "Zinc fingers",
+      "bHLH",
+      "Nuclear receptors",
+      "STAT",
+      "Forkhead"
+    ],
+    "regulatory_functions": [
+      "Activation",
+      "Repression",
+      "Silencing",
+      "Priming"
+    ]
+  },
+  "network_components": {
+    "regulatory_relationships": [
+      "Direct binding",
+      "Cooperative binding",
+      "Antagonistic interactions"
+    ],
+    "network_motifs": [
+      "Feedforward loops",
+      "Feedback loops",
+      "Dense modules",
+      "Sparse connections"
+    ]
+  },
+  "dna_binding_features": {
+    "binding_elements": [
+      "Consensus sequences",
+      "Degenerate motifs",
+      "CpG islands"
+    ],
+    "chromatin_context": [
+      "Open chromatin",
+      "Closed chromatin",
+      "Transition regions"
+    ]
+  }
+}

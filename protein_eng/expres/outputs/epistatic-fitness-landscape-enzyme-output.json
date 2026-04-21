@@ -1,0 +1,10 @@
+{
+  "experiment_id": "epistatic-fitness-landscape-enzyme",
+  "title": "Comprehensive epistatic fitness landscape of enzyme active site",
+  "key_findings": [
+    "Fitness landscape exhibits ruggedness indicating epistasis",
+    "Peak shifting with sequence context",
+    "Multiple local optima identified",
+    "Combinatorial fitness improves with epistasis models"
+  ]
+}

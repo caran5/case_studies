@@ -1,0 +1,168 @@
+{
+  "paper_id": "acetyltransferases-lasso",
+  "title": "Iterative acylation on mature lasso peptides by widespread acetyltransferases",
+  "summary": "Discovery and characterization of GNATs that iteratively acylate mature lasso peptides, and generation of lipolasso peptides through structure-based engineering",
+
+  "genome_mining_results": {
+    "gnat_encoding_lasso_bgcs": 112,
+    "phylogenetic_distribution": "All restricted to Actinomycetes",
+    "classification": {
+      "class_i": {
+        "count": 103,
+        "characteristic": "Single Lys10 in core peptide",
+        "modification": "Monoacetylation",
+        "example": "Albusnodin (AlbT)"
+      },
+      "class_ii": {
+        "count": 13,
+        "characteristic": "Two Lys residues (typically Lys4 and Lys10)",
+        "modification": "Iterative diacetylation",
+        "example": "Raynimycin family (IatT)",
+        "exceptions": ["JiaA (Lys5, Lys10)", "AlkA (Lys5, Lys10)"]
+      }
+    }
+  },
+
+  "sequence_similarity_network": {
+    "tool_used": "EFI-EST",
+    "iatt_containing_cluster": "Separated from others at 40% identity threshold",
+    "lasso_peptide_co_occurrence": "Only GNATs within IatT cluster co-occur with lasso biosynthetic genes"
+  },
+
+  "representative_bgc_characterization": {
+    "source_organism": "Actinosynnema mirum DSM 43827",
+    "bgc_name": "iat (iterative acetyltransferases)",
+    "components": {
+      "iatA": "Precursor peptide",
+      "iatB": "RRE-trans-glutaminase protease fusion",
+      "iatC": "Lasso cyclase",
+      "iatT": "GNAT (iterative acetyltransferase)"
+    },
+    "peptide_characteristics": {
+      "leader_peptide": "H(x)2PxL(x)4G motif with conserved Thr-2",
+      "core_peptide": "Contains Gly1 and Glu8 for macrolactamization",
+      "acetylation_sites": "Lys4 and Lys10"
+    }
+  },
+
+  "structural_analysis": {
+    "technique": "Cryo-electron microscopy (cryo-EM)",
+    "resolution": "2.0 Å",
+    "enzyme_studied": "IatT",
+    "structural_insights": [
+      "Defined lasso peptide-binding pocket",
+      "Identified key residues for two-step acetylation",
+      "Revealed cooperativity between residues",
+      "Showed binding pose changes between acetylation steps"
+    ]
+  },
+
+  "iterative_modification_mechanism": {
+    "substrate": "Mature lasso peptide (3D structure)",
+    "step_1": {
+      "target": "First Lys (e.g., Lys4 in loop motif)",
+      "modification": "N-acetylation",
+      "product": "Monoacetylated intermediate"
+    },
+    "step_2": {
+      "target": "Second Lys (e.g., Lys10 in ring motif)",
+      "modification": "N-acetylation",
+      "product": "Diacetylated mature lasso peptide",
+      "challenge": "Requires significant substrate binding pocket rearrangement"
+    },
+    "binding_adaptations": "Enzyme adjusts binding geometry between steps"
+  },
+
+  "experimental_validation": {
+    "albt_comparison": "IatT shares 54% sequence identity with AlbT over 93% coverage",
+    "functional_difference": "IatT performs iterative acylation while AlbT performs monoacetylation",
+    "structure_activity": "Sequence similarity with functional divergence"
+  },
+
+  "rational_engineering": {
+    "target": "IatT acetyl-binding pocket",
+    "modification": "Expanded cavity",
+    "goal": "Accommodate longer-chain acyl groups",
+    "method": "Structure-based rational design"
+  },
+
+  "engineering_outcomes": {
+    "monoacetylation_variants": "Successfully generated with longer chain acyl groups",
+    "diacylation_variants": "Successfully generated with longer chain acyl groups",
+    "lipolasso_peptides": "New class of ribosomal lipopeptides created"
+  },
+
+  "lipolasso_peptide_generation": {
+    "definition": "Lasso peptides with iteratively installed longer-chain fatty acyl modifications",
+    "structure": "Lipidated lasso peptides",
+    "nomenclature": "Lipolasso peptides",
+    "significance": "New-to-nature compounds not found in nature"
+  },
+
+  "validation_experiments": {
+    "in_vitro_reconstitution": "Enzymatic reconstitution of IatT with lasso peptide substrates",
+    "mass_spectrometry": "Confirmed acetylation and acylation with different chain lengths",
+    "structural_confirmation": "Cryo-EM structure of enzyme-substrate complex"
+  },
+
+  "generalizability_assessment": {
+    "prediction": "Engineering strategy applicable to other GNAT-encoding RiPP BGCs",
+    "scope": "Can be applied to any RiPP biosynthetic gene cluster with GNAT",
+    "expected_outcome": "Enable efficient diversification of ribosomal lipopeptides"
+  },
+
+  "biotechnological_applications": {
+    "variant_library": "Generation of diverse lasso peptide variants",
+    "bioactivity_enhancement": "Lipidation may improve cell penetration or bioactivity",
+    "pharmaceutical_potential": "Create new drug candidates"
+  },
+
+  "catalytic_mechanism_insights": {
+    "key_finding": "First demonstration of iterative catalysis on mature 3D RiPPs",
+    "mechanism": "Enzyme accommodates 3D substrate while performing multiple catalytic steps",
+    "residue_roles": "Identified specific residues for each acetylation step",
+    "cooperativity": "Residues work cooperatively across two distinct reactions"
+  },
+
+  "prior_paradigm_challenged": {
+    "traditional_belief": "Iterative PTMs only on linear peptides",
+    "new_evidence": "GNATs demonstrate iterative modification on mature lasso peptides",
+    "significance": "Expands potential for RiPP engineering"
+  },
+
+  "cryo_em_findings": {
+    "resolution": "2.0 Å atomic resolution",
+    "structure_details": [
+      "IatT acetyl-recognition pocket",
+      "Key residues for substrate binding",
+      "Conformational changes during catalysis",
+      "Substrate positioning for each acetylation step"
+    ]
+  },
+
+  "ripp_engineering_implications": {
+    "enzyme_promiscuity": "GNATs show flexibility in substrate accommodation",
+    "acyl_group_variation": "Different chain lengths successfully incorporated",
+    "position_selectivity": "Achieves position-specific acylation despite 3D substrate"
+  },
+
+  "chemical_diversity_expansion": {
+    "traditional_lasso_modifications": "Limited to pre-cyclization PTMs",
+    "new_capability": "Post-cyclization iterative acylation",
+    "diversity_increase": "Exponentially more lasso variants possible",
+    "structure_activity_relationships": "New chemical space for SAR studies"
+  },
+
+  "future_directions": {
+    "enzyme_engineering": "Further optimization for different acyl substrates",
+    "combination_strategies": "Combining with other RiPP modifications",
+    "organism_engineering": "Develop heterologous expression systems for lipoproduct generation",
+    "industrial_applications": "Scale-up to produce lipolasso peptides for drug development"
+  },
+
+  "ripp_superfamily_impact": {
+    "gnat_prevalence": "GNATs are widely distributed in GNAT superfamily",
+    "broader_applicability": "Strategy applicable beyond lasso peptides to other GNAT-containing RiPPs",
+    "catalytic_diversity": "Expands known catalytic capabilities of GNAT enzymes"
+  }
+}

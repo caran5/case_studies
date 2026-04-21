@@ -1,0 +1,15 @@
+{
+  "experiment_id": "directed-evolution-protein-function",
+  "title": "Directed evolution of protein function",
+  "key_findings": [
+    "Directed evolution rapidly generates novel protein functions",
+    "Selection pressure drives convergent mutations",
+    "Multiple evolutionary paths lead to similar improvements",
+    "Epistasis frequently encountered in evolved proteins"
+  ],
+  "evolution_results": {
+    "improvement_magnitude": "10-1000 fold activity increases",
+    "convergence_rate": "Consensus emerges within 3-5 rounds",
+    "specificity": "Can simultaneously improve multiple properties"
+  }
+}

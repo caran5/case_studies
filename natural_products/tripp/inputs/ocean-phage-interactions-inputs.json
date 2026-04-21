@@ -1,0 +1,160 @@
+{
+  "experiment_id": "ocean-ripp-phage-interactions",
+  "description": "Deep learning-enabled metagenome mining and ecological analysis of RiPPs in ocean microbiome with focus on prokaryote-phage interactions",
+
+  "data_collection_sources": {
+    "metagenome_assembled_genomes": {
+      "count": 71811,
+      "samples": 3035,
+      "expeditions": ["Tara Oceans", "Tara Oceans Polar Circle", "Malaspina expeditions"]
+    },
+    "single_amplified_genomes": {
+      "count": 5287,
+      "samples": 3035
+    },
+    "unbinned_contigs": {
+      "metagenomes": 3562
+    },
+    "coverage": "Global ocean microbiome"
+  },
+
+  "deep_learning_model_development": {
+    "model_name": "TrRiPP",
+    "input_type": "Amino acid sequences",
+    "sequence_length_max": 150,
+    "architecture": ["Transformer encoder", "Bidirectional LSTM (Bi-LSTM)", "Feed-forward neural network"]
+  },
+
+  "model_architecture_details": {
+    "transformer_encoder": "Computes attention maps on amino acid sequences",
+    "bi_lstm_layers": 2,
+    "bi_lstm_function": "Obtain sequence representations",
+    "feed_forward": "Classification layer"
+  },
+
+  "model_training": {
+    "training_data_sources": ["NeuRiPP dataset", "DeepRiPP dataset", "Manual curation from databases"],
+    "deduplication": "CD-HIT applied to test set",
+    "validation_method": "10-fold cross-validation"
+  },
+
+  "model_performance_metrics": {
+    "binary_classification": {
+      "accuracy": 0.994,
+      "recall": 0.953,
+      "f1_score": 0.967,
+      "matthews_correlation_coefficient": 0.964,
+      "auroc": 0.995
+    },
+    "ripp_subclass_classification": {
+      "accuracy": 0.994,
+      "f1_score": 0.993,
+      "cohens_kappa": 0.960
+    }
+  },
+
+  "generalization_testing": {
+    "sequence_similarity_range": [0.10, 1.0],
+    "low_similarity_threshold": 0.30,
+    "performance_consistency": "Maintained across range"
+  },
+
+  "comparison_benchmarking": {
+    "baseline_methods": ["NeuRiPP", "DeepRiPP"],
+    "antismash_comparison": "Traditional genome mining tool",
+    "fragmented_genome_analysis": "Simulated metagenome contigs"
+  },
+
+  "input_processing": {
+    "orf_prediction": "Prodigal-short / MetaProdigal-short",
+    "total_orfs_analyzed": 95310599,
+    "predicted_ripp_precursors": 19864,
+    "nonredundant_sequences": true
+  },
+
+  "annotation_methodology": {
+    "ptm_enzyme_identification": "Conserved Domain Database (CDD)",
+    "bgc_analysis": "Genomic neighborhood analysis",
+    "validation_criteria": [
+      "Co-localization with PTM enzymes",
+      "Presence of intrinsic amino acids",
+      "RiPP-related gene presence"
+    ]
+  },
+
+  "external_validation": {
+    "bacterial_complete_genomes": 22789,
+    "ripp_precursor_predictions": 33474,
+    "unique_sequences": 12421
+  },
+
+  "validation_on_fragmented_data": {
+    "test_genomes": 100,
+    "original_prediction": 217,
+    "fragmented_recovery_antismash": 1,
+    "fragmented_recovery_trripp": 109,
+    "fragment_size_distribution": "Based on actual metagenomes"
+  },
+
+  "ecosystem_analysis": {
+    "ecosystems_analyzed": 5,
+    "marine_ripp_families": 4777,
+    "host_associated_families": 3224,
+    "engineered_families": 1574,
+    "non_marine_aquatic": 1295,
+    "terrestrial": 1023
+  },
+
+  "rarefaction_analysis": {
+    "purpose": "Estimate total RiPP diversity",
+    "method": "Species accumulation curves",
+    "known_ripps_mibig3": 254,
+    "predicted_potential": 27563,
+    "percentage_known": "0.9-1.6%"
+  },
+
+  "ecological_interaction_analysis": {
+    "co_expression_analysis": "Metatranscriptomic data correlation",
+    "protein_families": [
+      "Antiphage defense-related",
+      "Phage-related"
+    ]
+  },
+
+  "host_phage_network_construction": {
+    "database": "Ocean Virus Database (OVD)",
+    "prediction_method": "Host prediction algorithms",
+    "network_components": [
+      "RiPP-encoding prokaryotes",
+      "RiPP families",
+      "Viral protein families",
+      "Phages"
+    ]
+  },
+
+  "quality_control_validation": {
+    "sequence_feature_examination": [
+      "Intrinsic amino acid presence",
+      "Conserved motifs",
+      "PTM enzyme co-occurrence"
+    ],
+    "co_localization_frequency": "43.0-91.9%",
+    "intrinsic_aa_presence": ">99%"
+  },
+
+  "sequence_similarity_network": {
+    "construction": "Based on precursor sequences",
+    "analysis": "Cluster-based validation",
+    "validation_criterion": "PTM enzyme co-localization"
+  },
+
+  "comparative_ecosystem_analysis": {
+    "venn_diagram": "Five-set intersections",
+    "niche_specificity": "Measured by unique families per ecosystem"
+  },
+
+  "data_deposition": {
+    "supplementary_data": "Comprehensive dataset files",
+    "accessibility": "Public databases"
+  }
+}

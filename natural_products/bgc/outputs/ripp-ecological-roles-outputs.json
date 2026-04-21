@@ -1,0 +1,29 @@
+{
+  "experiment_id": "ripp-ecological-roles",
+  "title": "RiPP ecological roles - Key Findings",
+
+  "key_discoveries": [
+    "RiPPs play critical roles in bacterial ecology and competition",
+    "Antiphage defense systems based on small peptides",
+    "RiPPs facilitate biofilm formation and maintenance",
+    "RiPPs mediate microbe-microbe and microbe-host interactions"
+  ],
+
+  "antiphage_defense": {
+    "mechanism": "Small peptides (≤50 amino acids) act as antiphage defense",
+    "distribution": "Widespread in bacterial genomes",
+    "effectiveness": "Important defense mechanism against viral predation"
+  },
+
+  "bacteriocin_functions": {
+    "examples": ["Staphylococcin 188", "Enterocins AAR-71/74", "Erwiniocin NA4"],
+    "roles": ["Intraspecies competition", "Niche establishment", "Resource acquisition"]
+  },
+
+  "ecological_significance": [
+    "RiPPs critical for bacterial survival in competitive environments",
+    "Major contribution to microbiota stability",
+    "Determinants of ecological dominance",
+    "Mediators of complex microbial interactions"
+  ]
+}

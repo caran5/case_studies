@@ -1,0 +1,51 @@
+{
+  "experiment_id": "rna-recognition-motif-proteins",
+  "description": "Input parameters for RNA recognition motif proteins and RNA binding",
+  "rrm_protein_family": {
+    "canonical_structure": "RNA recognition motif (RRM) domain",
+    "domain_architecture": [
+      "RRM1",
+      "RRM2",
+      "RRM-like",
+      "Accessory domains"
+    ],
+    "protein_examples": [
+      "hnRNPs",
+      "SR proteins",
+      "PABP",
+      "eIF4A"
+    ]
+  },
+  "rna_targets": {
+    "target_types": [
+      "mRNA",
+      "miRNA",
+      "lncRNA",
+      "pre-mRNA"
+    ],
+    "binding_elements": [
+      "Consensus sequences",
+      "Structural motifs",
+      "AU-rich elements"
+    ],
+    "biological_contexts": [
+      "Splicing",
+      "Translation",
+      "Localization",
+      "Decay"
+    ]
+  },
+  "binding_characterization": {
+    "affinity_parameters": [
+      "Kd",
+      "On-rate",
+      "Off-rate",
+      "Stoichiometry"
+    ],
+    "structural_features": [
+      "RNA secondary structure",
+      "Protein-RNA contacts",
+      "Conformational changes"
+    ]
+  }
+}

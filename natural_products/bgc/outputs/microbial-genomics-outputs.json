@@ -1,0 +1,22 @@
+{
+  "experiment_id": "microbial-genomics-natural-products",
+  "title": "Genomics-driven discovery results",
+
+  "key_findings": [
+    "Genome mining reveals microorganisms have far greater biosynthetic potential than classical screening",
+    "Genomics-based discovery can prioritize structurally novel compounds",
+    "Integration of genomics with bioactivity screening accelerates drug discovery",
+    "Novel antibiotics and bioactive compounds identified through this approach"
+  ],
+
+  "discovery_impact": {
+    "recent_drug_approvals": ["Daptomycin", "Fidaxomicin", "Carfilzomib"],
+    "therapeutic_diversity": "Antibacterial, antifungal, anticancer, immunosuppressive compounds"
+  },
+
+  "antibiotic_resistance_context": {
+    "crisis": "No novel scaffolds 1962-2000",
+    "current_threat": "Multidrug-resistant pathogens epidemic",
+    "genomics_solution": "Access to vast unexplored biosynthetic potential"
+  }
+}

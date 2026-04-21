@@ -1,0 +1,44 @@
+{
+  "experiment_id": "phase-separation-receptor-signaling",
+  "title": "Phase separation enhances probability of receptor signalling and drug targeting",
+  "date_published": "2023-01-01",
+  "journal": "Trends in Biochemical Sciences",
+
+  "primary_findings": {
+    "key_insight": "High-fidelity signaling is inherently low probability occurrence",
+    "solution_mechanism": "Intracellular LLPS at plasma membrane weights signaling in favor of desired outcome",
+    "implication": "Phase separation provides mechanism for reliable signal transduction despite noisy background"
+  },
+
+  "signaling_probability_analysis": {
+    "baseline_challenge": "Random molecular diffusion creates low probability of productive signaling",
+    "background_noise": "Redundant nonfunctional signaling creates noise",
+    "receptor_requirement": "Sufficient numbers of engaged receptors and effectors needed",
+    "outcome": "Phase separation enables tuning of signaling probability"
+  },
+
+  "phase_separation_mechanism": {
+    "location": "Intracellular, at plasma membrane proximity",
+    "function": "Compartmentalizes signaling components",
+    "fidelity_improvement": "Increases probability of productive signaling pathway",
+    "selectivity_mechanism": "Ensures mutual exclusivity in signal initiation"
+  },
+
+  "llps_characteristics": {
+    "electrochemical_environment": "Electrostatically charged microenvironment within condensates",
+    "rtkmediated_llps": "Likely dominated by electrostatic interactions",
+    "consequence": "Influences efficiency and specificity of receptor clustering"
+  },
+
+  "drug_targeting_implications": {
+    "traditional_approach": "Target orthosteric sites",
+    "phase_separation_approach": "Exploit LLPS for enhanced targeting",
+    "advantage": "Potentially improved specificity through compartmentalized signaling"
+  },
+
+  "signal_transduction_framework": {
+    "integrated_view": "LLPS as fundamental signaling regulatory mechanism",
+    "biological_logic": "Noise reduction through compartmentalization",
+    "evolution_perspective": "LLPS likely evolved for signaling fidelity"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "experiment_id": "silent-cluster-elicitors",
+  "description": "Experimental parameters for silent cluster elicitor screening",
+
+  "platform_components": {
+    "bacterial_strains": ["Actinobacteria", "Streptomyces species"],
+    "silent_clusters": "Genome-mining identified cryptic BGCs",
+    "detection_method": "Differential metabolomics"
+  },
+
+  "screening_approach": [
+    "Elicitor library preparation",
+    "Systematic exposure to candidate activators",
+    "Metabolite production monitoring",
+    "Active compound identification"
+  ],
+
+  "elicitor_types": [
+    "Chemical inducers",
+    "Nutrient limitation conditions",
+    "Environmental stress",
+    "Quorum sensing molecules",
+    "Co-culture conditions",
+    "Membrane-disrupting agents"
+  ],
+
+  "metabolite_detection": {
+    "methodology": ["HPLC-MS", "Differential metabolomics", "NMR spectroscopy"],
+    "comparison": "Treated vs untreated culture comparison"
+  },
+
+  "identification_workflow": [
+    "Activate silent cluster with elicitor",
+    "Detect novel metabolites via differential metabolomics",
+    "Isolate bioactive compound",
+    "Structural elucidation via NMR"
+  ]
+}

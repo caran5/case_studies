@@ -1,0 +1,89 @@
+{
+  "experiment_id": "deep-mutational-scanning-enzyme-fitness",
+  "title": "Trade-offs between enzyme fitness and solubility illuminated by deep mutational scanning",
+  "date_published": "2017-02-28",
+
+  "research_objectives": [
+    "Characterize trade-offs between enzyme solubility and catalytic activity",
+    "Evaluate sequence determinants of protein solubility",
+    "Develop predictive models for solubility-enhancing mutations maintaining fitness",
+    "Identify design principles for improving enzyme stability without sacrificing activity"
+  ],
+
+  "research_scope": {
+    "focus_area": "Protein solubility and enzyme fitness trade-offs in protein engineering",
+    "methodology": "Deep mutational scanning with complementary selection systems",
+    "key_concepts": [
+      "Protein solubility",
+      "Enzyme fitness",
+      "Trade-off analysis",
+      "Deep mutational scanning",
+      "Fitness landscapes"
+    ],
+    "model_enzymes": ["TEM-1 beta-lactamase", "Levoglucosan kinase (LGK)"]
+  },
+
+  "biophysical_fundamentals": {
+    "protein_stability": "Marginal stability of natural proteins",
+    "solubility_definition": "Probability of proper folding upon translation",
+    "contributing_factors": [
+      "Protein aggregation propensity",
+      "Thermodynamic stability",
+      "Folding rate"
+    ]
+  },
+
+  "problem_statement": {
+    "engineering_challenge": "Mutations increasing solubility often decrease catalytic activity",
+    "consequence": "Requires laborious high-throughput activity screens to identify good variants",
+    "need": "Generalizable method to predict beneficial solubility mutations maintaining fitness"
+  },
+
+  "experimental_design": {
+    "deep_mutational_scanning": "Assess nearly all possible single point mutations",
+    "complementary_selections": [
+      "Yeast surface display (YSD) screening for solubility",
+      "Twin-arginine translocation (Tat) pathway selection"
+    ],
+    "fitness_comparison": "Compare results with published experimental fitness landscapes"
+  },
+
+  "key_findings": {
+    "solubility_mutation_frequency": {
+      "percentage": "5-10% of single missense mutations",
+      "alignment": "Matches theoretical predictions of global protein stability"
+    },
+    "fitness_retention_correlation": {
+      "factor1": "Evolutionary conservation (positive correlation)",
+      "factor2": "Distance to active site (positive correlation)",
+      "factor3": "Contact number (negative correlation)"
+    }
+  },
+
+  "predictive_modeling": {
+    "approach": "Hybrid classification models",
+    "training": "Based on experimentally observed fitness landscapes",
+    "accuracy": "90% for predicting solubility-enhancing mutations maintaining fitness",
+    "limitation": "Removal of rare mutations improving both fitness and solubility"
+  },
+
+  "design_strategies": {
+    "back_to_consensus": "Select mutations oversampled in evolutionary history",
+    "advantage": "Preserves enzyme function while improving stability",
+    "conservation_based": "Prioritize conserved residues for modification",
+    "active_site_avoidance": "Avoid mutations near active site when possible"
+  },
+
+  "structural_characterization": {
+    "method": "X-ray crystallography",
+    "sample": "LGK mutant with improved solubility and function",
+    "purpose": "Reveal biophysical basis of stability-activity trade-offs"
+  },
+
+  "biotechnology_applications": {
+    "biocatalysis": "Improved solubility increases catalytic lifetime and turnover",
+    "expression": "Higher yields of soluble, active enzyme",
+    "therapeutics": "Better formulation stability and shelf life",
+    "manufacturing": "Enhanced production of enzymes for specialty chemicals"
+  }
+}

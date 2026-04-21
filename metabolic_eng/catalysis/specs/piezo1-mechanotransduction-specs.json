@@ -1,0 +1,24 @@
+{
+  "experiment_id": "piezo1-mechanotransduction",
+  "title": "Impaired PIEZO1 function in patients with a novel autosomal recessive congenital lymphatic dysplasia",
+  "date_published": "2015-09-21",
+
+  "research_objectives": [
+    "Characterize PIEZO1 loss-of-function mutations in human patients",
+    "Identify novel clinical manifestations of PIEZO1 dysfunction",
+    "Understand PIEZO1 role in lymphatic system development",
+    "Establish mechanotransduction pathways in lymphangiogenesis"
+  ],
+
+  "research_scope": {
+    "focus_area": "PIEZO1 mechanotransduction ion channels and lymphatic development",
+    "methodology": "Whole-exome sequencing and functional characterization",
+    "key_concepts": [
+      "Mechanotransduction",
+      "Ion channels",
+      "Lymphatic development",
+      "Genetic disease",
+      "Loss-of-function mutations"
+    ]
+  }
+}

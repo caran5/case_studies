@@ -1,0 +1,20 @@
+{
+  "experiment_id": "hydrogen-bonding-symmetrization",
+  "description": "Input parameters for studying hydrogen bond symmetrization under high pressure",
+  
+  "hydrogen_bond_physics": {
+    "phenomenon": "Hydrogen atom location at center of hydrogen bond under pressure",
+    "condition": "Requires extreme pressures (>100 GPa)"
+  },
+
+  "ice_vii_system": {
+    "material": "D2O ice (deuterated water ice)",
+    "property": "Model hydrogen-bonded system",
+    "phase_transition": "Expected under extreme pressure"
+  },
+
+  "experimental_method": {
+    "technique": "Neutron diffraction",
+    "resolution": "Atomic-level hydrogen distribution"
+  }
+}

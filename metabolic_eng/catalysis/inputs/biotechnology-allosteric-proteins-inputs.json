@@ -1,0 +1,21 @@
+{
+  "experiment_id": "biotechnology-allosteric-proteins",
+  "description": "Input parameters for biotechnology applications of engineered allosteric proteins",
+  
+  "allosteric_protein_applications": {
+    "field": "Biotechnology and synthetic biology",
+    "platform": "Engineered allosteric proteins as tools and therapeutics"
+  },
+
+  "application_domains": [
+    "Biosensing",
+    "Cellular engineering",
+    "Bioelectronics",
+    "Diagnostic devices"
+  ],
+
+  "protein_characteristics": {
+    "modularity": "Programmable inputs and outputs",
+    "specificity": "Tunable ligand binding"
+  }
+}

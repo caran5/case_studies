@@ -1,0 +1,27 @@
+{
+  "experiment_id": "modular-biosensors-metabolite-regulation",
+  "description": "Input parameters for engineering modular biosensors for metabolite-responsive regulation of transcription",
+  
+  "biosensor_design_challenge": {
+    "problem": "Limited naturally evolved biosensors for monitoring desired metabolites",
+    "goal": "Generalizable approach for constructing diverse novel biosensors"
+  },
+
+  "design_strategy": {
+    "approach": "Modular protein design with synthetic promoters",
+    "components": [
+      "Ligand-binding protein (maltose binding protein - MBP)",
+      "Programmable DNA binding domain (zinc finger protein - ZFP)",
+      "Promoter library (synthetic)"
+    ]
+  },
+
+  "metabolic_engineering_application": {
+    "use_case": "Monitor metabolite levels in individual cells",
+    "benefit": "Enable metabolite-responsive feedback control"
+  },
+
+  "design_validation": {
+    "methods": ["Library screening", "Statistical analysis", "Functional characterization"]
+  }
+}

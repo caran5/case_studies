@@ -1,0 +1,180 @@
+{
+  "paper_id": "lariocidin",
+  "title": "A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome",
+  "summary": "Discovery, characterization, and mechanism of action of lariocidin, a novel ribosome-targeting lasso peptide antibiotic",
+
+  "discovery_results": {
+    "source_organism": "Paenibacillus sp. M2",
+    "compound_name": "Lariocidin (LAR)",
+    "derivative": "Lariocidin B (LAR-B) - internally cyclized form",
+    "type": "Lasso peptide RiPP",
+    "compound_class": "First lasso peptide shown to inhibit bacterial ribosome"
+  },
+
+  "spectrum_of_activity": {
+    "gram_positive_bacteria": "Inhibitory",
+    "gram_negative_bacteria": "Inhibitory",
+    "broad_spectrum": true,
+    "target_organism_example": "Acinetobacter baumannii (MDR strain)",
+    "significance": "Highly significant for Gram-negative bacteria resistant to last-resort antibiotics"
+  },
+
+  "mechanism_of_action": {
+    "primary_target": "Bacterial ribosome (specifically small ribosomal subunit)",
+    "binding_site_novelty": "Unique ribosomal site distinct from well-characterized sites",
+    "target_molecules": [
+      "16S ribosomal RNA",
+      "Aminoacyl-tRNA"
+    ],
+    "functional_outcomes": [
+      "Inhibits translocation",
+      "Induces miscoding",
+      "Blocks protein synthesis"
+    ]
+  },
+
+  "molecular_structure": {
+    "lariocidin": {
+      "sequence": "SKKSKPGD GKFGRGVKRG",
+      "class": "II",
+      "structure": "Lasso peptide with C-terminal tail threaded through macrolactam ring"
+    },
+    "lariocidin_b": {
+      "sequence": "SK (&) KSKPGD GKFGRGVKR(&)",
+      "class": "V (newly proposed)",
+      "feature": "Double isopeptide bond creating double-lariat structure",
+      "note": "First lasso peptide with two isopeptide bonds"
+    }
+  },
+
+  "cellular_uptake_studies": {
+    "fluorescent_labeling": "Successfully labeled LAR with fluorescent marker",
+    "bioactivity_retention": "Labeled compound retained antibiotic activity",
+    "cell_accumulation": "Fluorescently-labeled LAR accumulated in cytoplasm of E. coli cells",
+    "implication": "Intracellular ribosome is primary target"
+  },
+
+  "resistance_development": {
+    "spontaneous_resistant_mutants": {
+      "frequency": "~10^-8",
+      "methodology": "Plating on medium supplemented with LAR",
+      "organism_strains": ["E. coli", "Bacillus subtilis"]
+    },
+    "genomic_analysis": {
+      "initial_mutations": "Genes related to electron transport chain and respiration",
+      "affected_pathways": ["Aerobic respiration", "Electron transport chain"],
+      "discovery_method": "Whole-genome sequencing"
+    },
+    "mutation_interpretation": {
+      "finding": "Deletion of individual identified genes showed no significant MIC changes",
+      "conclusion": "Aerobic respiration alterations affect LAR uptake but are not direct targets",
+      "supporting_evidence": "LAR showed 4-8 fold MIC increase under anaerobic conditions"
+    },
+    "ribosomal_target_confirmation": {
+      "challenge": "Redundant rRNA genes prevent direct target site mutation recovery",
+      "method": "Used E. coli SQ110DTC with single rRNA operon",
+      "outcome": "Ribosome confirmed as primary target"
+    }
+  },
+
+  "minimum_inhibitory_concentrations": {
+    "aerobic_conditions": "Baseline MIC values",
+    "anaerobic_conditions": "4-8 fold increase in MIC",
+    "interpretation": "Uptake mechanism depends on aerobic metabolism but target is ribosome"
+  },
+
+  "pharmacological_properties": {
+    "mammalian_toxicity": "No toxicity to human cells",
+    "observed": true
+  },
+
+  "resistance_development_potential": {
+    "spontaneous_resistance": "Low propensity",
+    "mechanism_novelty": "Novel ribosomal site and mode of action",
+    "resistance_advantage": "Unaffected by common resistance mechanisms to other antibiotics"
+  },
+
+  "in_vivo_efficacy": {
+    "model": "Mouse model of Acinetobacter baumannii infection",
+    "results": "Potent in vivo activity",
+    "clinical_relevance": "Demonstrates therapeutic potential in living organism"
+  },
+
+  "ribosomal_binding_site": {
+    "location": "Small ribosomal subunit",
+    "interactions": [
+      "16S rRNA binding",
+      "Aminoacyl-tRNA interaction"
+    ],
+    "mechanism": "Interferes with translation elongation by inhibiting translocation",
+    "secondary_effect": "Induces miscoding errors in protein synthesis"
+  },
+
+  "comparison_to_known_lasso_peptides": {
+    "lassomycin": {
+      "target": "ClpP protease",
+      "activity": "Antimycobacterial",
+      "mechanism": "Intracellular target"
+    },
+    "microcin_j25": {
+      "target": "RNA polymerase",
+      "activity": "Gram-negative bacteria",
+      "mechanism": "Transcription inhibition"
+    },
+    "capistruin": {
+      "target": "RNA polymerase",
+      "activity": "Gram-negative bacteria",
+      "mechanism": "Transcription inhibition"
+    },
+    "lariocidin": {
+      "target": "Ribosome",
+      "activity": "Broad-spectrum Gram-positive and Gram-negative",
+      "mechanism": "Translation inhibition",
+      "novelty": "First ribosome-targeting lasso peptide"
+    }
+  },
+
+  "clinical_significance": {
+    "gap_addressed": "No ribosome-targeting lasso peptides previously reported",
+    "mechanism_advantage": "Novel ribosomal site avoids common resistance mechanisms",
+    "resistance_cross_protection": "Unaffected by resistance to conventional translation inhibitors",
+    "therapeutic_opportunity": "New chemical scaffold for antibacterial drug development"
+  },
+
+  "antimicrobial_landscape": {
+    "conventional_ribosomal_antibiotics": [
+      "Streptomycin",
+      "Tetracyclines",
+      "Macrolides",
+      "Aminoglycosides",
+      "Chloramphenicol"
+    ],
+    "common_resistance_mechanisms": [
+      "rRNA-modifying enzymes",
+      "Drug-modifying enzymes",
+      "Target site mutations"
+    ],
+    "lariocidin_advantage": "Novel binding site and mechanism escape these resistance pathways"
+  },
+
+  "research_outcomes": {
+    "novel_target_discovery": "Ribosome as lasso peptide target",
+    "first_demonstration": "Ribosome inhibition by lasso peptide",
+    "structure_activity": "Lasso structure provides unique ribosomal binding properties",
+    "chemical_scaffold": "Lasso peptide scaffold for alternative antibiotics"
+  },
+
+  "future_therapeutic_directions": {
+    "drug_development": "Foundation for new ribosomal inhibitor drugs",
+    "resistance_circumvention": "Novel mechanism avoids existing resistance",
+    "structural_optimization": "Potential for chemical derivatization and improvement",
+    "combination_therapy": "Potential synergy with conventional antibiotics targeting other sites"
+  },
+
+  "validation_and_confirmation": {
+    "genetic_evidence": "Mutations in electron transport chain",
+    "biochemical_evidence": "Ribosomal binding studies",
+    "cellular_evidence": "Cytoplasmic accumulation of fluorescent LAR",
+    "phenotypic_evidence": "Translocation inhibition and miscoding induction"
+  }
+}

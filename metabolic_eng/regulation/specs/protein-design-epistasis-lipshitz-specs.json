@@ -1,0 +1,18 @@
+{
+  "experiment_id": "protein-design-epistasis-lipshitz",
+  "title": "Addressing epistasis in the design of protein function",
+  "research_objectives": [
+    "Quantify epistatic effects in protein design",
+    "Develop models accounting for nonadditive interactions",
+    "Improve prediction of protein variant function"
+  ],
+  "problem_statement": {
+    "challenge": "Additive models fail for multi-mutation protein design",
+    "limitation": "Cannot accurately predict effects of combinations",
+    "impact": "Reduces efficiency of directed evolution and rational design"
+  },
+  "methodology": {
+    "approach": "Deep mutational scanning with statistical epistasis analysis",
+    "scope": "Multiple protein families and enzyme classes"
+  }
+}

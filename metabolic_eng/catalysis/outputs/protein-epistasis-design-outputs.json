@@ -1,0 +1,16 @@
+{
+  "experiment_id": "protein-epistasis-design",
+  "title": "Addressing epistasis in the design of protein function",
+  "date_published": "2024-01-01",
+
+  "primary_findings": {
+    "key_insight": "Epistatic interactions fundamentally affect protein design outcomes",
+    "approach": "Computational and experimental strategies to predict and overcome epistasis",
+    "significance": "Essential for rational protein engineering"
+  },
+
+  "epistasis_impact": {
+    "challenge": "Non-additive effects make single-point predictions unreliable",
+    "scope": "Affects fitness landscapes across protein space"
+  }
+}

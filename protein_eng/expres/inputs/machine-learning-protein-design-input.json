@@ -1,0 +1,36 @@
+{
+  "experiment_id": "machine-learning-protein-design",
+  "description": "Input parameters for machine learning in protein design",
+  "training_data": {
+    "sequences": "Natural proteins or variant libraries",
+    "properties": [
+      "Stability",
+      "Activity",
+      "Binding",
+      "Expression"
+    ],
+    "dataset_size": "Hundreds to thousands",
+    "coverage": "Sequence and property space"
+  },
+  "model_architecture": {
+    "approaches": [
+      "Neural networks",
+      "Random forests",
+      "Gradient boosting",
+      "Structural models"
+    ],
+    "features": [
+      "Sequence",
+      "Structure",
+      "Physicochemical properties"
+    ]
+  },
+  "validation_framework": {
+    "methodology": [
+      "Cross-validation",
+      "Held-out test sets",
+      "Experimental validation"
+    ],
+    "benchmarking": "Comparison to baselines"
+  }
+}

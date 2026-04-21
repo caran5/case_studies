@@ -1,0 +1,42 @@
+{
+  "experiment_id": "crispr-cas12a-biosensor-array",
+  "title": "CRISPR-Cas12a Biosensor Array for Ultrasensitive Detection of Unamplified DNA with Single-Nucleotide Polymorphic Discrimination",
+  "date_published": "2023-04-07",
+  "journal": "ACS Sensors",
+
+  "primary_findings": {
+    "key_achievement": "Amplification-free CRISPR-Cas12a gFET array achieves attomolar sensitivity",
+    "limit_of_detection": {
+      "ssdna": "1 aM (human papillomavirus 16 synthetic target)",
+      "dsdna": "10 aM (Escherichia coli plasmid target)"
+    },
+    "significance": "Enables ultrasensitive DNA detection without target preamplification"
+  },
+
+  "platform_advantages": {
+    "amplification_free": "Eliminates nucleic acid amplification step",
+    "intrinsic_amplification": "CRISPR-Cas12a trans-cleavage provides signal amplification",
+    "sensor_array": "48-element array improves data reliability",
+    "sensitivity_enhancement": "gFET platform leverages graphene for ultrasensitivity"
+  },
+
+  "detection_capabilities": {
+    "dna_targets": ["Single-stranded DNA", "Double-stranded DNA"],
+    "specificity": "Single-nucleotide polymorphism discrimination achieved",
+    "reliability": "Multiple parallel sensors reduce measurement variance"
+  },
+
+  "application_scope": {
+    "disease_screening": "Clinical diagnostics with femtomolar minimum sensitivity",
+    "food_safety": "Detection in complex matrices",
+    "environmental_monitoring": "Contamination detection",
+    "forensics": "DNA evidence analysis",
+    "rapid_analysis": "Streamlined sample-to-result workflow"
+  },
+
+  "technical_innovation": {
+    "crispr_mechanism": "Multiturn trans-cleavage activity enables continuous signal generation",
+    "graphene_integration": "gFET provides electrical transduction of enzymatic activity",
+    "array_format": "Multiplexed detection with improved accuracy"
+  }
+}

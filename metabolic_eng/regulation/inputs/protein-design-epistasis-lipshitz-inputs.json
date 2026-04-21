@@ -1,0 +1,50 @@
+{
+  "experiment_id": "protein-design-epistasis-lipshitz",
+  "description": "Input parameters for addressing epistasis in protein function design",
+  "protein_systems_studied": {
+    "focus": "Epistatic interactions in protein design",
+    "challenge": "Nonadditive effects of multiple mutations",
+    "scope": "Combinatorial mutation analysis"
+  },
+  "mutation_analysis": {
+    "mutation_types": [
+      "Single point mutations",
+      "Combination mutations",
+      "Domain variants"
+    ],
+    "epistasis_categories": [
+      "Positive epistasis",
+      "Negative epistasis",
+      "Reciprocal epistasis"
+    ],
+    "sample_size": "Thousands of protein variants"
+  },
+  "design_parameters": {
+    "optimization_objectives": [
+      "Protein stability",
+      "Catalytic efficiency",
+      "Binding affinity",
+      "Specificity",
+      "Aggregation resistance"
+    ],
+    "constraints": [
+      "Thermodynamic stability",
+      "Solubility",
+      "Expression levels"
+    ]
+  },
+  "experimental_framework": {
+    "screening_approach": "High-throughput protein variant library",
+    "phenotypic_readouts": [
+      "Catalytic activity",
+      "Substrate specificity",
+      "Binding kinetics",
+      "Thermal stability",
+      "Expression level"
+    ],
+    "validation_methods": [
+      "Deep mutational scanning",
+      "Saturation mutagenesis"
+    ]
+  }
+}

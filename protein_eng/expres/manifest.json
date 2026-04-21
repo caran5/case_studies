@@ -1,0 +1,8 @@
+{
+  "module": "protein_eng/expres",
+  "description": "Mapping of papers to specifications, inputs, and outputs",
+  "total_papers": 9,
+  "total_specs": 9,
+  "alignment_status": "ALIGNED",
+  "notes": "File counts match across papers, specs, inputs, and outputs. Folder structure standardized: input→inputs, output→outputs"
+}

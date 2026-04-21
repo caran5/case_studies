@@ -1,0 +1,42 @@
+{
+  "experiment_id": "microrna-regulation",
+  "description": "Input parameters for microRNA regulation and control of gene expression",
+
+  "mirna_dataset": {
+    "source_databases": ["miRBase", "TargetScan", "miRDB", "DIANA"],
+    "human_mirnas": 2500,
+    "species_coverage": ["Homo sapiens", "Mus musculus", "Caenorhabditis elegans", "Drosophila"]
+  },
+
+  "target_prediction": {
+    "prediction_algorithms": ["TargetScan", "miRanda", "PITA", "RNA22"],
+    "seed_region": "2-8 nucleotide complementarity",
+    "conservation_assessment": "Phylogenic footprinting"
+  },
+
+  "regulatory_features": {
+    "mirna_characteristics": [
+      "Sequence conservation",
+      "Expression levels",
+      "Tissue specificity",
+      "Temporal expression patterns"
+    ],
+    "target_site_features": [
+      "Number of target sites",
+      "Site positioning",
+      "Local RNA structure",
+      "3' UTR accessibility"
+    ]
+  },
+
+  "experimental_validation": {
+    "techniques": ["qRT-PCR", "Luciferase assay", "Argonaute immunoprecipitation", "RNA-seq"],
+    "functional_readouts": ["mRNA levels", "Protein expression", "Cellular phenotypes"]
+  },
+
+  "network_analysis": {
+    "network_types": ["miRNA-target networks", "Feed-forward loops", "Regulatory circuits"],
+    "pathway_integration": "KEGG pathway analysis",
+    "cell_context": "Cell type-specific regulatory networks"
+  }
+}

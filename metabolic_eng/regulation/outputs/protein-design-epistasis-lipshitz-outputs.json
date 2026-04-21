@@ -1,0 +1,20 @@
+{
+  "experiment_id": "protein-design-epistasis-lipshitz",
+  "title": "Addressing epistasis in the design of protein function",
+  "key_findings": [
+    "Epistatic interactions significantly impact protein engineering outcomes",
+    "Nonadditive effects of mutations create design bottlenecks",
+    "Machine learning improves prediction of epistatic effects",
+    "Context-dependent epistasis limits generalization across proteins"
+  ],
+  "epistasis_quantification": {
+    "magnitude": "30-60% of double mutation effects are epistatic",
+    "patterns": "Both positive and negative epistasis observed",
+    "prediction_accuracy": "Machine learning improves over additive models"
+  },
+  "practical_implications": {
+    "design_strategy": "Account for epistasis in library design",
+    "screening_prioritization": "Focus on mutation combinations, not individual mutations",
+    "model_accuracy": "Improves from 0.6 to 0.8+ R\u00b2 with epistasis terms"
+  }
+}

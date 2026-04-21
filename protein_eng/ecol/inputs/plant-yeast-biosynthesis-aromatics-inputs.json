@@ -1,0 +1,19 @@
+{
+  "experiment_id": "plant-yeast-biosynthesis-aromatics",
+  "description": "Input parameters for biosynthesis of plant aromatic compounds in yeast",
+  "target_compounds": [
+    "Flavonoids",
+    "Phenylpropanoids",
+    "Terpenoids",
+    "Polyphenols"
+  ],
+  "pathway_engineering": {
+    "source_genes": "Plant biosynthetic pathways",
+    "host_organism": "Saccharomyces cerevisiae",
+    "modifications": [
+      "Codon optimization",
+      "Expression tuning",
+      "Compartmentalization"
+    ]
+  }
+}

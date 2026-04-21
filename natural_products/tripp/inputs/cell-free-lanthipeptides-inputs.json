@@ -1,0 +1,132 @@
+{
+  "experiment_id": "cell-free-unibiocat",
+  "description": "Development and validation of UniBioCat cell-free gene expression system for RiPP biosynthesis and engineering",
+
+  "platform_development": {
+    "technology": "Cell-free gene expression (CFE)",
+    "basis": "In vitro transcription and translation without intact living cells",
+    "system_name": "UniBioCat (Unified Biocatalysis)"
+  },
+
+  "demonstration_system": {
+    "target_ripp": "Salivaricin B",
+    "ripp_class": "Lanthipeptide",
+    "biosynthetic_genes": "Full pathway from source strain"
+  },
+
+  "cell_free_system_components": {
+    "expression_source": "E. coli crude lysate",
+    "reaction_conditions": {
+      "temperature_control": true,
+      "ph_control": true,
+      "substrate_concentration_control": true,
+      "cofactor_supplementation": true
+    }
+  },
+
+  "genetic_engineering_modifications": {
+    "modifications": "Deletion of protease/peptidase genes from source strain",
+    "purpose": "Enhance UniBioCat performance",
+    "validation": "Improved product synthesis"
+  },
+
+  "variant_generation_parameters": {
+    "mutation_types": [
+      "Point mutations in core peptide",
+      "Deletions",
+      "Insertions",
+      "Combinations"
+    ],
+    "screening_approach": "Parallel synthesis and evaluation"
+  },
+
+  "bioactivity_assessment": {
+    "assays": [
+      "Antimicrobial susceptibility testing",
+      "Dose-response evaluation",
+      "Target specificity assays"
+    ],
+    "optimization_metrics": "Enhanced antimicrobial activity"
+  },
+
+  "generalizability_validation": {
+    "test_compounds": 10,
+    "ripp_class": "Lanthipeptides",
+    "test_protocol": "Synthesis and bioactivity evaluation"
+  },
+
+  "prior_cfe_applications": {
+    "nrps_synthesis": {
+      "enzyme": "Nonribosomal peptide synthetases",
+      "size": 300,
+      "size_unit": "kDa",
+      "product": "Valinomycin antibiotic",
+      "complexity": "36-membered cyclododecadepsipeptide"
+    },
+    "nisin_production": "Guided in vivo overproduction",
+    "lasso_peptide_variants": {
+      "count": ">1000",
+      "success_rate": 0.61
+    },
+    "lasso_leader_peptidase": "Mechanism elucidation"
+  },
+
+  "pure_system_comparison": {
+    "alternative_system": "PURE system (purified translation components)",
+    "applications": [
+      "RiPP synthesis",
+      "RiPP analog generation",
+      "Enzyme-substrate interaction studies"
+    ]
+  },
+
+  "ripp_expression_bottlenecks_addressed": [
+    "Precursor peptide insolubility and degradation",
+    "Insoluble expression of modification enzymes",
+    "Poor catalytic efficiency",
+    "Cellular toxicity of RiPPs"
+  ],
+
+  "reaction_condition_parameters": {
+    "manipulable_factors": [
+      "Temperature",
+      "pH",
+      "Substrate concentration",
+      "Cofactor concentration",
+      "Enzyme ratio"
+    ]
+  },
+
+  "mass_transfer_optimization": {
+    "advantage_vs_cells": "Improved nutrient and waste diffusion",
+    "reaction_kinetics": "Enhanced catalytic rates",
+    "enzyme_accessibility": "Substrate and cofactor availability"
+  },
+
+  "parallel_synthesis_capabilities": {
+    "multiplexing": true,
+    "simultaneous_reactions": "Multiple RiPPs in single run",
+    "time_advantage": "Rapid variant testing"
+  },
+
+  "quality_control_parameters": {
+    "product_verification": [
+      "Mass spectrometry",
+      "HPLC analysis",
+      "Peptide quantification"
+    ],
+    "purity_assessment": "HPLC chromatography"
+  },
+
+  "scaling_potential": {
+    "batch_synthesis": "Multiple variants simultaneously",
+    "future_automation": "High-throughput system development",
+    "industrial_application": "Large-scale RiPP production"
+  },
+
+  "data_collection_methods": {
+    "synthesis_monitoring": "Real-time reaction tracking",
+    "product_analysis": "Post-synthesis characterization",
+    "bioactivity_screening": "Rapid variant evaluation"
+  }
+}

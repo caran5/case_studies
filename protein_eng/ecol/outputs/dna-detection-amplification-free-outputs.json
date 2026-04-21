@@ -1,0 +1,10 @@
+{
+  "experiment_id": "dna-detection-amplification-free",
+  "title": "Amplification-free detection of DNA targets",
+  "key_findings": [
+    "Direct detection achieves attomolar sensitivity via enzyme catalysis",
+    "Intrinsic amplification provides sufficient signal gain",
+    "SNP discrimination possible without amplification",
+    "Platform enables rapid point-of-care diagnostics"
+  ]
+}

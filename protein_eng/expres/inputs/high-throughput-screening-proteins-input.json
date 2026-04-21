@@ -1,0 +1,30 @@
+{
+  "experiment_id": "high-throughput-screening-proteins",
+  "description": "Input parameters for high-throughput protein screening",
+  "library_design": {
+    "diversity": "10^5 to 10^8 variants",
+    "construction": [
+      "Phage display",
+      "Cell display",
+      "In vitro display"
+    ],
+    "diversity_source": [
+      "Random",
+      "Semi-rational",
+      "Combinatorial"
+    ]
+  },
+  "selection_stringency": {
+    "rounds": -2,
+    "selection_pressure": "Progressive enrichment",
+    "output_analysis": "Sequencing and validation"
+  },
+  "hit_characterization": {
+    "assays": [
+      "Binding kinetics",
+      "Activity assays",
+      "Specificity tests"
+    ],
+    "validation": "Orthogonal methods"
+  }
+}

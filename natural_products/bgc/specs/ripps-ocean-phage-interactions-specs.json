@@ -1,0 +1,44 @@
+{
+  "experiment_id": "ripps-ocean-phage-interactions",
+  "title": "Exploring the roles of ribosomal peptides in prokaryote-phage interactions through deep learning-enabled metagenome mining",
+
+  "research_objectives": [
+    "Explore biosynthetic profile of RiPPs in ocean microbiome",
+    "Investigate RiPP roles in prokaryote-phage interactions",
+    "Develop deep learning method for RiPP detection in fragmented metagenomes",
+    "Establish RiPP-phage interaction networks",
+    "Assess ecological functions of RiPPs in ocean"
+  ],
+
+  "methodology": {
+    "approach": "Deep learning-enabled metagenome mining",
+    "focus": "Global ocean microbiome",
+    "scope": "Ribosomally synthesized and post-translationally modified peptides (RiPPs)"
+  },
+
+  "tripp_deep_learning_model": {
+    "name": "TrRiPP",
+    "function": "Identifies RiPP precursors from metagenomes",
+    "advantage": "Detects RiPPs independent of intact PTM enzymes",
+    "benefit": "Applicable to highly fragmented metagenomic data"
+  },
+
+  "data_sources": {
+    "metagenome_origin": "Global ocean microbiome",
+    "diversity": "Vast biomes rich in unique interactions",
+    "scope": "Ocean microbiota representing largest biological virus-microbe ecosystem"
+  ],
+
+  "ecological_context": {
+    "virus_microbe_ratio": "10:1 virus-to-microbial cell ratio in ocean",
+    "significance": "Dynamic prokaryote-phage battles in ocean environment",
+    "research_opportunity": "Investigate RiPP roles in microbe-virus interactions"
+  ],
+
+  "traditional_limitations": [
+    "antiSMASH relies on intact PTM enzyme detection",
+    "Inapplicable to highly fragmented contigs",
+    "Limits comprehensive biosynthetic potential assessment",
+    "Misses RiPP families without classic enzyme signatures"
+  ]
+}

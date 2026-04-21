@@ -1,0 +1,28 @@
+{
+  "experiment_id": "intermediate-filament-assembly",
+  "description": "Input parameters for studying intermediate filament assembly",
+  "biological_context": {
+    "filament_types": [
+      "Keratin",
+      "Vimentin",
+      "Lamin"
+    ],
+    "cellular_roles": [
+      "Mechanical support",
+      "Nuclear organization",
+      "Cell migration"
+    ]
+  },
+  "assembly_dynamics": {
+    "measurements": [
+      "Assembly kinetics",
+      "Polymerization rate",
+      "Critical concentration"
+    ],
+    "techniques": [
+      "Small-angle X-ray scattering",
+      "Electron microscopy",
+      "Molecular dynamics"
+    ]
+  }
+}

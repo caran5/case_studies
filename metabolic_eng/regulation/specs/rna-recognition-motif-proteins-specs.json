@@ -1,0 +1,9 @@
+{
+  "experiment_id": "rna-recognition-motif-proteins",
+  "title": "RNA recognition motif proteins and genome-wide targets",
+  "research_objectives": [
+    "Map genome-wide RNA binding sites",
+    "Determine binding specificity determinants",
+    "Link binding to functional outcomes"
+  ]
+}

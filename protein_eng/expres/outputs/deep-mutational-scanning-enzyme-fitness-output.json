@@ -1,0 +1,44 @@
+{
+  "experiment_id": "deep-mutational-scanning-enzyme-fitness",
+  "title": "Trade-offs between enzyme fitness and solubility illuminated by deep mutational scanning",
+  "date_published": "2017-02-28",
+  "journal": "PNAS",
+
+  "primary_findings": {
+    "key_insight": "5-10% of single missense mutations improve solubility, matching theoretical predictions",
+    "trade_off_characterization": "Solubility-enhancing mutations often disrupt catalytic activity",
+    "correlation_success": "YSD screen explains 37% of fitness landscape variance"
+  },
+
+  "solubility_analysis": {
+    "beneficial_mutations": "5-10% of single missense mutations enhance solubility",
+    "stability_effect": "Most beneficial mutations have modest stabilizing effect",
+    "implication": "Multiple mutations typically needed for significant solubility improvement"
+  },
+
+  "fitness_retention_prediction": {
+    "accuracy": "90% for predicting solubility-enhancement while maintaining wild-type fitness",
+    "predictive_factors": [
+      "Evolutionary conservation (positive correlation with fitness retention)",
+      "Distance from active site (positive correlation with fitness retention)",
+      "Contact number (negative correlation with fitness retention)"
+    ]
+  },
+
+  "trade_off_characterization": {
+    "observation": "Solubility-enhancing mutations enriched at/near active site residues",
+    "consequence": "Most such mutations deleterious for activity",
+    "alternative_strategy": "Back-to-consensus mutations maintain function while improving stability"
+  },
+
+  "structural_insights": {
+    "crystallography": "Determined structure of solubility-enhanced LGK mutant",
+    "biophysical_basis": "Revealed molecular mechanisms of stability-activity trade-offs"
+  },
+
+  "biotechnological_applications": {
+    "biocatalysts": "Improved solubility increases total turnover number",
+    "expression_systems": "Enhanced soluble protein expression yield",
+    "therapeutics": "Improved stability for formulation and storage"
+  }
+}

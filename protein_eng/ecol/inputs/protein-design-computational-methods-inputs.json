@@ -1,0 +1,30 @@
+{
+  "experiment_id": "protein-design-computational-methods",
+  "description": "Input parameters for computational protein design",
+  "structure_input": {
+    "sources": [
+      "PDB",
+      "AlphaFold models",
+      "Cryo-EM structures"
+    ],
+    "quality_metrics": [
+      "Resolution",
+      "B-factors",
+      "Validation statistics"
+    ]
+  },
+  "design_algorithm": {
+    "methods": [
+      "Rosetta",
+      "PyRosetta",
+      "FoldX",
+      "Custom scripts"
+    ],
+    "optimization_target": [
+      "Binding",
+      "Stability",
+      "Activity",
+      "Specificity"
+    ]
+  }
+}

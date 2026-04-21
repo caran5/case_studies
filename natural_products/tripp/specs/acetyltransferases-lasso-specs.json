@@ -1,0 +1,126 @@
+{
+  "paper_id": "acetyltransferases-lasso",
+  "title": "Iterative acylation on mature lasso peptides by widespread acetyltransferases",
+  "authors": ["Jiang Xiong", "Shanquan Wu", "Zi-Qi Liang", "Shuo Fang", "Fen-Yu Tao", "Xiao-Tong Gong", "Xing Wu", "Qingfeng Wu", "Jiao-Jiao Cui", "Kun Gao", "Kin Kuan Hoi", "Yong Peng", "Shangwen Luo", "Dongsheng Lei", "Shi-Hui Dong"],
+  "publication": "Nature Chemical Biology, 2026",
+  "objective": "Discover and characterize GCN5-related N-acetyltransferases (GNATs) that perform iterative acylation on mature lasso peptides, and develop structure-based engineering strategies to create lipolasso peptides",
+
+  "problem_statement": "Traditional iterative enzymes in RiPP biosynthesis install post-translational modifications on linear peptides, not mature RiPPs with complex 3D structures. No iterative enzyme had been shown to iteratively modify RiPPs with intricate three-dimensional architectures like lasso peptides. This limitation restricted the chemical diversity of engineered RiPPs",
+
+  "research_novelty": "Discovery that GCN5-related N-acetyltransferases (GNATs) can iteratively and consecutively acylate two Lys residues within lasso peptide loop and ring motifs - the first reported case of iterative modification on mature RiPPs with complex 3D structures",
+
+  "lasso_peptide_structure": {
+    "definition": "[1]rotaxane-like structure",
+    "key_feature": "C-terminal linear segment threads through macrolactam ring",
+    "ring_formation": "Isopeptide bond between N-terminal amine and Asp/Glu side chain carboxyl (position 7-9)",
+    "structural_components": {
+      "ring": "Macrolactam structure formed by isopeptide bond",
+      "loop": "C-terminal segment positioned at ring opening",
+      "tail": "C-terminal linear extension beyond loop"
+    },
+    "biosynthetic_complexity": "Requires ribosomal precursor translation, recognition elements, trans-glutaminase proteolysis, and macrolactam cyclization"
+  },
+
+  "gnat_discovery": {
+    "enzyme_class": "GCN5-related N-acetyltransferases",
+    "initial_identification": "BGC from Actinosynnema mirum DSM 43827 (iat BGC - iterative acetyltransferases)",
+    "sequence_relationship": "IatT and AlbT share 54% sequence identity over 93% coverage"
+  },
+
+  "gnat_classification": {
+    "total_bgcs_identified": 112,
+    "phylogenetic_distribution": "All restricted to Actinomycetes",
+    "class_i": {
+      "members": 103,
+      "characteristics": "Encode core peptide with single conserved Lys10",
+      "example": "Albusnodin (AlbT)",
+      "modification": "Monoacetylation"
+    },
+    "class_ii": {
+      "members": 13,
+      "characteristics": "Encode core peptide with two Lys residues",
+      "typical_positions": "Lys4 and Lys10",
+      "example": "Raynimycin family lasso peptides (IatT)",
+      "modification": "Diacetylation/iterative acylation",
+      "exceptions": "JiaA and AlkA contain Lys5 and Lys10"
+    }
+  },
+
+  "representative_bgc_analysis": {
+    "source_organism": "Actinosynnema mirum DSM 43827",
+    "bgc_designation": "iat",
+    "bgc_components": [
+      "IatA: precursor peptide (PP)",
+      "IatB: RiPP recognition element (RRE) - trans-glutaminase protease fusion",
+      "IatC: lasso cyclase (macrolactam synthetase)",
+      "IatT: GNAT (iterative acetyltransferase)"
+    ],
+    "precursor_peptide_sequence": {
+      "composition": "Leader peptide + core peptide",
+      "leader_motif": "H(x)2PxL(x)4G sequence with conserved Thr-2",
+      "core_macrolactamization_sites": "Gly1 and Glu8",
+      "acetylation_sites": "Lys4 and Lys10"
+    }
+  },
+
+  "iterative_modification_mechanism": {
+    "substrate": "Mature lasso peptide (3D structure)",
+    "enzyme": "IatT GNAT",
+    "modification_chemistry": "N-acetylation",
+    "substrate_changes": "Significant tuning of lasso peptide-binding poses in substrate-binding pocket",
+    "step_1": "First acetylation at one Lys position (e.g., Lys4 in loop motif)",
+    "step_2": "Second acetylation at different Lys position (e.g., Lys10 in ring motif)",
+    "key_residues": "Defined through cryo-EM and computational analysis to distinguish two distinct acetylation steps",
+    "binding_pocket_adaptation": "Enzyme adapts binding geometry to accommodate different Lys positions"
+  },
+
+  "structural_characterization": {
+    "technique": "Cryogenic-electron microscopy (cryo-EM)",
+    "resolution": "2.0 Å",
+    "enzyme_studied": "IatT",
+    "structural_findings": [
+      "Defined lasso peptide-binding pocket",
+      "Identified key residues for two-step acetylation",
+      "Revealed cooperativity between residues"
+    ]
+  },
+
+  "rational_engineering": {
+    "target": "IatT acetyl group binding pocket",
+    "engineering_goal": "Expand acetyl-recognition site cavity",
+    "strategy": "Structure-based redesign to accommodate longer-chain acyl groups",
+    "outcomes": [
+      "Production of monoacetylated lasso peptides with longer chain length",
+      "Production of diacylated lasso peptides with longer chain length",
+      "Generation of lipolasso peptides"
+    ]
+  },
+
+  "lipolasso_peptides": {
+    "definition": "New class of ribosomal lipopeptides",
+    "structure": "Lasso peptides with iteratively installed longer-chain acyl modifications",
+    "creation_method": "Rational engineering of IatT acetyl-recognition site",
+    "significance": "New-to-nature ribosomal lipopeptides with potential enhanced bioactivity"
+  },
+
+  "generalizability": {
+    "strategy": "Structure-based engineering approach applicable to any RiPP biosynthetic gene cluster encoding GNAT",
+    "expected_outcome": "Efficient diversification of ribosomal lipopeptides from diverse RiPP families",
+    "broader_impact": "Enables systematic generation of lipidated RiPP variants"
+  },
+
+  "catalytic_diversity": {
+    "enzyme_superfamily": "GNAT (GCN5-related N-acetyltransferases) superfamily",
+    "ripp_context": "GNATs represent iterative biocatalysts that expand catalytic diversity in RiPP biosynthesis",
+    "novelty": "First demonstration of iterative catalysis on mature RiPPs with complex 3D structures",
+    "previous_paradigm": "Iterative modifications traditionally occurred on linear peptides"
+  },
+
+  "research_impact": {
+    "fundamental_discovery": "Challenges paradigm that iterative PTM enzymes modify only linear peptides",
+    "structural_biology": "Reveals how enzymes adapt binding poses for different substrate positions",
+    "biotechnology": "Provides platform for rational engineering of biocatalysts",
+    "drug_development": "Creates new chemical scaffolds and structural diversity in RiPP library",
+    "future_directions": "Template for discovering additional iterative enzymes on structured RiPPs"
+  }
+}

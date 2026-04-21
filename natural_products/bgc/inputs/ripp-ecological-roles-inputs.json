@@ -1,0 +1,20 @@
+{
+  "experiment_id": "ripp-ecological-roles",
+  "description": "Experimental parameters for ecological RiPP studies",
+
+  "genome_mining_ripp": {
+    "tools": ["antiSMASH", "NeuRiPP", "RODEO"],
+    "organism_scope": ["Bacteria", "Archaea", "Eukaryotes"],
+    "database": ["MiBiG", "RiPPER", "PRISM"]
+  },
+
+  "ecological_analysis": {
+    "methods": ["Comparative genomics", "Phylogenetic analysis", "Metagenomic surveys"],
+    "environments": ["Human microbiota", "Environmental samples", "Biofilms"]
+  },
+
+  "functional_characterization": {
+    "bioactivity_screening": ["Antimicrobial testing", "Antiviral testing", "Host cell interaction"],
+    "mechanism_studies": ["Molecular target identification", "Structural analysis"]
+  }
+}

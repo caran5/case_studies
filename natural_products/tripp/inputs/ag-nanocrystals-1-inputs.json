@@ -1,0 +1,235 @@
+{
+  "experiment_id": "ag-nanocrystals-1",
+  "description": "Effect of Ligands on Plasmonic Properties of Silver Nanocrystals",
+
+  "target_sizes_nm": [2.2, 2.9, 4.0, 4.1, 5.0, 5.9, 6.0, 6.3, 8.7, 12.9],
+
+  "experimental_conditions": {
+    "solvent": "Toluene",
+    "temperature_K": 298,
+    "pressure_atm": 1
+  },
+
+  "synthesis_experiments": [
+    {
+      "experiment_name": "Oleylamine-coated Ag NCs",
+      "ligand": {
+        "name": "Oleylamine",
+        "formula": "C18-NH2",
+        "type": "amine-terminated",
+        "alkyl_chain_length": 18
+      },
+      "method": "Hot Injection",
+      "target_sizes_nm": [2.2, 4.1, 5.9, 8.7, 12.9],
+      "synthesis_parameters": {
+        "temperature_C": 180,
+        "reaction_time_s": 180,
+        "dcb_volume_ml": 10,
+        "agno3_mass_g": 0.1,
+        "dodecanediol_mass_mg": 100,
+        "oleylamine_volume_ml": 1
+      },
+      "expected_outcome": {
+        "size_distribution_percent": "<10%",
+        "morphology": "Icosahedral MTPs",
+        "assembly": "2D hexagonal close-packed"
+      }
+    },
+    {
+      "experiment_name": "Dodecylamine-coated Ag NCs",
+      "ligand": {
+        "name": "Dodecylamine",
+        "formula": "C12-NH2",
+        "type": "amine-terminated",
+        "alkyl_chain_length": 12
+      },
+      "method": "Hot Injection",
+      "target_sizes_nm": [2.9, 4.0, 6.3],
+      "synthesis_parameters": {
+        "temperature_C": 180,
+        "reaction_time_s": 180,
+        "dcb_volume_ml": 10,
+        "agno3_mass_g": 0.1,
+        "dodecanediol_mass_mg": 100,
+        "dodecylamine_volume_ml": 1
+      },
+      "expected_outcome": {
+        "size_distribution_percent": "<10%",
+        "morphology": "Icosahedral MTPs"
+      }
+    },
+    {
+      "experiment_name": "Dodecanethiol-coated Ag NCs (via ligand exchange)",
+      "ligand": {
+        "name": "Dodecanethiol",
+        "formula": "C12-SH",
+        "type": "thiol-terminated",
+        "alkyl_chain_length": 12
+      },
+      "method": "Ligand Exchange from Oleylamine",
+      "target_sizes_nm": [2.2, 2.9, 4.0, 6.0],
+      "ligand_exchange_parameters": {
+        "starting_ligand": "C18-NH2",
+        "thiol_volume_ul_per_10mg_nc": 20,
+        "stirring_time_h": 1,
+        "stirring_intensity": "vigorous"
+      },
+      "expected_outcome": {
+        "size_distribution_percent": "<10%",
+        "ligand_exchange_efficiency_percent": ">80%",
+        "note": "2.2 nm NCs have slightly higher polydispersity"
+      }
+    },
+    {
+      "experiment_name": "Hexadecanethiol-coated Ag NCs (via ligand exchange)",
+      "ligand": {
+        "name": "Hexadecanethiol",
+        "formula": "C16-SH",
+        "type": "thiol-terminated",
+        "alkyl_chain_length": 16
+      },
+      "method": "Ligand Exchange from Oleylamine",
+      "target_sizes_nm": [2.9, 5.0, 6.0, 7.8],
+      "ligand_exchange_parameters": {
+        "starting_ligand": "C18-NH2",
+        "thiol_volume_ul_per_10mg_nc": 20,
+        "stirring_time_h": 1,
+        "stirring_intensity": "vigorous"
+      },
+      "expected_outcome": {
+        "size_distribution_percent": "<10%",
+        "ligand_exchange_efficiency_percent": ">80%"
+      }
+    }
+  ],
+
+  "characterization_experiments": [
+    {
+      "type": "UV-Visible Absorption Spectroscopy",
+      "samples": "All synthesized NCs dispersed in toluene",
+      "measurements": {
+        "SPR_peak_position": {
+          "unit": "eV",
+          "expected_ranges": {
+            "C18-NH2": [2.77, 3.05],
+            "C12-NH2": [2.85, 3.02],
+            "C12-SH": [2.85, 2.89],
+            "C16-SH": [2.80, 2.85]
+          }
+        },
+        "SPR_bandwidth": {
+          "unit": "eV",
+          "description": "Full-width at half-maximum"
+        },
+        "absorption_spectra": {
+          "wavelength_range_nm": [320, 720],
+          "energy_range_eV": [1.7, 3.9]
+        }
+      }
+    },
+    {
+      "type": "TEM Analysis",
+      "samples": "All synthesized NCs",
+      "measurements": {
+        "nanocrystal_size": {
+          "unit": "nm",
+          "method": "Direct measurement from TEM images"
+        },
+        "size_distribution": {
+          "unit": "percent",
+          "target": "<10%"
+        },
+        "morphology": {
+          "expected": "Multiply-twinned particles (MTPs)"
+        },
+        "crystal_structure": {
+          "expected": "Icosahedral"
+        },
+        "assembly_pattern": {
+          "expected": "2D hexagonal close-packed arrays"
+        }
+      }
+    },
+    {
+      "type": "ICP-AES",
+      "samples": "Amine-coated NCs before and after ligand exchange",
+      "measurements": {
+        "nitrogen_content": {
+          "unit": "w/w %",
+          "before_exchange": 0.44,
+          "after_exchange": "<0.10",
+          "expected_interpretation": ">80% ligand exchange efficiency"
+        },
+        "sulfur_content": {
+          "unit": "w/w %",
+          "after_exchange": 2.7
+        },
+        "silver_content": {
+          "unit": "w/w %",
+          "before_exchange": 70.96,
+          "after_exchange": 90.09
+        }
+      }
+    }
+  ],
+
+  "comparative_analysis": {
+    "size_vs_SPR_peak": {
+      "description": "Plot SPR peak position vs NC diameter for all ligand types",
+      "expected_trend": "Blue-shift (increasing energy) with increasing size",
+      "error_bars_eV": 0.02
+    },
+    "ligand_type_comparison": {
+      "at_6nm": {
+        "C18-NH2": 3.01,
+        "C12-NH2": 3.02,
+        "C12-SH": 2.89,
+        "C16-SH": 2.85,
+        "unit": "eV"
+      },
+      "expected_observation": "Thiol-coated NCs shift to lower energies than amine-coated"
+    },
+    "chain_length_dependence": {
+      "amine_coated": {
+        "description": "No significant difference between C12 and C18",
+        "reason": "Weak surface-ligand bonding"
+      },
+      "thiol_coated": {
+        "description": "Clear shift between C12 and C16",
+        "C12_eV": 2.89,
+        "C16_eV": 2.85,
+        "reason": "Strong surface-ligand bonding"
+      }
+    }
+  },
+
+  "electronic_properties_target": {
+    "intrinsic_dephasing_times": {
+      "unit": "fs",
+      "C18-NH2": 15.9,
+      "C12-NH2": 23.0,
+      "C12-SH": 15.3,
+      "C16-SH": 7.3
+    },
+    "damping_coefficient_Gamma_0": {
+      "unit": "eV",
+      "C18-NH2": 0.26,
+      "C12-NH2": 0.18,
+      "C12-SH": 0.27,
+      "C16-SH": 0.56
+    },
+    "surface_factor_g": {
+      "unit": "eV·nm",
+      "C18-NH2": 0.32,
+      "C12-NH2": 0.65,
+      "C12-SH": 1.0,
+      "C16-SH": 0.28
+    }
+  },
+
+  "data_validation": {
+    "size_distribution": "Confirmed by TEM image analysis - <10% for all samples except 2.2 nm dodecanethiol",
+    "ligand_exchange_efficiency": "Confirmed by ICP-AES - >80% amine to thiol exchange",
+    "morphology_consistency": "All NCs are icosahedral MTPs arranged in 2D hexagonal patterns"
+  }
+}

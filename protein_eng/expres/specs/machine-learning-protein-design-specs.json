@@ -1,0 +1,8 @@
+{
+  "experiment_id": "machine-learning-protein-design",
+  "title": "Application of machine learning to protein design",
+  "research_objectives": [
+    "Develop ML models for protein property prediction",
+    "Improve protein design through data-driven approaches"
+  ]
+}

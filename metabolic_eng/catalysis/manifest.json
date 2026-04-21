@@ -1,0 +1,38 @@
+{
+  "module": "metabolic_eng/catalysis",
+  "description": "Mapping of papers to specifications, inputs, and outputs",
+  "total_papers": 10,
+  "total_specs": 10,
+  "alignment_status": "ALIGNED",
+  "notes": "Fixed: Removed orphaned 'solution-nmr-molecular-machines-condensates' spec and related input/output files",
+  "papers": [
+    "1-s2.0-S0959440X24002033-main.pdf",
+    "1-s2.0-S096800042300018X-main.pdf",
+    "2025.08.12.669910v1.full.pdf",
+    "alphafold2-and-deep-learning-for-elucidating-enzyme-conformational-flexibility-and-its-application-for-design.pdf",
+    "d4cb00282b.pdf",
+    "ncomms9329.pdf",
+    "s41467-024-48932-8.pdf",
+    "s41587-026-03081-9.pdf",
+    "Tenure_Under_Pressure_Simulating_the_Disruptive_Ef.pdf",
+    "toward-the-design-of-allosteric-effectors-gaining-comprehensive-control-of-drug-properties-and-actions.pdf"
+  ],
+  "specs": [
+    "allosteric-effectors-drug-properties",
+    "allosteric-landscapes-computational-methodologies",
+    "alphafold2-enzyme-conformational-flexibility",
+    "artificial-allosteric-protein-switches",
+    "biofilm-tolerance-stress-response",
+    "biotechnology-allosteric-proteins",
+    "hydrogen-bonding-symmetrization",
+    "phase-separation-receptor-signaling",
+    "piezo1-mechanotransduction",
+    "protein-epistasis-design",
+    "solution-nmr-molecular-machines-condensates"
+  ],
+  "recommended_actions": [
+    "1. Identify which paper corresponds to 'solution-nmr-molecular-machines-condensates' spec",
+    "2. If paper is missing, either add the paper or remove the spec",
+    "3. Add paper metadata/README documenting the paper-to-spec mapping"
+  ]
+}

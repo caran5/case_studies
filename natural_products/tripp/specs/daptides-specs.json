@@ -1,0 +1,140 @@
+{
+  "paper_id": "daptides",
+  "title": "Genome mining unveils a class of ribosomal peptides with two amino termini",
+  "authors": ["Hengqian Ren", "Shravan R. Dommaraju", "Chunshuai Huang", "Haiyang Cui", "Yuwei Pan", "Marko Nesic", "Lingyang Zhu", "David Sarlah", "Douglas A. Mitchell", "Huimin Zhao"],
+  "publication": "Nature Communications, 2023, 14:1624",
+  "objective": "Discover and characterize a new RiPP class using class-independent genome mining approach based on RiPP Recognition Element (RRE) domains, revealing a RiPP class with unprecedented two amino termini defined by a unique post-translational modification",
+
+  "problem_statement": "Despite success in RiPP discovery, genome mining of new RiPP classes remains unsolved. Traditional class-dependent genome mining approaches are limited to known enzyme families. Nearly all founding members of RiPP classes were identified by bioassay-guided screening. A new class-independent approach is needed to discover RiPPs with entirely novel post-translational modifications and structures",
+
+  "discovery_methodology": {
+    "approach": "Class-independent genome mining using RiPP Recognition Element (RRE) domains",
+    "rationale": "RRE domains are the most common domains involved in RiPP biosynthesis (found in 19 of 41 known prokaryotic RiPP classes)",
+    "tools_used": ["RRE-Finder", "RODEO", "PSI-BLAST", "HHpred"],
+    "workflow": [
+      "Identified all RRE-containing proteins from databases",
+      "Analyzed co-occurrence of RRE domains with nearby ORFs",
+      "Sorted by sequence similarity into RRE families",
+      "Analyzed for highly similar co-occurring ORFs",
+      "Generated sequence logos to identify conserved motifs",
+      "Expanded predictions using PSI-BLAST and pHMM"
+    ]
+  },
+
+  "daptide_definition": {
+    "name": "Daptides",
+    "full_name": "(S)-N2,N2-dimethyl-1,2-propanediamine-containing peptides",
+    "type": "Ribosomally synthesized and post-translationally modified peptides (RiPPs)",
+    "unique_feature": "Unusual (S)-N2,N2-dimethyl-1,2-propanediamine (Dmp)-modified C-terminus",
+    "key_characteristic": "Harbor two positively charged termini (N-terminus and C-terminus)"
+  },
+
+  "genomic_prevalence": {
+    "bgc_identified": "Nearly 500 daptide biosynthetic gene clusters identified",
+    "phylogenetic_distribution": {
+      "Actinomycetota": "184 initial BGCs",
+      "Bacillota": "Additional BGCs identified by PSI-BLAST"
+    }
+  },
+
+  "biosynthetic_pathway": {
+    "precursor_peptide_structure": {
+      "description": "RRE-peptidase fusion protein with recognition sequence",
+      "components": {
+        "leader_region": "N-terminal region containing conserved motif (ELExMEAP)",
+        "core_region": "C-terminal region containing branched-chain aliphatic amino acids and invariant C-terminal Thr"
+      },
+      "recognition_motif": "ELExMEAP at N-terminal of core region"
+    },
+    "modification_steps": 3,
+    "modification_sequence": [
+      {
+        "step": 1,
+        "enzyme": "Oxidative decarboxylase",
+        "action": "Oxidative decarboxylation of C-terminal threonine residue",
+        "characteristic": "Leader peptide-dependent"
+      },
+      {
+        "step": 2,
+        "enzyme": "Aminotransferase",
+        "action": "Transamination (PLP-dependent)",
+        "type": "Pyridoxal phosphate (PLP)-dependent"
+      },
+      {
+        "step": 3,
+        "enzyme": "Methyltransferase",
+        "action": "Dimethylation (SAM-dependent)",
+        "type": "SAM-dependent methyltransferase"
+      }
+    ],
+    "final_modification": "Installation of (S)-N2,N2-dimethyl-1,2-propanediamine (Dmp) C-terminal modification",
+    "substrate_specificity": "Oxidative decarboxylase tolerates variability in core region while being leader peptide-dependent"
+  },
+
+  "biosynthetic_gene_cluster_components": {
+    "conserved_genes": [
+      {
+        "gene_type": "DUF-RRE fusion protein",
+        "description": "Domain of unknown function fused to RRE domain",
+        "function": "Substrate recognition and delivery",
+        "note": "Functionally unannotated accessory protein"
+      },
+      {
+        "gene_type": "Oxidative decarboxylase",
+        "description": "NAD(P)-dependent enzyme",
+        "function": "First step of Dmp installation"
+      },
+      {
+        "gene_type": "Aminotransferase",
+        "description": "Pyridoxal phosphate (PLP)-dependent",
+        "function": "Second step of Dmp installation"
+      },
+      {
+        "gene_type": "Methyltransferase",
+        "description": "SAM-dependent",
+        "function": "Third step of Dmp installation"
+      },
+      {
+        "gene_type": "ABC transporters",
+        "description": "Multi-component ABC transporters",
+        "function": "Transport of mature RiPPs"
+      },
+      {
+        "gene_type": "Regulatory proteins",
+        "description": "Various regulatory elements"
+      }
+    ]
+  },
+
+  "structural_characterization": {
+    "representative_bgc_source": "Microbacterium paraoxydans DSM 15019",
+    "peptide_products": "Native N-terminus with (S)-N2,N2-dimethyl-1,2-propanediamine-modified C-terminus",
+    "termini": {
+      "n_terminus": "Native (positively charged)",
+      "c_terminus": "Dmp-modified (positively charged)"
+    }
+  },
+
+  "biological_activity": {
+    "activity_type": "Hemolytic activity",
+    "mechanism": "Synergistic hemolysins",
+    "bioactivity_basis": [
+      "Helical structure of peptide core",
+      "Net positive charge on both termini"
+    ],
+    "suspected_mechanism": "Membrane targeting and disruption aided by dual positive charges"
+  },
+
+  "significance": {
+    "discovery_impact": "Showcases class-independent genome mining for discovering RiPP biosynthetic enzyme families",
+    "novel_chemistry": "Provides first example of ribosomal peptides with two amino termini",
+    "methodology_impact": "Demonstrates RRE-based approach for discovering entirely new RiPP classes with novel PTMs",
+    "future_applications": "Logical route for discovering additional ribosomal peptides with unconventional terminal modifications"
+  },
+
+  "ripp_class_context": {
+    "total_ripp_classes_known": 48,
+    "rre_containing_classes": 19,
+    "daptide_novelty": "First completely new RiPP class discovered using RRE-based genome mining"
+  }
+}

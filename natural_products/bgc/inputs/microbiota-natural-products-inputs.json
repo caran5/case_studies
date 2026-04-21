@@ -1,0 +1,73 @@
+{
+  "experiment_id": "microbiota-natural-products",
+  "description": "Experimental parameters for microbiota natural products discovery",
+
+  "human_microbiota_genome_mining": {
+    "methodology": [
+      "Genome sequencing of human-associated bacteria",
+      "BGC identification using bioinformatics tools",
+      "Metabolite structure prediction from BGC sequences",
+      "Chemical analysis and characterization"
+    ],
+    "organisms": "Commensal bacterial species and some pathogenic species"
+  },
+
+  "bgc_identification_parameters": {
+    "bioinformatics_tools": [
+      "antiSMASH",
+      "BLAST searches",
+      "Profile Hidden Markov Models",
+      "Specialized domain detection"
+    ],
+    "bgc_types": [
+      "Polyketide synthase (PKS) clusters",
+      "Nonribosomal peptide synthetase (NRPS) clusters",
+      "RiPP biosynthetic clusters",
+      "Terpene synthase clusters"
+    ]
+  },
+
+  "metabolite_prediction": {
+    "approach": "Structure prediction from BGC gene content and organization",
+    "parameters": [
+      "Enzyme composition",
+      "Domain architecture",
+      "Known biosynthetic logic",
+      "Phylogenetic relationships"
+    ]
+  },
+
+  "chemical_characterization": {
+    "analytical_methods": [
+      "Mass spectrometry",
+      "NMR spectroscopy",
+      "HPLC analysis",
+      "Chromatography-based separation"
+    ]
+  },
+
+  "biological_function_assessment": {
+    "bioactivity_screening": [
+      "Antimicrobial activity",
+      "Host immunomodulation",
+      "Pathogen inhibition",
+      "Ecological signaling"
+    ],
+    "mechanistic_studies": [
+      "Target identification",
+      "Pathway analysis",
+      "Host cell interaction studies",
+      "Ecological role determination"
+    ]
+  },
+
+  "microbe_host_interaction_studies": {
+    "focus": "Understanding metabolite-mediated interactions",
+    "approaches": [
+      "Metabolomics of infected vs healthy states",
+      "Host response to microbial metabolites",
+      "Competition among microbiota members",
+      "Nutrient and signaling molecule production"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment_id": "protein-folding-prediction",
+  "title": "Characterization of protein folding mechanisms",
+  "research_objectives": [
+    "Predict protein structures from sequences",
+    "Understand folding pathways and kinetics"
+  ]
+}

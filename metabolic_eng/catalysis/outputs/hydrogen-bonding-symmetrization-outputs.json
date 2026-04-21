@@ -1,0 +1,18 @@
+{
+  "experiment_id": "hydrogen-bonding-symmetrization",
+  "title": "Hydrogen bond symmetrisation in D2O ice observed by neutron diffraction",
+  "date_published": "2024-05-17",
+  "journal": "Nature",
+
+  "primary_findings": {
+    "experimental_observation": "Transition from bimodal to unimodal deuterium distribution at ~80 GPa",
+    "physical_phenomenon": "Hydrogen bond symmetrization achieved under pressure",
+    "mechanism": "Nuclear quantum effects with significant isotope effect"
+  },
+
+  "structural_changes": {
+    "transition_pressure": "~80 GPa",
+    "indicator": "Significant narrowing of neutron diffraction peaks",
+    "cause": "Structural relaxation by hydrogen redistribution"
+  }
+}

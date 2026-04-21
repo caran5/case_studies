@@ -1,0 +1,30 @@
+{
+  "experiment_id": "modular-biosensors-metabolite-regulation",
+  "title": "Engineering Modular Biosensors to Confer Metabolite-Responsive Regulation of Transcription",
+  "date_published": "2016-10-17",
+  "journal": "ACS Synthetic Biology",
+
+  "primary_findings": {
+    "achievement": "Successfully engineered novel metabolite-responsive transcriptional regulators",
+    "example": "Maltose binding protein-zinc finger fusion conferring maltose-regulated gene expression",
+    "significance": "Demonstrates feasibility of generalizable biosensor design strategy"
+  },
+
+  "biosensor_design_validation": {
+    "proof_of_concept": "MBP-ZFP fusion with maltose selectivity",
+    "performance": "Dose-dependent maltose response",
+    "design_principle": "Modular fusion approach with programmable DNA binding"
+  },
+
+  "design_principles_identified": {
+    "promoter_engineering": "Library-based identification of optimal biosensor-regulated promoters",
+    "statistical_analysis": "Robust methods for characterizing biosensor performance",
+    "design_driven_improvements": "Systematic optimization of biosensor properties"
+  },
+
+  "synthetic_biology_applications": {
+    "screening_advantage": "Enable large library screening (>10^8 members)",
+    "iterative_design": "Support design-build-test-learn cycles",
+    "scalability": "Potential for diverse metabolite targets"
+  }
+}

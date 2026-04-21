@@ -1,0 +1,39 @@
+{
+  "experiment_id": "allosteric-effectors-drug-properties",
+  "title": "Toward the design of allosteric effectors: gaining comprehensive control of drug properties and actions",
+  "date_published": "2024-01-01",
+
+  "primary_findings": {
+    "therapeutic_potential": "Allosteric drugs offer significant advantages for comprehensive drug property control",
+    "design_framework": "Systematic approaches to allosteric effector design",
+    "application": "Improved therapeutics with better selectivity and safety profiles"
+  },
+
+  "allosteric_drug_advantages": {
+    "versus_orthosteric": [
+      "Potentially greater selectivity",
+      "Modulation without complete inhibition",
+      "Reduced off-target effects",
+      "Improved therapeutic index"
+    ],
+    "mechanism": "Modulate protein function through distal site binding"
+  },
+
+  "drug_design_objectives": {
+    "comprehensive_control": "Simultaneous optimization of multiple drug properties",
+    "parameters": [
+      "Potency at target",
+      "Selectivity vs off-targets",
+      "Efficacy in vivo",
+      "Safety profile",
+      "Tissue distribution",
+      "Pharmacokinetics"
+    ]
+  },
+
+  "allosteric_design_considerations": {
+    "site_identification": "Locating suitable allosteric binding sites",
+    "mechanism_characterization": "Understanding allosteric communication",
+    "modulation_type": "Positive, negative, or biased allosteric modulation"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "experiment_id": "plasmodium-atpase-inhibition",
+  "description": "Input parameters for studying Plasmodium ATPase as antimalarial target",
+  "target_characterization": {
+    "enzyme": "Plasmodium falciparum ATPase6",
+    "biological_role": "Parasite calcium homeostasis",
+    "drug_examples": [
+      "Artemisinin",
+      "Artemisinins",
+      "ATPase inhibitors"
+    ]
+  }
+}

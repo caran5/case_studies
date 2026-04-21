@@ -1,0 +1,35 @@
+{
+  "experiment_id": "silent-cluster-elicitors",
+  "title": "High-throughput platform for discovery of elicitors of silent bacterial gene clusters",
+
+  "research_problem": [
+    "Silent or cryptic gene clusters remain inactive under laboratory conditions",
+    "No known signals activate specific silent clusters",
+    "Need systematic approach to identify elicitors",
+    "Three variables in activation: unknown signal, uncharacterized cluster, novel metabolite"
+  ],
+
+  "innovation": {
+    "approach": "Platform enabling small molecule activator discovery",
+    "advantage": "Identifies elicitors without a priori knowledge of activation mechanisms",
+    "application": "Systematic activation of cryptic clusters for drug discovery"
+  },
+
+  "silent_cluster_context": {
+    "scope": "~10% of bacterial biosynthetic potential currently accessible",
+    "reservoir": "Silent clusters harbor extensive supply of potential drug candidates",
+    "challenge": "No efficient method to identify activation signals"
+  },
+
+  "methodology_advantages": [
+    "Enables screening for unknown activators",
+    "Doesn't require knowing regulatory pathways beforehand",
+    "Can identify novel chemical classes of activators",
+    "Platform applicable to any silent cluster"
+  ],
+
+  "metabolite_identification": {
+    "post_activation": "Differential metabolomics facilitates compound isolation",
+    "characterization": "Structural elucidation via multidimensional NMR"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "experiment_id": "histone-acetylation-epigenetic",
+  "description": "Input parameters for histone acetylation and epigenetic regulation",
+
+  "histone_targets": {
+    "acetylation_sites": ["H3K9", "H3K14", "H3K27", "H4K5", "H4K8", "H4K12", "H4K16"],
+    "deacetylases": ["HDAC1", "HDAC2", "HDAC3", "SIRT1", "SIRT6"],
+    "acetyltransferases": ["HAT", "CBP", "p300", "MOZ", "MYST family"]
+  },
+
+  "chromatin_state": {
+    "active_marks": ["H3K9ac", "H3K27ac", "H4ac"],
+    "repressive_marks": ["H3K9me3", "H3K27me3"],
+    "promoter_characteristics": ["Open chromatin", "Accessible regions", "Active transcription"]
+  },
+
+  "experimental_approach": {
+    "techniques": ["ChIP-seq", "Cut&Run", "ATAC-seq", "RNA-seq", "Mass spectrometry"],
+    "genome_coverage": "Whole genome",
+    "temporal_resolution": "Time-course experiments"
+  },
+
+  "regulatory_mechanisms": {
+    "features_measured": [
+      "Acetylation kinetics",
+      "Recruitment of transcriptional machinery",
+      "Chromatin accessibility",
+      "Gene expression levels",
+      "Enhancer activation"
+    ]
+  },
+
+  "data_integration": {
+    "correlation_analysis": "Acetylation patterns vs transcriptional output",
+    "regulatory_networks": "HAT/HDAC activity networks",
+    "cell_types_tested": ["Stem cells", "Differentiated cells", "Disease models"]
+  }
+}

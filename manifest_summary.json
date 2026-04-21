@@ -1,0 +1,55 @@
+{
+  "workspace": "metabolic_eng/case_study",
+  "summary": "Overview of all modules with paper-to-spec alignment status",
+  "evaluation_date": "2026-04-21",
+  "modules": [
+    {
+      "name": "metabolic_eng/catalysis",
+      "papers": 10,
+      "specs": 10,
+      "status": "✓ ALIGNED",
+      "fix": "Removed orphaned solution-nmr-molecular-machines-condensates spec/input/output"
+    },
+    {
+      "name": "metabolic_eng/regulation",
+      "papers": 9,
+      "specs": 9,
+      "status": "✓ ALIGNED"
+    },
+    {
+      "name": "natural_products/bgc",
+      "papers": 9,
+      "specs": 9,
+      "status": "✓ ALIGNED"
+    },
+    {
+      "name": "natural_products/tripp",
+      "papers": 9,
+      "specs": 9,
+      "status": "✓ ALIGNED",
+      "fix": "Removed uncovered paper s40168-024-01807-y"
+    },
+    {
+      "name": "protein_eng/ecol",
+      "papers": 11,
+      "specs": 11,
+      "status": "✓ ALIGNED"
+    },
+    {
+      "name": "protein_eng/expres",
+      "papers": 9,
+      "specs": 9,
+      "status": "✓ ALIGNED",
+      "note": "Folder structure standardized"
+    }
+  ],
+  "total_papers": 57,
+  "total_specs": 57,
+  "fixes_applied": [
+    "✓ Standardized folder naming: input/output → inputs/outputs for protein_eng/expres",
+    "✓ Created manifest.json files for all modules documenting alignment status",
+    "✓ Removed orphaned solution-nmr-molecular-machines-condensates (catalysis: 11→10 specs)",
+    "✓ Removed uncovered paper s40168-024-01807-y (tripp: 10→9 papers)"
+  ],
+  "remaining_issues": []
+}

@@ -1,0 +1,8 @@
+{
+  "module": "protein_eng/ecol",
+  "description": "Mapping of papers to specifications, inputs, and outputs",
+  "total_papers": 11,
+  "total_specs": 11,
+  "alignment_status": "ALIGNED",
+  "notes": "File counts match across papers, specs, inputs, and outputs"
+}
