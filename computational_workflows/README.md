@@ -39,12 +39,12 @@ This directory contains **fully executable computational workflows** across **5 
 | Domain | Workflows | Enhanced | Status |
 |--------|-----------|----------|--------|
 | **Protein Engineering (Expression)** | 5 | 5/5 | ✅ Complete |
-| **Protein Engineering (Ecology)** | 5 | 5/5 | ✅ Complete |
-| **Catalysis & Enzyme Engineering** | 5 | 5/5 | ✅ Complete |
+| **Protein Engineering (Ecology)** | 5 | 2/5 | 🟡 Partial |
+| **Catalysis & Enzyme Engineering** | 5 | 3/5 | 🟡 Partial |
 | **Regulation & Synthetic Biology** | 5 | 5/5 | ✅ Complete |
-| **BGC Discovery** | 5 | 5/5 | ✅ Complete |
-| **RiPP Engineering** | 5 | 5/5 | ✅ Complete |
-| **TOTAL** | **30** | **30/30** | **100% Complete** |
+| **BGC Discovery** | 5 | 3/5 | 🟡 Partial |
+| **RiPP Engineering** | 5 | 4/5 | 🟡 Partial |
+| **TOTAL** | **30** | **22/30** | **73% Complete** |
 
 ---
 
