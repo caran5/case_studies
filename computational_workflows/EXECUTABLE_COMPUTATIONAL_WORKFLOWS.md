@@ -31,16 +31,16 @@ This is the master reference for executable computational workflows across synth
 | [01: Allosteric Effectors](catalysis/01_allosteric_effectors_drug_design_EXECUTABLE.md) | ✅ Tier 2 | Allostery simulation | 4-6 weeks | Structural Biology |
 | [02: AlphaFold2 Flexibility](catalysis/02_alphafold2_enzyme_conformational_flexibility.md) | ✅ Tier 1 | Multi-trajectory sampling | 2-3 weeks | Structure Prediction |
 | [03: Allosteric Landscapes](catalysis/03_allosteric_landscapes_computational_methodologies.md) | ✅ Tier 1 | Site prediction + NMA | 6-8 weeks | Computational Methods |
-| [04: Artificial Switches](catalysis/04_artificial_allosteric_protein_switches.md) | - | De novo design | 8-10 weeks | Synthetic Design |
-| [05: Protein Epistasis](catalysis/05_protein_epistasis_design.md) | - | Epistasis patterns | 6-8 weeks | Design |
+| [04: Artificial Switches](catalysis/04_artificial_allosteric_protein_switches.md) | ✅ Tier 2 | De novo design | 8-10 weeks | Synthetic Design |
+| [05: Protein Epistasis](catalysis/05_protein_epistasis_design.md) | ✅ Tier 2 | Epistasis patterns | 6-8 weeks | Design |
 
 | Paper | Status | STEP 1 | Runtime | Type |
 |-------|--------|--------|---------|------|
 | [01: Directed Evolution](protein_eng_ecol/01_directed_evolution_protein_function.md) | ✅ Tier 1 | Library design | 6-8 weeks | Evolution |
 | [02: Enzyme Engineering](protein_eng_ecol/02_enzyme_engineering_biocatalysis.md) | ✅ Tier 1 | Pocket optimization | 4-8 weeks | Biocatalysis |
-| [03: CRISPR Biosensor](protein_eng_ecol/03_crispr_cas12a_biosensor_array.md) | - | Circuit engineering | 6-8 weeks | Synthetic Biology |
-| [04: Plant Biosynthesis](protein_eng_ecol/04_plant_yeast_aromatic_biosynthesis.md) | - | Cross-kingdom expression | 8-10 weeks | Metabolic Eng |
-| [05: Artemisinin Resistance](protein_eng_ecol/05_plasmodium_artemisinin_resistance.md) | - | Evolution monitoring | 5-7 weeks | Evolutionary |
+| [03: CRISPR Biosensor](protein_eng_ecol/03_crispr_cas12a_biosensor_array.md) | ✅ Tier 2 | Circuit engineering | 6-8 weeks | Synthetic Biology |
+| [04: Plant Biosynthesis](protein_eng_ecol/04_plant_yeast_aromatic_biosynthesis.md) | ✅ Tier 2 | Cross-kingdom expression | 8-10 weeks | Metabolic Eng |
+| [05: Artemisinin Resistance](protein_eng_ecol/05_plasmodium_artemisinin_resistance.md) | ✅ Tier 2 | Evolution monitoring | 5-7 weeks | Evolutionary |
 
 | Paper | Status | STEP 1 | Runtime | Type |
 |-------|--------|--------|---------|------|
@@ -57,8 +57,8 @@ This is the master reference for executable computational workflows across synth
 | [01: ML Bioactivity Prediction](bgc/01_ml_bioactivity_prediction_EXECUTABLE.md) | ✅ Tier 2 | Bioactivity neural networks | 3-4 weeks | ML |
 | [02: Computational Advances](bgc/02_bgc_computational_advances.md) | ✅ Tier 1 | BGC detection pipeline | 3-4 weeks | Bioinformatics |
 | [03: Silent Activation](bgc/03_silent_bgc_activation.md) | ✅ Tier 1 | Reconstruction design | 4-6 weeks | Experimental |
-| [04: Silent Cluster Elicitors](bgc/04_silent_cluster_elicitors.md) | - | Elicitor screening | 6-8 weeks | Discovery |
-| [05: Genomics-Driven Discovery](bgc/05_genomics_driven_discovery.md) | - | Comparative genomics | 5-7 weeks | Bioinformatics |
+| [04: Silent Cluster Elicitors](bgc/04_silent_cluster_elicitors.md) | ✅ Tier 2 | Elicitor screening | 6-8 weeks | Discovery |
+| [05: Genomics-Driven Discovery](bgc/05_genomics_driven_discovery.md) | ✅ Tier 2 | Comparative genomics | 5-7 weeks | Bioinformatics |
 
 ### 🧬 RiPP Engineering (Ecology)
 
