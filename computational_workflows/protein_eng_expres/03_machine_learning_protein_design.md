@@ -1,5 +1,7 @@
 # Workflow 3: Machine Learning Protein Design - Data-Driven Property Prediction
 
+**STATUS**: ENHANCED - Advanced computational implementation
+
 **Paper**: "Application of machine learning to protein design"
 
 ## Research Objective

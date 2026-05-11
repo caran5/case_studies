@@ -1,5 +1,7 @@
 # AlphaFold2 for Enzyme Conformational Flexibility - Executable Workflow
 
+**STATUS**: ENHANCED - Executable computational workflow
+
 **Paper**: "AlphaFold2 and Deep Learning for Elucidating Enzyme Conformational Flexibility and Its Application for Design"
 
 ## Research Objective

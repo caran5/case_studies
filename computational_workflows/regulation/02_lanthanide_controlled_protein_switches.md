@@ -1,5 +1,7 @@
 # Workflow 2: Lanthanide-Controlled Protein Switches
 
+**STATUS**: ENHANCED - Advanced computational implementation
+
 **Paper**: "Lanthanide-Controlled Protein Switches: Development and In Vitro and In Vivo Applications"
 
 ## Research Objective

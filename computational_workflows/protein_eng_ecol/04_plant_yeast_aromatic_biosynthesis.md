@@ -1,5 +1,7 @@
 # Workflow 4: Plant to Yeast - Biosynthesis of Aromatic Compounds
 
+**STATUS**: ENHANCED - Advanced computational implementation
+
 **Paper**: "From Plant to Yeast: Advances in Biosynthesis of Aromatic Compounds"
 
 ## Research Objective

@@ -1,5 +1,7 @@
 # Workflow 2: Lasso Peptides as Antimicrobial Agents
 
+**STATUS**: ENHANCED - Advanced computational implementation
+
 **Paper**: "Lasso Peptides—A New Weapon Against Superbugs"
 
 ## Research Objective

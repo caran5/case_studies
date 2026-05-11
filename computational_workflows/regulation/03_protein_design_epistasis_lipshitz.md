@@ -1,5 +1,7 @@
 # Workflow 3: Protein Design and Epistasis (Lipshitz et al.)
 
+**STATUS**: ENHANCED - Comprehensive computational workflow implementation
+
 **Paper**: "Addressing epistasis in the design of protein function"
 
 ## Research Objective

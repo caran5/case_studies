@@ -1,6 +1,6 @@
 # Workflow 2: Computational Advances in BGC Discovery
 
-**Tier 1 Enhanced** - Quick Reference + STEP 1 Full Code + STEPS 2-4 Outlined
+**STATUS**: ENHANCED - Tier 1 computational implementation
 
 ---
 

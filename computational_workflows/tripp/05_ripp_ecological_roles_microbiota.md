@@ -1,5 +1,7 @@
 # Workflow 5: Ecological Roles of RiPPs in Microbial Communities
 
+**STATUS**: ENHANCED - Comprehensive computational workflow implementation
+
 **Paper**: "Ecological roles of RiPPs in microbial communities"
 
 ## Research Objective

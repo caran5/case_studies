@@ -1,5 +1,7 @@
 # Workflow 5: Plasmodium Artemisinin Resistance - Target Discovery & Next-Generation Antimalarials
 
+**STATUS**: ENHANCED - Advanced computational implementation
+
 **Paper**: "Selective inhibition of Plasmodium falciparum ATPase 6 by artemisinins and identification of new antimalarial targets"
 
 ## Research Objective

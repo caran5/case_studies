@@ -1,5 +1,7 @@
 # Allosteric Effectors for Drug Design - Executable Workflow
 
+**STATUS**: ENHANCED - Executable computational workflow
+
 **Paper**: "Toward the design of allosteric effectors: gaining comprehensive control of drug properties and actions"
 
 ## Research Objective

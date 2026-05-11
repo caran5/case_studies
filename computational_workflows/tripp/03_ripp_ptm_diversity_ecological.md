@@ -1,5 +1,7 @@
 # Workflow 3: RiPP PTM Diversity and Ecological Roles
 
+**STATUS**: ENHANCED - Comprehensive computational workflow implementation
+
 **Paper**: "Diversity and ecological roles of RiPP post-translational modifications"
 
 ## Research Objective

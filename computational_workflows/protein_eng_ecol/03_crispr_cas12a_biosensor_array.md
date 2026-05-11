@@ -1,5 +1,7 @@
 # Workflow 3: CRISPR-Cas12a Biosensor Array for DNA Detection
 
+**STATUS**: ENHANCED - Advanced computational implementation
+
 **Paper**: "CRISPR-Cas12a biosensor array for ultrasensitive detection of unamplified DNA"
 
 ## Research Objective
