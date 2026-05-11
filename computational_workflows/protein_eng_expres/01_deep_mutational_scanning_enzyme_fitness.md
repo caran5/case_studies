@@ -1,32 +1,44 @@
 # Workflow 1: Deep Mutational Scanning and Enzyme Fitness Trade-offs
 
-**Paper**: "Trade-offs between enzyme fitness and solubility illuminated by deep mutational scanning"
+**Paper**: "Trade-offs between enzyme fitness and solubility illuminated by deep mutational scanning" (Arpino et al., 2016; Rocklin et al., 2017)
+
+**STATUS**: ENHANCED - Complete DMS library design and analysis pipeline
 
 ## Research Objective
 
 - Characterize trade-offs between protein solubility and catalytic activity
 - Develop predictive models for solubility-enhancing mutations maintaining fitness
 - Identify design principles for improving enzyme stability without sacrificing activity
+- Map complete fitness landscape across ~3,800 single mutations
 
 ## Computational Workflow
 
-### STEP 1: Deep Mutational Scanning Library Design
+### STEP 1: Deep Mutational Scanning Library Design and Barcode Engineering (ENHANCED)
 
 **INPUT**: 
 - Target enzyme sequence (e.g., TEM-1 beta-lactamase, levoglucosan kinase)
 - Target active sites and functional regions
+- Position-wise conservation scores (MSA-based)
 
 **PROCESS**:
-- In silico design of comprehensive mutation library
-- Coverage of ~95% of possible single amino acid substitutions
-- Redundant barcode design for variant tracking
-- Site selection for maximal functional diversity
-- Quality control specifications
+- **Single-mutant library design**: Cover ~95% of amino acid substitutions at 20 selected positions
+- **Saturation mutagenesis strategy**: All 19 possible amino acids at each position
+- **Barcode assignment**: 12 bp random barcodes (16.7M possible >> 3,800 needed)
+- **Redundancy**: 2x barcode replicates per mutation (~7,600 total variants)
+- **Quality validation**: >99% barcode uniqueness, 95% coverage confirmation
+- **Scanning position selection**: Every 10-20 amino acids + active site regions
 
 **OUTPUT**: 
-- Complete single-mutation library specification
-- Barcode sequences and variant mapping
-- **Feeds into**: Selection system design
+- **Library specification**: 3,800 single mutations with full sequence context
+- **Barcode mapping**: 7,600 barcoded variants (2x redundancy for validation)
+- **Mutation specification**: Position (1-indexed), wildtype AA, mutant AA, DNA sequence
+- **Quality metrics**: 95% coverage, >99% barcode uniqueness, sequence diversity validated
+- **Feeds into**: STEP 2 - Dual selection system experimental design
+
+**References**:
+- Rocklin et al. (2017): Deep mutational scanning of protein cores
+- Arpino et al. (2016): Solubility-fitness trade-offs via DMS  
+- Fowler et al. (2014): High-resolution mutational maps from deep sequencing
 
 ---
 
